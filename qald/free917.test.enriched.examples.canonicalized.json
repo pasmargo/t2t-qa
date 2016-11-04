@@ -1,0 +1,1658 @@
+[
+  {
+    "trg_tree": "(COUNT (ID !fb:tv.tv_producer_term.program (ID fb:tv.tv_producer_term.producer fb:en.danny_devito)))", 
+    "utterance": "how many tv programs did danny devito produce", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN tv) (NNS programs)) (SQ (VBD did) (NP (NNP danny) (NNP devito)) (VP (VB produce))) (. ?)))", 
+    "targetFormula": "(count (!fb:tv.tv_producer_term.program ((lambda x (fb:tv.tv_producer_term.producer (var x))) fb:en.danny_devito)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:location.location.containedby fb:en.south_america))", 
+    "utterance": "how many countries are in south america", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS countries)) (SQ (VBP are) (PP (IN in) (NP (NNP south) (NNP america)))) (. ?)))", 
+    "targetFormula": "(count (fb:location.location.containedby fb:en.south_america))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.product_line.includes_product_lines fb:en.ipod)", 
+    "utterance": "what product lines does ipod include", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NP (NN product)) (NP (NNS lines)))) (SQ (VBZ does) (NP (NNP ipod)) (VP (VB include))) (. ?)))", 
+    "targetFormula": "(!fb:business.product_line.includes_product_lines fb:en.ipod)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:visual_art.artwork.date_completed fb:en.de_sterrennacht)", 
+    "utterance": "when was starry night painted", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP starry) (NNP night)) (VP (VBN painted))) (. ?)))", 
+    "targetFormula": "(!fb:visual_art.artwork.date_completed fb:en.de_sterrennacht)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:transportation.road.formed fb:en.interstate_579)", 
+    "utterance": "when was interstate 579 formed", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP interstate) (CD 579)) (VP (VBN formed))) (. ?)))", 
+    "targetFormula": "(!fb:transportation.road.formed fb:en.interstate_579)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:law.constitution.country fb:en.meiji_constitution)", 
+    "utterance": "what area did the meiji constitution govern", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN area)) (SQ (VBD did) (NP (DT the) (NNP meiji) (NNP constitution)) (VP (VB govern))) (. ?)))", 
+    "targetFormula": "(!fb:law.constitution.country fb:en.meiji_constitution)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:theater.play.lyricist fb:en.spamalot)", 
+    "utterance": "who is the lyricist for spamalot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (NN lyricist)) (PP (IN for) (NP (NNP spamalot))))) (. ?)))", 
+    "targetFormula": "(!fb:theater.play.lyricist fb:en.spamalot)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.slogan fb:m.019rl6)", 
+    "utterance": "what is yahoo!'s slogan", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (NNP yahoo!) (POS 's)) (NN slogan))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.slogan fb:m.019rl6)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:location.statistical_region.population fb:en.belgium))", 
+    "utterance": "what is the population of belgium", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN population)) (PP (IN of) (NP (NNP belgium))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda x (!fb:location.statistical_region.population (var x))) fb:en.belgium))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.founders fb:en.save-a-lot)", 
+    "utterance": "who is the founder of savealot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (NN founder)) (PP (IN of) (NP (NNP savealot))))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.founders fb:en.save-a-lot)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:library.public_library.library_system fb:en.sunset_branch_library)", 
+    "utterance": "what library system is the sunset branch library in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNP library) (NN system)) (SQ (VBZ is) (NP (DT the) (NNP sunset) (NN branch) (NN library)) (PP (IN in))) (. ?)))", 
+    "targetFormula": "(!fb:library.public_library.library_system fb:en.sunset_branch_library)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:astronomy.astronomical_discovery.discovery_site fb:en.3_juno)", 
+    "utterance": "where was the 3 juno asteroid discovered", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (DT the) (CD 3) (NNP juno) (NNP asteroid)) (VP (VBN discovered))) (. ?)))", 
+    "targetFormula": "(!fb:astronomy.astronomical_discovery.discovery_site fb:en.3_juno)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:location.statistical_region.population fb:en.europe))", 
+    "utterance": "what is the population of europe", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN population)) (PP (IN of) (NP (NNP europe))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda x (!fb:location.statistical_region.population (var x))) fb:en.europe))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_match.weight_class fb:en.fight_of_the_century)", 
+    "utterance": "what weight class was the fight of the century", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NNP weight) (NNP class))) (SQ (VBD was) (NP (NP (DT the) (NN fight)) (PP (IN of) (NP (DT the) (NN century))))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_match.weight_class fb:en.fight_of_the_century)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cvg.computer_videogame.designers fb:en.pac-man)", 
+    "utterance": "who designed pac-man", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD designed) (NP (NN pac-man)))) (. ?)))", 
+    "targetFormula": "(!fb:cvg.computer_videogame.designers fb:en.pac-man)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:royalty.order_of_chivalry.date_founded fb:en.order_of_saint_michael)", 
+    "utterance": "when was the order of saint michael founded", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (DT the) (NN order)) (PP (IN of) (NP (NNP saint) (NNP michael)))) (VP (VBN founded))) (. ?)))", 
+    "targetFormula": "(!fb:royalty.order_of_chivalry.date_founded fb:en.order_of_saint_michael)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:interests.collection_category.name_of_collection_activity fb:en.postcard)", 
+    "utterance": "what is the collection of postcards called", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN collection)) (PP (IN of) (NP (NNS postcards)))) (VP (VBN called))) (. ?)))", 
+    "targetFormula": "(!fb:interests.collection_category.name_of_collection_activity fb:en.postcard)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:award.award_nomination.year (ID fb:award.award_nomination.award_nominee fb:en.ron_glass))", 
+    "utterance": "what year was ron glass an award nominee", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN year)) (SQ (VBD was) (NP (NNP ron) (NNP glass)) (NP (DT an) (NN award) (NN nominee))) (. ?)))", 
+    "targetFormula": "(!fb:award.award_nomination.year ((lambda x (fb:award.award_nomination.award_nominee (var x))) fb:en.ron_glass))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:automotive.engine.horsepower fb:en.alluminum_alloy_v6)", 
+    "utterance": "what's the horsepower of an alluminum-alloy v6 engine", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ 's) (NP (NP (DT the) (NN horsepower)) (PP (IN of) (NP (DT an) (JJ alluminum-alloy) (JJ v6) (NN engine))))) (. ?)))", 
+    "targetFormula": "(!fb:automotive.engine.horsepower fb:en.alluminum_alloy_v6)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:medicine.disease.causes fb:en.prostate_cancer)", 
+    "utterance": "what causes prostate cancer", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VP (VBZ causes) (NP (NN prostate) (NN cancer)))) (. ?)))", 
+    "targetFormula": "(!fb:medicine.disease.causes fb:en.prostate_cancer)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:computer.computer.introduced fb:en.iphone)", 
+    "utterance": "when was the iphone introduced", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NN iphone)) (VP (VBN introduced))) (. ?)))", 
+    "targetFormula": "(!fb:computer.computer.introduced fb:en.iphone)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:martial_arts.martial_arts_certification.art (ID fb:martial_arts.martial_arts_certification.qualification fb:en.black_belt) (ID fb:martial_arts.martial_arts_certification.person fb:en.christopher_adams))", 
+    "utterance": "in what martial art does christopher adams have a black belt", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN in) (WHNP (WP what) (NP (NNP martial) (NN art)))) (SQ (VBZ does) (NP (NNP christopher) (NNP adams)) (VP (VB have) (NP (DT a) (JJ black) (NN belt)))) (. ?)))", 
+    "targetFormula": "(!fb:martial_arts.martial_arts_certification.art (and ((lambda x (fb:martial_arts.martial_arts_certification.qualification (var x))) fb:en.black_belt) ((lambda x (fb:martial_arts.martial_arts_certification.person (var x))) fb:en.christopher_adams)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:opera.opera.librettist fb:en.the_magic_flute)", 
+    "utterance": "who was the librettist for the magic flute", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD was) (NP (NP (DT the) (NN librettist)) (PP (IN for) (NP (DT the) (JJ magic) (NN flute))))) (. ?)))", 
+    "targetFormula": "(!fb:opera.opera.librettist fb:en.the_magic_flute)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:base.saturdaynightlive.snl_host.episodes_hosted fb:en.ben_stiller)", 
+    "utterance": "what episode of snl did ben stiller host", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NN episode) (PP (IN of) (NP (NNP snl))))) (SQ (VBD did) (NP (NNP ben) (NNP stiller)) (VP (VB host))) (. ?)))", 
+    "targetFormula": "(!fb:base.saturdaynightlive.snl_host.episodes_hosted fb:en.ben_stiller)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:fictional_universe.fictional_object.created_by fb:en.philosophers_stone)", 
+    "utterance": "who created the philosopher_s stone", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD created) (NP (DT the) (NNP philosopher_s) (NNP stone)))) (. ?)))", 
+    "targetFormula": "(!fb:fictional_universe.fictional_object.created_by fb:en.philosophers_stone)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:business.business_operation.industry fb:en.automobile))", 
+    "utterance": "how many organizations are in the automobile industry", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS organizations)) (SQ (VBP are) (PP (IN in) (NP (DT the) (NN automobile) (NN industry)))) (. ?)))", 
+    "targetFormula": "(count (fb:business.business_operation.industry fb:en.automobile))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_money_value.amount (ID !fb:business.business_operation.net_profit fb:en.procter_gamble))", 
+    "utterance": "what was procter & gamble's net profit in 1955", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (NP (NNP procter) (CC &) (NNP gamble) (POS 's)) (JJ net) (NN profit)) (PP (IN in) (NP (CD 1955))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_money_value.amount ((lambda x (!fb:business.business_operation.net_profit (var x))) fb:en.procter_gamble))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:finance.currency.currency_code fb:en.uk)", 
+    "utterance": "what is currency code for uk currency", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (NN currency) (NN code)) (PP (IN for) (NP (NNP uk) (NN currency))))) (. ?)))", 
+    "targetFormula": "(!fb:finance.currency.currency_code fb:en.uk)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:chemistry.chemical_element.symbol fb:m.025sw5g)", 
+    "utterance": "what's the symbol for mercury", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ 's) (NP (NP (DT the) (NN symbol)) (PP (IN for) (NP (NNP mercury))))) (. ?)))", 
+    "targetFormula": "(!fb:chemistry.chemical_element.symbol fb:m.025sw5g)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:people.person.religion fb:en.jerry_seinfeld)", 
+    "utterance": "what is jerry seinfeld religion", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NNP jerry) (NNP seinfeld) (NNP religion))) (. ?)))", 
+    "targetFormula": "(!fb:people.person.religion fb:en.jerry_seinfeld)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:digicams.digital_camera.lcd_screen_dimensions fb:en.nikon_coolpix_s50)", 
+    "utterance": "how big is the screen on a nikon coolpix s50", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (JJ big)) (SQ (VBZ is) (NP (NP (DT the) (NN screen)) (PP (IN on) (NP (DT a) (NNP nikon) (NNP coolpix) (NNP s50))))) (. ?)))", 
+    "targetFormula": "(!fb:digicams.digital_camera.lcd_screen_dimensions fb:en.nikon_coolpix_s50)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:event.speech_or_presentation.presented_work (ID fb:event.speech_or_presentation.speaker_s fb:en.winston_churchill)))", 
+    "utterance": "how many speeches did winston churchill give", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS speeches)) (SQ (VBD did) (NP (NNP winston) (NNP churchill)) (VP (VB give))) (. ?)))", 
+    "targetFormula": "(count (!fb:event.speech_or_presentation.presented_work ((lambda x (fb:event.speech_or_presentation.speaker_s (var x))) fb:en.winston_churchill)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:religion.religious_text.religious_text_of fb:en.bible))", 
+    "utterance": "how many religions use the bible", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS religions)) (SQ (VP (VBP use) (NP (DT the) (NN bible)))) (. ?)))", 
+    "targetFormula": "(count (!fb:religion.religious_text.religious_text_of fb:en.bible))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.country.capital fb:en.iceland)", 
+    "utterance": "what is the capital of iceland", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN capital)) (PP (IN of) (NP (NNP iceland))))) (. ?)))", 
+    "targetFormula": "(!fb:location.country.capital fb:en.iceland)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:travel.travel_destination.local_transportation fb:en.tokyo)", 
+    "utterance": "what public transportation is there in tokyo", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (JJ public) (NN transportation))) (SQ (VBZ is) (NP (EX there)) (PP (IN in) (NP (NNP tokyo)))) (. ?)))", 
+    "targetFormula": "(!fb:travel.travel_destination.local_transportation fb:en.tokyo)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.location.area fb:en.europe)", 
+    "utterance": "what is europe 's area", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (NNP europe) (POS 's)) (NN area))) (. ?)))", 
+    "targetFormula": "(!fb:location.location.area fb:en.europe)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:baseball.baseball_roster_position.player (ID fb:baseball.baseball_roster_position.team fb:en.new_york_mets)))", 
+    "utterance": "how many players are in the current roster of the new york mets", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS players)) (SQ (VBP are) (PP (IN in) (NP (NP (DT the) (JJ current) (NN roster)) (PP (IN of) (NP (DT the) (NNP new) (NNP york) (NNP mets)))))) (. ?)))", 
+    "targetFormula": "(count (!fb:baseball.baseball_roster_position.player ((lambda x (fb:baseball.baseball_roster_position.team (var x))) fb:en.new_york_mets)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:medicine.disease.treatments fb:en.prostate_cancer)", 
+    "utterance": "what are the treatments of prostate cancer", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS treatments)) (PP (IN of) (NP (NN prostate) (NN cancer))))) (. ?)))", 
+    "targetFormula": "(!fb:medicine.disease.treatments fb:en.prostate_cancer)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:finance.currency.countries_formerly_used fb:en.spanish_peseta)", 
+    "utterance": "where was the peseta used as currency", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (DT the) (NNP peseta)) (VP (VBN used) (PP (IN as) (NP (NN currency))))) (. ?)))", 
+    "targetFormula": "(!fb:finance.currency.countries_formerly_used fb:en.spanish_peseta)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:finance.currency.currency_code fb:en.spanish_peseta)", 
+    "utterance": "what is the currency code for the spanish peseta", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN currency) (NN code)) (PP (IN for) (NP (DT the) (JJ spanish) (NN peseta))))) (. ?)))", 
+    "targetFormula": "(!fb:finance.currency.currency_code fb:en.spanish_peseta)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:award.award_honor.award (ID fb:award.award_honor.honored_for fb:en.big_daddy)))", 
+    "utterance": "how many awards did big daddy win", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS awards)) (SQ (VBD did) (NP (NNP big) (NNP daddy)) (VP (VB win))) (. ?)))", 
+    "targetFormula": "(count (!fb:award.award_honor.award ((lambda x (fb:award.award_honor.honored_for (var x))) fb:en.big_daddy)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:geography.body_of_water.bridges fb:en.san_francisco_bay)", 
+    "utterance": "what bridges go over the san francisco bay", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (NP (NNS bridges)) (VP (VB go) (PP (IN over) (NP (DT the) (NNP san) (NNP francisco) (NNP bay))))) (. ?)))", 
+    "targetFormula": "(!fb:geography.body_of_water.bridges fb:en.san_francisco_bay)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:people.deceased_person.cause_of_death fb:en.poison))", 
+    "utterance": "how many notable people died by poisoning", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (ADJP (JJ notable)) (NNS people)) (SQ (VP (VBD died) (PP (IN by) (NP (NN poisoning))))) (. ?)))", 
+    "targetFormula": "(count (fb:people.deceased_person.cause_of_death fb:en.poison))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:protected_sites.park_system.member_parks fb:en.canadian_national_parks)", 
+    "utterance": "what parks are in the canadian national parks system", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN parks)) (SQ (VBP are) (PP (IN in) (NP (DT the) (JJ canadian) (NNP national) (NNP parks) (NN system)))) (. ?)))", 
+    "targetFormula": "(!fb:protected_sites.park_system.member_parks fb:en.canadian_national_parks)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:martial_arts.martial_artist.instructor fb:en.steven_seagal)", 
+    "utterance": "who instructed steven seagal", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD instructed) (NP (NNP steven) (NNP seagal)))) (. ?)))", 
+    "targetFormula": "(!fb:martial_arts.martial_artist.instructor fb:en.steven_seagal)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_program.air_date_of_final_episode fb:en.six_feet_under)", 
+    "utterance": "when did the last episode of six feet under air", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD did) (NP (NP (DT the) (JJ last) (NN episode)) (PP (IN of) (NP (CD six) (NNS feet)))) (ADVP (IN under)) (VP (VB air))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_program.air_date_of_final_episode fb:en.six_feet_under)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:location.location.events fb:en.australia))", 
+    "utterance": "how many major events happened in australia", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ major) (NNS events)) (SQ (VP (VBD happened) (PP (IN in) (NP (NNP australia))))) (. ?)))", 
+    "targetFormula": "(count (!fb:location.location.events fb:en.australia))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:religion.belief.belief_of fb:en.reincarnation))", 
+    "utterance": "how many religions believe in reincarnation", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS religions)) (SQ (VP (VBP believe) (PP (IN in) (NP (NNP reincarnation))))) (. ?)))", 
+    "targetFormula": "(count (!fb:religion.belief.belief_of fb:en.reincarnation))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:common.topic.alias fb:en.13_going_on_30)", 
+    "utterance": "what other titles does 13 going on 30 have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (JJ other) (NNS titles)) (SQ (VBZ does) (NP (NP (CD 13) (NN going)) (PP (IN on) (NP (CD 30)))) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(!fb:common.topic.alias fb:en.13_going_on_30)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:language.human_language.writing_system fb:en.japanese))", 
+    "utterance": "how many writing systems are used in japanese", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NP (NP (NN writing)) (NP (NNS systems)))) (SQ (VBP are) (VP (VBN used) (PP (IN in) (NP (NNP japanese))))) (. ?)))", 
+    "targetFormula": "(count (!fb:language.human_language.writing_system fb:en.japanese))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.leadership.person (ID fb:organization.leadership.role fb:en.chief_executive_officer) (ID fb:organization.leadership.organization fb:en.save-a-lot))", 
+    "utterance": "who is the ceo of savealot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (NN ceo)) (PP (IN of) (NP (NNP savealot))))) (. ?)))", 
+    "targetFormula": "(!fb:organization.leadership.person (and ((lambda x (fb:organization.leadership.role (var x))) fb:en.chief_executive_officer) ((lambda x (fb:organization.leadership.organization (var x))) fb:en.save-a-lot)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:astronomy.constellation.contains fb:en.ursa_minor)", 
+    "utterance": "what starts are in ursa minor", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN starts)) (SQ (VBP are) (PP (IN in) (NP (NNP ursa) (NNP minor)))) (. ?)))", 
+    "targetFormula": "(!fb:astronomy.constellation.contains fb:en.ursa_minor)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:conferences.conference_venue.conferences fb:en.los_angeles_convention_center))", 
+    "utterance": "how many conferences have been held at the los angeles convention center", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS conferences)) (SQ (VP (VBP have) (VP (VBN been) (VP (VBN held) (PP (IN at) (NP (DT the) (NNP los) (NNP angeles) (NNP convention) (NNP center))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:conferences.conference_venue.conferences fb:en.los_angeles_convention_center))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.mountain_dew))", 
+    "utterance": "when was diet mountain dew created", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP diet) (NNP mountain) (NN dew)) (VP (VBN created))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.mountain_dew))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:bicycles.bicycle_type.bicycle_models_of_this_type fb:en.mountain_bike)", 
+    "utterance": "what are some mountain bike models", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (DT some) (NNP mountain) (NNP bike) (NNS models))) (. ?)))", 
+    "targetFormula": "(!fb:bicycles.bicycle_type.bicycle_models_of_this_type fb:en.mountain_bike)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:film.performance.film (ID fb:film.performance.actor fb:en.julie_edwards)))", 
+    "utterance": "how many films has julie andrews been in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS films)) (SQ (VBZ has) (NP (NNP julie) (NNP andrews)) (VP (VBN been) (PP (IN in)))) (. ?)))", 
+    "targetFormula": "(count (!fb:film.performance.film ((lambda x (fb:film.performance.actor (var x))) fb:en.julie_edwards)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.costume_design_by fb:m.04jpg2p)", 
+    "utterance": "who designed the costumes for alice in wonderland", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD designed) (NP (DT the) (NNS costumes)) (PP (IN for) (NP (NNP alice))) (PP (IN in) (NP (NNP wonderland))))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.costume_design_by fb:m.04jpg2p)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:geography.mountain.mountain_range fb:en.king_edward_peak)", 
+    "utterance": "what mountain range is king edward peak in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN mountain) (NN range)) (SQ (VBZ is) (NP (NNP king) (NNP edward) (NNP peak)) (PP (IN in))) (. ?)))", 
+    "targetFormula": "(!fb:geography.mountain.mountain_range fb:en.king_edward_peak)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:travel.travel_destination.accommodation fb:en.vancouver_british_columbia)", 
+    "utterance": "what are some hotels in vancouver", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT some) (NNS hotels)) (PP (IN in) (NP (NNP vancouver))))) (. ?)))", 
+    "targetFormula": "(!fb:travel.travel_destination.accommodation fb:en.vancouver_british_columbia)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:sports.sports_team.founded fb:en.new_york_yankees)", 
+    "utterance": "what year were the ny yankees founded", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN year)) (SQ (VBD were) (NP (DT the) (NNP ny) (NNPS yankees)) (VP (VBN founded))) (. ?)))", 
+    "targetFormula": "(!fb:sports.sports_team.founded fb:en.new_york_yankees)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:protected_sites.park_system.member_parks fb:en.national_wildlife_refuge))", 
+    "utterance": "how many national parks does the national wildlife refuge have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ national) (NNS parks)) (SQ (VBZ does) (NP (DT the) (JJ national) (NN wildlife) (NN refuge)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:protected_sites.park_system.member_parks fb:en.national_wildlife_refuge))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:freebase.list.entries fb:m.0599h7b))", 
+    "utterance": "how many actors use their middle name or initial", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS actors)) (SQ (VP (VBP use) (NP (NP (PRP$ their) (JJ middle) (NN name)) (CC or) (NP (JJ initial))))) (. ?)))", 
+    "targetFormula": "(count (!fb:freebase.list.entries fb:m.0599h7b))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:food.candy_bar.sold_in fb:en.frys_turkish_delight)", 
+    "utterance": "where is fry_s turkish delight sold", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBZ is) (NP (NNP fry_s) (JJ turkish) (NN delight)) (VP (VBN sold))) (. ?)))", 
+    "targetFormula": "(!fb:food.candy_bar.sold_in fb:en.frys_turkish_delight)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.company (ID fb:business.company_brand_relationship.brand fb:en.kool-aid))", 
+    "utterance": "who invented koolaid", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD invented) (S (ADJP (JJ koolaid))))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.kool-aid))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.doritos))", 
+    "utterance": "when was doritos produced", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNS doritos)) (VP (VBN produced))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.doritos))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:finance.currency.countries_used fb:en.spanish_peseta))", 
+    "utterance": "how many countries use the spanish peseta", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS countries)) (SQ (VP (VBP use) (NP (DT the) (JJ spanish) (NN peseta)))) (. ?)))", 
+    "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.spanish_peseta))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.lighthouse.year_first_lit fb:en.pencarrow_head_lighthouse)", 
+    "utterance": "when was the pencarrow head lighthouse first lit", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NNP pencarrow) (NN head)) (NP (NNP lighthouse) (NNP first) (NNP lit))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.lighthouse.year_first_lit fb:en.pencarrow_head_lighthouse)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_sanctioning_body.titles fb:en.world_boxing_association)", 
+    "utterance": "what titles does the world boxing association have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS titles)) (SQ (VBZ does) (NP (DT the) (NNP world) (NNP boxing) (NNP association)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_sanctioning_body.titles fb:en.world_boxing_association)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:zoos.zoo.num_species fb:en.san_francisco_zoo)", 
+    "utterance": "how many species does the san francisco zoo have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS species)) (SQ (VBZ does) (NP (DT the) (NNP san) (NNP francisco) (NN zoo)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(!fb:zoos.zoo.num_species fb:en.san_francisco_zoo)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_match.round_match_ended fb:en.thrilla_in_manila)", 
+    "utterance": "what round did thrilla in manila end", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN round)) (SQ (VBD did) (NP (NP (NNP thrilla)) (PP (IN in) (NP (NNP manila)))) (VP (VB end))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_match.round_match_ended fb:en.thrilla_in_manila)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:conferences.conference_series.subject fb:en.pycon)", 
+    "utterance": "what is pycon about", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NNP pycon)) (ADJP (IN about))) (. ?)))", 
+    "targetFormula": "(!fb:conferences.conference_series.subject fb:en.pycon)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:media_common.cause_of_loss.works_lost_this_way fb:en.theft))", 
+    "utterance": "how many works have been lost due to theft", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS works)) (SQ (VP (VBP have) (VP (VBN been) (VP (VBN lost) (S (ADJP (JJ due) (PP (TO to) (NP (NN theft))))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:media_common.cause_of_loss.works_lost_this_way fb:en.theft))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:military.military_combatant.armed_forces fb:en.thailand)", 
+    "utterance": "what armed forces does thailand have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (JJ armed) (NNS forces))) (SQ (VBZ does) (NP (NNP thailand)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(!fb:military.military_combatant.armed_forces fb:en.thailand)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:martial_arts.martial_artist.martial_art fb:en.chris_maden)", 
+    "utterance": "what martial arts does chris maden practice", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (JJ martial) (NNS arts))) (SQ (VBZ does) (NP (NNP chris) (NNP maden)) (VP (VB practice))) (. ?)))", 
+    "targetFormula": "(!fb:martial_arts.martial_artist.martial_art fb:en.chris_maden)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.kool-aid))", 
+    "utterance": "when was koolaid invented", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP koolaid)) (VP (VBN invented))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.kool-aid))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:award.award_honor.year (ID fb:award.award_honor.honored_for fb:en.sgt_peppers_lonely_hearts_club_band))", 
+    "utterance": "what year did sgt. pepper's lonely hearts club band win a grammy", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN year)) (SQ (VBD did) (NP (NP (NNP sgt.) (NNP pepper) (POS 's)) (JJ lonely) (NN hearts) (NN club) (NN band)) (VP (VB win) (NP (DT a) (NN grammy)))) (. ?)))", 
+    "targetFormula": "(!fb:award.award_honor.year ((lambda x (fb:award.award_honor.honored_for (var x))) fb:en.sgt_peppers_lonely_hearts_club_band))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:geography.body_of_water.islands fb:en.lake_superior))", 
+    "utterance": "how many islands are there in lake superior", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS islands)) (SQ (VBP are) (NP (EX there)) (PP (IN in) (NP (NNP lake) (NNP superior)))) (. ?)))", 
+    "targetFormula": "(count (!fb:geography.body_of_water.islands fb:en.lake_superior))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:language.human_language.countries_spoken_in fb:en.spanish))", 
+    "utterance": "how many countries is spanish spoken in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS countries)) (SQ (VBZ is) (NP (NNP spanish)) (VP (VBN spoken) (PP (IN in)))) (. ?)))", 
+    "targetFormula": "(count (!fb:language.human_language.countries_spoken_in fb:en.spanish))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.museum.established fb:en.ss_great_britain)", 
+    "utterance": "when was the ss great britain established as a museum", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NNP ss) (NNP great) (NNP britain)) (VP (VBN established) (PP (IN as) (NP (DT a) (NN museum))))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.museum.established fb:en.ss_great_britain)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:geology.geological_formation.type_of_rock fb:en.marcellus_formation)", 
+    "utterance": "what type of rock is the marcellus formation", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WDT what) (NN type)) (PP (IN of) (NP (NNP rock)))) (SQ (VBZ is) (NP (DT the) (NNP marcellus) (NN formation))) (. ?)))", 
+    "targetFormula": "(!fb:geology.geological_formation.type_of_rock fb:en.marcellus_formation)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.capri_sun))", 
+    "utterance": "when was capri sun developed", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP capri) (NNP sun)) (VP (VBN developed))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.capri_sun))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.initial_release_date fb:en.300_2007)", 
+    "utterance": "when was 300 released", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (CD 300)) (VP (VBN released)))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.initial_release_date fb:en.300_2007)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:sports.sports_team_season_record.wins (ID fb:sports.sports_team_season_record.season fb:en.2008_nfl_season) (ID fb:sports.sports_team_season_record.team fb:en.philadelphia_eagles)))", 
+    "utterance": "how many wins did the philadelphia eagles have in the 2008 nfl season", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS wins)) (SQ (VBD did) (NP (DT the) (NNP philadelphia) (NNPS eagles)) (VP (VB have) (PP (IN in) (NP (DT the) (CD 2008) (NNP nfl) (NN season))))) (. ?)))", 
+    "targetFormula": "(count (!fb:sports.sports_team_season_record.wins (and ((lambda x (fb:sports.sports_team_season_record.season (var x))) fb:en.2008_nfl_season) ((lambda x (fb:sports.sports_team_season_record.team (var x))) fb:en.philadelphia_eagles))))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.barbie))", 
+    "utterance": "when was barbie launched", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP barbie)) (VP (VBN launched))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.barbie))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:opera.librettist.libretti fb:en.richardwagner))", 
+    "utterance": "how many libretti did wagner write", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WRB how) (JJ many)) (NP (NNP libretti))) (SQ (VBD did) (NP (NNP wagner)) (VP (VB write))) (. ?)))", 
+    "targetFormula": "(count (!fb:opera.librettist.libretti fb:en.richardwagner))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.rating fb:en.bruce_almighty)", 
+    "utterance": "what is bruce almighty rated", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NNP bruce) (NNP almighty)) (VP (VBN rated))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.rating fb:en.bruce_almighty)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boats.ship.place_built fb:en.lady_washington)", 
+    "utterance": "where was lady washington built", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (NNP lady) (NNP washington)) (VP (VBN built))) (. ?)))", 
+    "targetFormula": "(!fb:boats.ship.place_built fb:en.lady_washington)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:freebase.domain_category.domains fb:en.science_technology))", 
+    "utterance": "how many domains are in the science & technology category", 
+    "src_tree": "(ROOT (SBAR (WHADJP (WRB how) (JJ many)) (S (NP (NNS domains)) (VP (VBP are) (PP (IN in) (NP (DT the) (NNP science) (CC &) (NNP technology) (NN category))))) (. ?)))", 
+    "targetFormula": "(count (!fb:freebase.domain_category.domains fb:en.science_technology))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.building.building_function fb:en.eiffel_tower)", 
+    "utterance": "what is the building function of the eiffel tower", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN building) (NN function)) (PP (IN of) (NP (DT the) (NNP eiffel) (NNP tower))))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.building.building_function fb:en.eiffel_tower)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:people.person.children fb:en.danny_devito))", 
+    "utterance": "how many children does danny devito have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS children)) (SQ (VBZ does) (NP (NNP danny) (NNP devito)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:people.person.children fb:en.danny_devito))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:business.business_operation.industry fb:en.the_home_depot))", 
+    "utterance": "how many different industries are there in home depot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ different) (NNS industries)) (SQ (VBP are) (NP (EX there)) (PP (IN in) (NP (NNP home) (NNP depot)))) (. ?)))", 
+    "targetFormula": "(count (!fb:business.business_operation.industry fb:en.the_home_depot))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:education.fraternity_sorority.founded_location fb:en.delta_delta_delta)", 
+    "utterance": "at what school was delta delta delta founded", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN at) (WHNP (WDT what) (NN school))) (SQ (VBD was) (NP (NNP delta) (NNP delta) (NNP delta)) (VP (VBN founded))) (. ?)))", 
+    "targetFormula": "(!fb:education.fraternity_sorority.founded_location fb:en.delta_delta_delta)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_series_episode.season fb:m.08mpny)", 
+    "utterance": "in what season of stargate sg-1 is the episode show and tell", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN in) (WHNP (WHNP (WDT what) (NN season)) (PP (IN of) (NP (NNP stargate) (NNP sg-1))))) (SQ (VBZ is) (NP (NP (DT the) (NN episode)) (SBAR (S (VP (VBP show) (CC and) (VBP tell)))))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_series_episode.season fb:m.08mpny)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.founders fb:en.starbucks)", 
+    "utterance": "who started starbucks", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD started) (NP (NNS starbucks)))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.founders fb:en.starbucks)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:ice_hockey.hockey_team.captain fb:en.edmonton_oilers)", 
+    "utterance": "who is the captain of the edmonton oilers", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (NN captain)) (PP (IN of) (NP (DT the) (NNP edmonton) (NNPS oilers))))) (. ?)))", 
+    "targetFormula": "(!fb:ice_hockey.hockey_team.captain fb:en.edmonton_oilers)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.founders fb:en.the_home_depot)", 
+    "utterance": "who are the founders of home depot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBP are) (NP (NP (DT the) (NNS founders)) (PP (IN of) (NP (NNP home) (NNP depot))))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.founders fb:en.the_home_depot)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:language.language_family.languages fb:en.celtic_languages)", 
+    "utterance": "what are the celtic languages", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (DT the) (JJ celtic) (NNS languages))) (. ?)))", 
+    "targetFormula": "(!fb:language.language_family.languages fb:en.celtic_languages)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.location_symbol_relationship.symbol (ID fb:location.location_symbol_relationship.administrative_division fb:en.alaska) (ID fb:location.location_symbol_relationship.Kind_of_symbol fb:en.state_flower))", 
+    "utterance": "what is the state flower of alaska", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN state) (NN flower)) (PP (IN of) (NP (NNP alaska))))) (. ?)))", 
+    "targetFormula": "(!fb:location.location_symbol_relationship.symbol (and ((lambda x (fb:location.location_symbol_relationship.administrative_division (var x))) fb:en.alaska) ((lambda x (fb:location.location_symbol_relationship.Kind_of_symbol (var x))) fb:en.state_flower)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:amusement_parks.park.areas fb:en.disneyland)", 
+    "utterance": "what are the theme areas at disneyland", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NN theme) (NNS areas)) (PP (IN at) (NP (NNP disneyland))))) (. ?)))", 
+    "targetFormula": "(!fb:amusement_parks.park.areas fb:en.disneyland)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_program.currently_in_production fb:en.the_sopranos)", 
+    "utterance": "what production is the sopranos currently in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NN production))) (SQ (VBZ is) (NP (DT the) (NNPS sopranos)) (PP (ADVP (RB currently)) (IN in))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_program.currently_in_production fb:en.the_sopranos)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:biology.animal_breed.place_of_origin fb:en.chow_chow)", 
+    "utterance": "where does the chow chow originate", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBZ does) (NP (DT the) (NNP chow) (NNP chow)) (VP (VB originate))) (. ?)))", 
+    "targetFormula": "(!fb:biology.animal_breed.place_of_origin fb:en.chow_chow)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:baseball.baseball_player.position_s fb:en.mike_schmidt)", 
+    "utterance": "what position did mike schmidt play", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN position)) (SQ (VBD did) (NP (NNP mike) (NNP schmidt)) (VP (VB play))) (. ?)))", 
+    "targetFormula": "(!fb:baseball.baseball_player.position_s fb:en.mike_schmidt)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:biology.breed_registration.breed_group (ID fb:biology.breed_registration.breed fb:en.shar_pei) (ID fb:biology.breed_registration.registry fb:en.american_kennel_club))", 
+    "utterance": "what breed group is a shar pei in the american kennel club", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN breed) (NN group)) (SQ (VBZ is) (NP (NP (DT a) (NNP shar) (NNP pei)) (PP (IN in) (NP (DT the) (NNP american) (NNP kennel) (NNP club))))) (. ?)))", 
+    "targetFormula": "(!fb:biology.breed_registration.breed_group (and ((lambda x (fb:biology.breed_registration.breed (var x))) fb:en.shar_pei) ((lambda x (fb:biology.breed_registration.registry (var x))) fb:en.american_kennel_club)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:chemistry.chemical_element.discovering_country fb:en.polonium)", 
+    "utterance": "where was polonium discovered", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (NNP polonium)) (VP (VBN discovered))) (. ?)))", 
+    "targetFormula": "(!fb:chemistry.chemical_element.discovering_country fb:en.polonium)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:radio.radio_program.episodes fb:en.taylor_made_piano_a_jazz_history))", 
+    "utterance": "how many episodes of taylor made piano were there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NNS episodes)) (PP (IN of) (NP (NNP taylor)))) (SQ (VP (VBD made) (SBAR (S (NP (NN piano)) (VP (VBD were) (ADVP (RB there))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:radio.radio_program.episodes fb:en.taylor_made_piano_a_jazz_history))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:music.artist.label fb:en.ali_farka_toure)", 
+    "utterance": "what record label was ali farka toure signed to", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN record) (NN label)) (SQ (VBD was) (NP (NNP ali) (NNP farka) (NNP toure)) (VP (VBN signed) (S (VP (TO to))))) (. ?)))", 
+    "targetFormula": "(!fb:music.artist.label fb:en.ali_farka_toure)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:basketball.basketball_roster_position.team (ID fb:basketball.basketball_roster_position.player fb:en.richard_hamilton))", 
+    "utterance": "what team does richard hamilton play for", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN team)) (SQ (VBZ does) (NP (NNP richard) (NNP hamilton)) (VP (VB play) (PP (IN for)))) (. ?)))", 
+    "targetFormula": "(!fb:basketball.basketball_roster_position.team ((lambda x (fb:basketball.basketball_roster_position.player (var x))) fb:en.richard_hamilton))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:location.statistical_region.population fb:en.africa))", 
+    "utterance": "what is africa 's population", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (NNP africa) (POS 's)) (NN population))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda x (!fb:location.statistical_region.population (var x))) fb:en.africa))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:chemistry.chemical_element.isotopes fb:en.zinc)", 
+    "utterance": "what are the isotopes of zinc", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS isotopes)) (PP (IN of) (NP (NN zinc))))) (. ?)))", 
+    "targetFormula": "(!fb:chemistry.chemical_element.isotopes fb:en.zinc)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:comic_books.comic_book_series.publisher fb:en.the_amazing_spider-man)", 
+    "utterance": "who published the amazing spider-man", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD published) (NP (DT the) (JJ amazing) (NN spider-man)))) (. ?)))", 
+    "targetFormula": "(!fb:comic_books.comic_book_series.publisher fb:en.the_amazing_spider-man)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:geography.glacier.thickness fb:en.aletsch_glacier)", 
+    "utterance": "how thick is the aletsch glacier", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (ADJP (JJ thick))) (SQ (VBZ is) (NP (DT the) (NNP aletsch) (NNP glacier))) (. ?)))", 
+    "targetFormula": "(!fb:geography.glacier.thickness fb:en.aletsch_glacier)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.initial_release_date fb:en.titanic_special_edition_dvd)", 
+    "utterance": "when was the release date for titanic", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (DT the) (NN release) (NN date)) (PP (IN for) (NP (NNP titanic))))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.initial_release_date fb:en.titanic_special_edition_dvd)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:medicine.cancer_center_type.centers_of_this_kind fb:en.research_only)", 
+    "utterance": "what are some research only cancer centers", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (DT some) (NN research) (NP (JJ only) (NN cancer) (NNS centers)))) (. ?)))", 
+    "targetFormula": "(!fb:medicine.cancer_center_type.centers_of_this_kind fb:en.research_only)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_program.theme_song fb:en.full_house)", 
+    "utterance": "what is the theme song of full house", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN theme) (NN song)) (PP (IN of) (NP (JJ full) (NN house))))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_program.theme_song fb:en.full_house)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:astronomy.astronomical_discovery.discovery_technique fb:en.pluto)", 
+    "utterance": "how was pluto discovered", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB how)) (SQ (VBD was) (NP (NNP pluto)) (VP (VBN discovered))) (. ?)))", 
+    "targetFormula": "(!fb:astronomy.astronomical_discovery.discovery_technique fb:en.pluto)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:computer.software_compatibility.operating_system (ID !fb:computer.software.compatible_oses fb:en.mozilla_firefox))", 
+    "utterance": "what versions of mac os x is mozilla firefox compatible with", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NP (NNS versions)) (PP (IN of) (NP (NNP mac) (NNP os) (NNP x))))) (SQ (VBZ is) (NP (NNP mozilla) (NNP firefox)) (ADJP (JJ compatible) (PP (IN with)))) (. ?)))", 
+    "targetFormula": "(!fb:computer.software_compatibility.operating_system (!fb:computer.software.compatible_oses fb:en.mozilla_firefox))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:tv.tv_program.seasons fb:en.seinfeld))", 
+    "utterance": "how many seasons of seinfeld are there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NNS seasons)) (PP (IN of) (NP (NNP seinfeld)))) (SQ (VBP are) (NP (EX there))) (. ?)))", 
+    "targetFormula": "(count (!fb:tv.tv_program.seasons fb:en.seinfeld))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:award.award_nomination.award_nominee (ID fb:award.award_nomination.year (DATE 1982_-1_-1)) (ID fb:award.award_nomination.award fb:en.primetime_emmy_award_for_outstanding_comedy_series))", 
+    "utterance": "in 1982 who were the primetieme emmy award for comedy series nominees", 
+    "src_tree": "(ROOT (FRAG (PP (IN in) (NP (NP (CD 1982)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (NP (NP (DT the) (JJ primetieme) (NN emmy) (NN award)) (PP (IN for) (NP (NN comedy) (NN series) (NNS nominees))))))))) (. ?)))", 
+    "targetFormula": "(!fb:award.award_nomination.award_nominee (and ((lambda x (fb:award.award_nomination.year (var x))) (date 1982 -1 -1)) ( (lambda x (fb:award.award_nomination.award (var x))) fb:en.primetime_emmy_award_for_outstanding_comedy_series)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.company (ID fb:business.company_brand_relationship.brand fb:en.nutter_butter))", 
+    "utterance": "what company owns nutter butter", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN company)) (SQ (VP (VBZ owns) (NP (NN nutter) (NN butter)))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.nutter_butter))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:internet.website.launched fb:en.facebook)", 
+    "utterance": "when was facebook launched", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP facebook)) (VP (VBN launched))) (. ?)))", 
+    "targetFormula": "(!fb:internet.website.launched fb:en.facebook)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:soccer.football_player.position_s fb:en.cristiano_ronaldo)", 
+    "utterance": "what position does cristiano ronaldo play", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN position)) (SQ (VBZ does) (NP (NNP cristiano) (NNP ronaldo)) (VP (VB play))) (. ?)))", 
+    "targetFormula": "(!fb:soccer.football_player.position_s fb:en.cristiano_ronaldo)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:games.game_publisher.games_published fb:en.hasbro))", 
+    "utterance": "how many games has hasbro published", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNPS games)) (SQ (VBZ has) (NP (NNP hasbro)) (VP (VBN published))) (. ?)))", 
+    "targetFormula": "(count (!fb:games.game_publisher.games_published fb:en.hasbro))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:fictional_universe.work_of_fiction.setting fb:en.the_lord_of_the_rings)", 
+    "utterance": "what universe is the lord of the rings set in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN universe)) (SQ (VBZ is) (NP (NP (DT the) (NN lord)) (PP (IN of) (NP (DT the) (NNS rings)))) (VP (VBN set) (PP (IN in)))) (. ?)))", 
+    "targetFormula": "(!fb:fictional_universe.work_of_fiction.setting fb:en.the_lord_of_the_rings)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:cricket.cricket_tournament_event.teams fb:en.1979_cricket_world_cup))", 
+    "utterance": "how many teams participated in the 1979 cricket world cup", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS teams)) (SQ (VP (VBD participated) (PP (IN in) (NP (DT the) (CD 1979) (NN cricket) (NN world) (NN cup))))) (. ?)))", 
+    "targetFormula": "(count (!fb:cricket.cricket_tournament_event.teams fb:en.1979_cricket_world_cup))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:music.album.release_date fb:m.02967)", 
+    "utterance": "what year was the album decade released", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN year)) (SQ (VBD was) (NP (DT the) (NN album) (NN decade)) (VP (VBN released))) (. ?)))", 
+    "targetFormula": "(!fb:music.album.release_date fb:m.02967)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:computer.software_compatibility.operating_system (ID fb:computer.software_compatibility.software fb:en.adobe_flash)))", 
+    "utterance": "how many operating systems is adobe flash compatible with", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NP (NP (NN operating)) (NP (NNS systems)))) (SQ (VBZ is) (NP (NNP adobe) (NNP flash)) (ADJP (JJ compatible) (PP (IN with)))) (. ?)))", 
+    "targetFormula": "(count (!fb:computer.software_compatibility.operating_system ((lambda x (fb:computer.software_compatibility.software (var x))) fb:en.adobe_flash)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:location.statistical_region.population fb:en.earth))", 
+    "utterance": "what is the population estimated in the world", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT the) (NN population)) (VP (VBN estimated) (PP (IN in) (NP (DT the) (NN world))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda x (!fb:location.statistical_region.population (var x))) fb:en.earth))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:olympics.olympic_sport.events fb:m.07bs0))", 
+    "utterance": "how many tennis events are there at the olympics", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN tennis) (NNS events)) (SQ (VBP are) (NP (EX there)) (PP (IN at) (NP (DT the) (NNPS olympics)))) (. ?)))", 
+    "targetFormula": "(count (!fb:olympics.olympic_sport.events fb:m.07bs0))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:biology.amino_acid.rna_codons fb:en.glycine))", 
+    "utterance": "how many rna codons does glycine have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NP (NP (NNP rna)) (NP (NNS codons)))) (SQ (VBZ does) (NP (NNP glycine)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:biology.amino_acid.rna_codons fb:en.glycine))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.produced_by fb:en.charlies_angels)", 
+    "utterance": "who was charlie_s angels produced by", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD was) (NP (NNP charlie_s) (NNPS angels)) (VP (VBN produced) (PP (IN by)))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.produced_by fb:en.charlies_angels)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:media_common.completion_of_unfinished_work.finisher (ID fb:media_common.completion_of_unfinished_work.unfinished_work fb:m.02xtrr))", 
+    "utterance": "who completed mozart_s requiem", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD completed) (NP (NNP mozart_s) (NNP requiem)))) (. ?)))", 
+    "targetFormula": "(!fb:media_common.completion_of_unfinished_work.finisher ((lambda x (fb:media_common.completion_of_unfinished_work.unfinished_work (var x))) fb:m.02xtrr))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:baseball.baseball_historical_managerial_position.team (ID fb:baseball.baseball_historical_managerial_position.manager fb:en.joe_torre)))", 
+    "utterance": "how many teams did joe torre manage", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS teams)) (SQ (VBD did) (NP (NNP joe) (NNP torre)) (VP (VB manage))) (. ?)))", 
+    "targetFormula": "(count (!fb:baseball.baseball_historical_managerial_position.team ((lambda x (fb:baseball.baseball_historical_managerial_position.manager (var x))) fb:en.joe_torre)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:cricket.cricket_bowler.technique fb:en.fast_bowling))", 
+    "utterance": "how many cricket bowlers use fast bowling", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (JJ many)) (SQ (NP (NN cricket) (NNS bowlers)) (VP (VB use) (NP (JJ fast) (NN bowling)))) (. ?)))", 
+    "targetFormula": "(count (fb:cricket.cricket_bowler.technique fb:en.fast_bowling))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:amusement_parks.ride.designer fb:en.giant_dipper)", 
+    "utterance": "who designed the giant dipper", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD designed) (NP (DT the) (JJ giant) (NN dipper)))) (. ?)))", 
+    "targetFormula": "(!fb:amusement_parks.ride.designer fb:en.giant_dipper)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cvg.game_performance.character (ID fb:cvg.game_performance.game fb:en.super_mario_bros))", 
+    "utterance": "what characters are in super mario bros", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS characters)) (SQ (VBP are) (PP (IN in) (NP (NNP super) (NNP mario) (NNP bros)))) (. ?)))", 
+    "targetFormula": "(!fb:cvg.game_performance.character ((lambda x (fb:cvg.game_performance.game (var x))) fb:en.super_mario_bros))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:people.deceased_person.cause_of_death fb:en.john_f_kennedy)", 
+    "utterance": "what was john f kennedy 's cause of death", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (NP (NNP john) (NNP f) (NNP kennedy) (POS 's)) (NN cause)) (PP (IN of) (NP (NN death))))) (. ?)))", 
+    "targetFormula": "(!fb:people.deceased_person.cause_of_death fb:en.john_f_kennedy)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:broadcast.content.genre fb:m.03z9smt)", 
+    "utterance": "what is the genre of the skeptics' guide to the universe", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN genre)) (PP (IN of) (NP (NP (NP (DT the) (NNS skeptics) (POS ')) (NN guide)) (PP (TO to) (NP (DT the) (NN universe))))))) (. ?)))", 
+    "targetFormula": "(!fb:broadcast.content.genre fb:m.03z9smt)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:business.employment_tenure.person (ID !fb:business.employer.employees fb:en.nintendo)))", 
+    "utterance": "how many employees does nintendo have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS employees)) (SQ (VBZ does) (NP (NNP nintendo)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:business.employment_tenure.person (!fb:business.employer.employees fb:en.nintendo)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:meteorology.cloud.varieties fb:m.0csh5))", 
+    "utterance": "how many types of cumulus clouds are there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NNS types)) (PP (IN of) (NP (JJ cumulus) (NNS clouds)))) (SQ (VBP are) (NP (EX there))) (. ?)))", 
+    "targetFormula": "(count (!fb:meteorology.cloud.varieties fb:m.0csh5))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:common.topic.alias fb:en.ron_glass))", 
+    "utterance": "how many other names is ron glass known by", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ other) (NNS names)) (SQ (VBZ is) (NP (NNP ron) (NNP glass)) (VP (VBN known) (PP (IN by)))) (. ?)))", 
+    "targetFormula": "(count (!fb:common.topic.alias fb:en.ron_glass))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:ice_hockey.hockey_roster_position.number (ID fb:ice_hockey.hockey_roster_position.team fb:en.new_york_rangers) (ID fb:ice_hockey.hockey_roster_position.player fb:en.ryan_callahan))", 
+    "utterance": "what number is ryan callahan on the new york rangers", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN number)) (SQ (VBZ is) (NP (NP (NNP ryan) (NNP callahan)) (PP (IN on) (NP (DT the) (NNP new) (NNP york) (NNPS rangers))))) (. ?)))", 
+    "targetFormula": "(!fb:ice_hockey.hockey_roster_position.number (and ((lambda x (fb:ice_hockey.hockey_roster_position.team (var x))) fb:en.new_york_rangers) ((lambda x (fb:ice_hockey.hockey_roster_position.player (var x))) fb:en.ryan_callahan)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:religion.religion.holidays fb:en.christianity)", 
+    "utterance": "what are the christian holidays", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (DT the) (JJ christian) (NNS holidays))) (. ?)))", 
+    "targetFormula": "(!fb:religion.religion.holidays fb:en.christianity)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.directed_by fb:en.charlies_angels)", 
+    "utterance": "who directed charlie_s angels", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD directed) (NP (NNP charlie_s) (NNPS angels)))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.directed_by fb:en.charlies_angels)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:people.deceased_person.cause_of_death fb:en.jack_albertson)", 
+    "utterance": "what was jack albertson 's cause of death", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (NP (NNP jack) (NNP albertson) (POS 's)) (NN cause)) (PP (IN of) (NP (NN death))))) (. ?)))", 
+    "targetFormula": "(!fb:people.deceased_person.cause_of_death fb:en.jack_albertson)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:law.invention.date_of_invention fb:en.printing_press)", 
+    "utterance": "when was the printing press invented", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NN printing) (NN press)) (VP (VBN invented))) (. ?)))", 
+    "targetFormula": "(!fb:law.invention.date_of_invention fb:en.printing_press)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.place_with_neighborhoods.neighborhoods fb:en.new_york_ny)", 
+    "utterance": "what are the neighborhoods in new york city", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS neighborhoods)) (PP (IN in) (NP (NNP new) (NNP york) (NNP city))))) (. ?)))", 
+    "targetFormula": "(!fb:location.place_with_neighborhoods.neighborhoods fb:en.new_york_ny)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:martial_arts.martial_art.well_known_practitioner fb:en.karate))", 
+    "utterance": "how many people practice karate", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VB practice) (NP (NNP karate)))) (. ?)))", 
+    "targetFormula": "(count (!fb:martial_arts.martial_art.well_known_practitioner fb:en.karate))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.location.area fb:en.south_america)", 
+    "utterance": "what is the area of south america", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN area)) (PP (IN of) (NP (NNP south) (NNP america))))) (. ?)))", 
+    "targetFormula": "(!fb:location.location.area fb:en.south_america)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:protected_sites.natural_or_cultural_site_listing.listed_site (ID fb:protected_sites.natural_or_cultural_site_listing.designation fb:en.national_register_of_historic_places)))", 
+    "utterance": "how many sites are on the national register of historic places", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS sites)) (SQ (VBP are) (PP (IN on) (NP (NP (DT the) (JJ national) (NN register)) (PP (IN of) (NP (JJ historic) (NNS places)))))) (. ?)))", 
+    "targetFormula": "(count (!fb:protected_sites.natural_or_cultural_site_listing.listed_site ( (lambda x (fb:protected_sites.natural_or_cultural_site_listing.designation (var x))) fb:en.national_register_of_historic_places)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:american_football.football_coach.current_team_head_coached fb:en.andy_reid)", 
+    "utterance": "what football team does andy reid currently coach", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN football) (NN team)) (SQ (VBZ does) (NP (NNP andy) (NNP reid)) (ADVP (RB currently)) (VP (VB coach))) (. ?)))", 
+    "targetFormula": "(!fb:american_football.football_coach.current_team_head_coached fb:en.andy_reid)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed fb:en.national_park_service))", 
+    "utterance": "how many protected sites does the u.s. national park service govern", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNP protected) (NNS sites)) (SQ (VBZ does) (NP (DT the) (NNP u.s.) (NNP national) (NNP park) (NN service)) (VP (VB govern))) (. ?)))", 
+    "targetFormula": "(count (!fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed fb:en.national_park_service))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_money_value.amount (ID fb:measurement_unit.dated_money_value.valid_date (DATE 2009_-1_-1)) (ID !fb:business.business_operation.revenue fb:en.viacom))", 
+    "utterance": "what was viacom 's revenue in 2009", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (NP (NNP viacom) (POS 's)) (NN revenue)) (PP (IN in) (NP (CD 2009))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (and ((lambda x (fb:measurement_unit.dated_money_value.valid_date (var x))) (date 2009 -1 -1)) ((lambda x (!fb:business.business_operation.revenue (var x))) fb:en.viacom)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:geography.island.island_group fb:en.jekyll_island)", 
+    "utterance": "what island group is jekyll island a part of", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN island) (NN group)) (SQ (VBZ is) (NP (NNP jekyll) (NNP island)) (NP (NP (DT a) (NN part)) (PP (IN of)))) (. ?)))", 
+    "targetFormula": "(!fb:geography.island.island_group fb:en.jekyll_island)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:people.person.children fb:en.jerry_seinfeld))", 
+    "utterance": "how many children does jerry seinfeld have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS children)) (SQ (VBZ does) (NP (NNP jerry) (NNP seinfeld)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:people.person.children fb:en.jerry_seinfeld))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:biology.fossil_specimen.organism fb:m.0gd2g7)", 
+    "utterance": "what type of organism was lucy a fossil of", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WDT what) (NN type)) (PP (IN of) (NP (NN organism)))) (SQ (VBD was) (NP (NNP lucy)) (NP (NP (DT a) (NN fossil)) (PP (IN of)))) (. ?)))", 
+    "targetFormula": "(!fb:biology.fossil_specimen.organism fb:m.0gd2g7)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.crystal_light))", 
+    "utterance": "when was crystal light originally marketed", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NN crystal) (NN light)) (VP (ADVP (RB originally)) (VBN marketed))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.crystal_light))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:measurement_unit.dated_integer.number (ID !fb:metropolitan_transit.transit_system.daily_riders fb:en.london_underground)))", 
+    "utterance": "how many people ride the london underground daily", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VBP ride) (NP (DT the) (NNP london) (NN underground)) (ADVP (RB daily)))) (. ?)))", 
+    "targetFormula": "(count (!fb:measurement_unit.dated_integer.number (!fb:metropolitan_transit.transit_system.daily_riders fb:en.london_underground)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:event.disaster_affected_structure.destroyed_by_disaster fb:en.old_st_pauls_cathedral)", 
+    "utterance": "in what disaster was old st paul_s cathedral destroyed", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN in) (WHNP (WP what) (NP (NN disaster)))) (SQ (VBD was) (NP (JJ old) (NNP st) (NNPS paul_s) (NNP cathedral)) (VP (VBN destroyed))) (. ?)))", 
+    "targetFormula": "(!fb:event.disaster_affected_structure.destroyed_by_disaster fb:en.old_st_pauls_cathedral)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:music.group_member.instruments_played fb:en.omarion_grandberry)", 
+    "utterance": "what instruments did omarion play", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN instruments)) (SQ (VBD did) (NP (NNP omarion)) (VP (VB play))) (. ?)))", 
+    "targetFormula": "(!fb:music.group_member.instruments_played fb:en.omarion_grandberry)"
+  }, 
+  {
+    "trg_tree": "(ID fb:book.written_work.part_of_series fb:en.the_chronicles_of_narnia)", 
+    "utterance": "what are the books in the chronicles of narnia series", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS books)) (PP (IN in) (NP (NP (DT the) (NNS chronicles)) (PP (IN of) (NP (NNP narnia) (NNP series))))))) (. ?)))", 
+    "targetFormula": "(fb:book.written_work.part_of_series fb:en.the_chronicles_of_narnia)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:comic_books.comic_book_series.featured_characters fb:en.batman_the_dark_knight_returns)", 
+    "utterance": "what characters are featured in batman: the dark knight returns", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS characters)) (SQ (VP (VBP are) (VP (VBN featured) (PP (IN in) (NP (NNP batman)))))) (: :) (NP (NP (DT the) (JJ dark) (NN knight)) (NP (NNS returns))) (. ?)))", 
+    "targetFormula": "(!fb:comic_books.comic_book_series.featured_characters fb:en.batman_the_dark_knight_returns)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:royalty.monarch.royal_line fb:en.king_henry_viii_of_england)", 
+    "utterance": "what was henry viii's royal line", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (NNP henry) (NNP viii) (POS 's)) (JJ royal) (NN line))) (. ?)))", 
+    "targetFormula": "(!fb:royalty.monarch.royal_line fb:en.king_henry_viii_of_england)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_money_value.amount (ID !fb:amusement_parks.ride.cost fb:en.magnum_xl-200))", 
+    "utterance": "what was the cost of building the magnum xl-200", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (DT the) (NN cost)) (PP (IN of) (S (VP (VBG building) (NP (DT the) (NN magnum) (NN xl-200))))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (!fb:amusement_parks.ride.cost fb:en.magnum_xl-200))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:food.cheese_milk_source.cheeses fb:en.cattle))", 
+    "utterance": "how many cow's milk cheeses are there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NP (NP (NN cow) (POS 's)) (NP (NP (NN milk)) (NP (NNS cheeses))))) (SQ (VBP are) (NP (EX there))) (. ?)))", 
+    "targetFormula": "(count (!fb:food.cheese_milk_source.cheeses fb:en.cattle))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:exhibitions.exhibition_run.admission_fee (ID fb:exhibitions.exhibition_run.venue fb:en.science_museum_great_britain) (ID fb:exhibitions.exhibition_run.exhibition fb:m.046chwc))", 
+    "utterance": "did the big bang exhibit at the science museum cost money", 
+    "src_tree": "(ROOT (SQ (VBD did) (NP (DT the) (JJ big) (NN bang)) (VP (VB exhibit) (PP (IN at) (NP (DT the) (NNP science) (NNP museum) (NN cost) (NN money)))) (. ?)))", 
+    "targetFormula": "(!fb:exhibitions.exhibition_run.admission_fee (and ((lambda x (fb:exhibitions.exhibition_run.venue (var x))) fb:en.science_museum_great_britain) ((lambda x (fb:exhibitions.exhibition_run.exhibition (var x))) fb:m.046chwc)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:award.award_honor.honored_for (ID fb:award.award_honor.award_winner fb:en.danny_devito) (ID fb:award.award_honor.year (DATE 1981_-1_-1)))", 
+    "utterance": "what movie did danny devito win an award for in 1981", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN movie)) (SQ (VBD did) (NP (NNP danny) (NNP devito)) (VP (VB win) (NP (DT an) (NN award)) (PP (IN for) (PP (IN in) (NP (CD 1981)))))) (. ?)))", 
+    "targetFormula": "(!fb:award.award_honor.honored_for (and ((lambda x (fb:award.award_honor.award_winner (var x))) fb:en.danny_devito) ((lambda x (fb:award.award_honor.year (var x))) (date 1981 -1 -1))))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cricket.cricket_team.coach fb:en.australian_cricket_team)", 
+    "utterance": "who coaches the australian cricket team", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBZ coaches) (NP (DT the) (JJ australian) (NN cricket) (NN team)))) (. ?)))", 
+    "targetFormula": "(!fb:cricket.cricket_team.coach fb:en.australian_cricket_team)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:religion.religion.texts fb:en.taoism)", 
+    "utterance": "what are the texts of taoism", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS texts)) (PP (IN of) (NP (NNP taoism))))) (. ?)))", 
+    "targetFormula": "(!fb:religion.religion.texts fb:en.taoism)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.directed_by fb:en.8_mile)", 
+    "utterance": "who was 8 mile directed by", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD was) (NP (NP (CD 8) (NN mile)) (VP (VBN directed) (PP (IN by))))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.directed_by fb:en.8_mile)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:tv.regular_tv_appearance.series (ID fb:tv.regular_tv_appearance.actor fb:en.jerry_seinfeld)))", 
+    "utterance": "how many tv did jerry seinfeld have a starring role in", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN tv)) (SQ (VBD did) (NP (NNP jerry) (NNP seinfeld)) (VP (VB have) (NP (DT a) (JJ starring) (NN role)) (PP (IN in)))) (. ?)))", 
+    "targetFormula": "(count (!fb:tv.regular_tv_appearance.series ((lambda x (fb:tv.regular_tv_appearance.actor (var x))) fb:en.jerry_seinfeld)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.date_founded fb:en.wal-mart)", 
+    "utterance": "when was walmart founded", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP walmart)) (VP (VBN founded))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.date_founded fb:en.wal-mart)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:american_football.football_historical_roster_position.player (ID fb:american_football.football_historical_roster_position.position_s fb:en.quarterback) (ID fb:american_football.football_historical_roster_position.team fb:en.green_bay_packers))", 
+    "utterance": "who used to be quarterback for the green bay packers", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD used) (S (VP (TO to) (VP (VB be) (NP (NP (NN quarterback)) (PP (IN for) (NP (DT the) (NNP green) (NNP bay) (NNPS packers))))))))) (. ?)))", 
+    "targetFormula": "(!fb:american_football.football_historical_roster_position.player (and ( (lambda x (fb:american_football.football_historical_roster_position.position_s (var x))) fb:en.quarterback) ( (lambda x (fb:american_football.football_historical_roster_position.team (var x))) fb:en.green_bay_packers)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:ice_hockey.hockey_division.teams fb:en.atlantic_division))", 
+    "utterance": "how many teams are in the atlantic division of the eastern conference", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS teams)) (SQ (VBP are) (PP (IN in) (NP (NP (DT the) (JJ atlantic) (NN division)) (PP (IN of) (NP (DT the) (NNP eastern) (NN conference)))))) (. ?)))", 
+    "targetFormula": "(count (!fb:ice_hockey.hockey_division.teams fb:en.atlantic_division))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:radio.radio_subject.programs_with_this_subject fb:m.06mq7))", 
+    "utterance": "how many radio programs about science are there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WHADJP (WRB how) (JJ many)) (NN radio) (NNS programs)) (PP (IN about) (NP (NN science)))) (SQ (VBP are) (NP (EX there))) (. ?)))", 
+    "targetFormula": "(count (!fb:radio.radio_subject.programs_with_this_subject fb:m.06mq7))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:computer.software.latest_release_date fb:en.microsoft_word)", 
+    "utterance": "when was the latest release of microsoft word", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (DT the) (JJS latest) (NN release)) (PP (IN of) (NP (NNP microsoft) (NN word))))) (. ?)))", 
+    "targetFormula": "(!fb:computer.software.latest_release_date fb:en.microsoft_word)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.structure.architectural_style fb:en.brooklyn_bridge)", 
+    "utterance": "what architectural style is the brooklyn bridge", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (JJ architectural) (NN style))) (SQ (VBZ is) (NP (DT the) (NNP brooklyn) (NNP bridge))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.structure.architectural_style fb:en.brooklyn_bridge)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:broadcast.tv_station_owner.tv_stations fb:en.nbc))", 
+    "utterance": "how many tv channels does nbc own", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN tv) (NNS channels)) (SQ (VBZ does) (NP (NNP nbc)) (VP (VB own))) (. ?)))", 
+    "targetFormula": "(count (!fb:broadcast.tv_station_owner.tv_stations fb:en.nbc))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:engineering.engine_category.engines fb:en.turbojet))", 
+    "utterance": "how many turbojet engines are there", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (ADJP (JJ turbojet)) (NNS engines)) (SQ (VBP are) (NP (EX there))) (. ?)))", 
+    "targetFormula": "(count (!fb:engineering.engine_category.engines fb:en.turbojet))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:amusement_parks.ride.inversions fb:en.the_mind_eraser))", 
+    "utterance": "how many inversions does the mind eraser have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WRB how) (JJ many)) (ADJP (JJ inversions))) (SQ (VBZ does) (NP (DT the) (NN mind) (NN eraser)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:amusement_parks.ride.inversions fb:en.the_mind_eraser))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.initial_release_date fb:en.13_going_on_30)", 
+    "utterance": "when was 13 going on 30 released", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (CD 13) (NN going)) (PP (IN on) (NP (CD 30)))) (VP (VBN released))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.initial_release_date fb:en.13_going_on_30)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.ownership.end_date (ID fb:architecture.ownership.owner fb:en.john_j_raskob) (ID fb:architecture.ownership.structure fb:en.empire_state_building))", 
+    "utterance": "when did john j. raskob own the empire state building", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD did) (NP (NNP john) (NNP j.) (NNP raskob)) (VP (VB own) (NP (DT the) (NN empire) (NN state) (NN building)))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.ownership.end_date (and ((lambda x (fb:architecture.ownership.owner (var x))) fb:en.john_j_raskob) ((lambda x (fb:architecture.ownership.structure (var x))) fb:en.empire_state_building)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_program.air_date_of_first_episode fb:en.sesame_street)", 
+    "utterance": "what was the date of the first sesame street episode aired", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (NP (DT the) (NN date)) (PP (IN of) (NP (DT the) (JJ first) (NNP sesame) (NNP street) (NN episode)))) (VP (VBN aired))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_program.air_date_of_first_episode fb:en.sesame_street)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:comic_strips.comic_strip_creator_duration.creator_of_strip (ID fb:comic_strips.comic_strip_creator_duration.comic_strip fb:en.the_far_side))", 
+    "utterance": "who created the far side", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD created) (NP (DT the) (JJ far) (NN side)))) (. ?)))", 
+    "targetFormula": "(!fb:comic_strips.comic_strip_creator_duration.creator_of_strip ((lambda x (fb:comic_strips.comic_strip_creator_duration.comic_strip (var x))) fb:en.the_far_side))"
+  }, 
+  {
+    "trg_tree": "(ID fb:medicine.disease.symptoms fb:en.severe_headache)", 
+    "utterance": "what conditions have symptoms including headache", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (NP (NNS conditions)) (VP (VB have) (NP (NP (NNS symptoms)) (PP (VBG including) (NP (NN headache)))))) (. ?)))", 
+    "targetFormula": "(fb:medicine.disease.symptoms fb:en.severe_headache)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cvg.cvg_developer.games_developed fb:en.macsoft_games)", 
+    "utterance": "what games has macsoft games developed", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS games)) (SQ (VBZ has) (NP (NN macsoft) (NNS games)) (VP (VBN developed))) (. ?)))", 
+    "targetFormula": "(!fb:cvg.cvg_developer.games_developed fb:en.macsoft_games)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:engineering.battery_cell_type.rechargeable fb:en.lithium_battery)", 
+    "utterance": "are lithium batteries rechargable", 
+    "src_tree": "(ROOT (SQ (VBP are) (NP (NN lithium) (NP (NNS batteries))) (ADJP (JJ rechargable)) (. ?)))", 
+    "targetFormula": "(!fb:engineering.battery_cell_type.rechargeable fb:en.lithium_battery)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:people.deceased_person.cause_of_death fb:en.skiing_accident))", 
+    "utterance": "how many people died of a skiing accident", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VBD died) (PP (IN of) (NP (DT a) (NN skiing) (NN accident))))) (. ?)))", 
+    "targetFormula": "(count (fb:people.deceased_person.cause_of_death fb:en.skiing_accident))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_match.decision fb:m.0j24b7h)", 
+    "utterance": "what decision did manny pacquiao vs. timothy bradley end with", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN decision)) (SQ (VBD did) (NP (NP (NNP manny) (NNP pacquiao)) (PP (IN vs.) (NP (NNP timothy) (NNP bradley)))) (VP (VB end) (PP (IN with)))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_match.decision fb:m.0j24b7h)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:distilled_spirits.spirit_producing_region.distilleries fb:en.kentucky)", 
+    "utterance": "what spirits are produced in kentucky", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN spirits)) (SQ (VBP are) (VP (VBN produced) (PP (IN in) (NP (NNP kentucky))))) (. ?)))", 
+    "targetFormula": "(!fb:distilled_spirits.spirit_producing_region.distilleries fb:en.kentucky)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.date_founded fb:en.the_home_depot)", 
+    "utterance": "when was home depot founded", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP home) (NNP depot)) (VP (VBN founded))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.date_founded fb:en.the_home_depot)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:music.artist.active_end fb:m.016f2t)", 
+    "utterance": "when did japan end as a musical group", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD did) (NP (NNP japan)) (VP (VB end) (PP (IN as) (NP (DT a) (JJ musical) (NN group))))) (. ?)))", 
+    "targetFormula": "(!fb:music.artist.active_end fb:m.016f2t)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:food.cheese.source_of_milk fb:en.mascarpone)", 
+    "utterance": "what animal does marscapone cheese come from", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN animal)) (SQ (VBZ does) (NP (JJ marscapone) (NN cheese)) (VP (VB come) (PP (IN from)))) (. ?)))", 
+    "targetFormula": "(!fb:food.cheese.source_of_milk fb:en.mascarpone)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.directed_by fb:en.titanic_special_edition_dvd)", 
+    "utterance": "who was titanic directed by", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD was) (NP (NNP titanic)) (VP (VBN directed) (PP (IN by)))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.directed_by fb:en.titanic_special_edition_dvd)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_title.matches_with_this_title_at_stake fb:m.0cj52b7)", 
+    "utterance": "what matches have had the wbc world champion title at stake", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VP (VBZ matches) (S (VP (VB have) (VP (VBN had) (NP (NP (DT the) (NNP wbc) (NNP world) (NN champion) (NN title)) (PP (IN at) (NP (NN stake))))))))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_title.matches_with_this_title_at_stake fb:m.0cj52b7)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:soccer.football_player_match_participation.player (ID fb:soccer.football_player_match_participation.match fb:en.2010_fifa_world_cup_final)))", 
+    "utterance": "how many people played in the 2010 fifa world cup final", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VBD played) (PP (IN in) (NP (DT the) (CD 2010) (NNP fifa) (NNP world) (NNP cup) (NNP final))))) (. ?)))", 
+    "targetFormula": "(count (!fb:soccer.football_player_match_participation.player ( (lambda x (fb:soccer.football_player_match_participation.match (var x))) fb:en.2010_fifa_world_cup_final)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:celebrities.substance_abuse_problem.celebrity (ID fb:celebrities.substance_abuse_problem.substance fb:en.cocaine)))", 
+    "utterance": "how many celebrities have abused cocaine", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS celebrities)) (SQ (VP (VBP have) (VP (VBN abused) (NP (NN cocaine))))) (. ?)))", 
+    "targetFormula": "(count (!fb:celebrities.substance_abuse_problem.celebrity ((lambda x (fb:celebrities.substance_abuse_problem.substance (var x))) fb:en.cocaine)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:metropolitan_transit.transit_system.transit_lines fb:en.new_york_city_subway)", 
+    "utterance": "what are the lines of the new york city subway", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (NNS lines)) (PP (IN of) (NP (DT the) (JJ new) (NNP york) (NN city) (NN subway))))) (. ?)))", 
+    "targetFormula": "(!fb:metropolitan_transit.transit_system.transit_lines fb:en.new_york_city_subway)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.capn_crunch))", 
+    "utterance": "when was cap'n crunch introduced", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP cap'n) (NN crunch)) (VP (VBN introduced))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.capn_crunch))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:chemistry.chemical_element.discovery_date fb:en.oxygen)", 
+    "utterance": "when was oxygen discovered", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NN oxygen)) (VP (VBN discovered))) (. ?)))", 
+    "targetFormula": "(!fb:chemistry.chemical_element.discovery_date fb:en.oxygen)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:broadcast.content.production_end fb:en.easy_aces)", 
+    "utterance": "when did easy aces stop being produced", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD did) (NP (JJ easy) (NNS aces)) (VP (VB stop) (S (VP (VBG being) (VP (VBN produced)))))) (. ?)))", 
+    "targetFormula": "(!fb:broadcast.content.production_end fb:en.easy_aces)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:ice_hockey.hockey_coach.current_team fb:en.mike_babcock)", 
+    "utterance": "what team does mike babcock coach", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN team)) (SQ (VBZ does) (NP (NNP mike) (NNP babcock)) (VP (VB coach))) (. ?)))", 
+    "targetFormula": "(!fb:ice_hockey.hockey_coach.current_team fb:en.mike_babcock)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:projects.project_participation.participant (ID fb:projects.project_participation.project fb:en.design_and_construction_of_the_plymouth_breakwater) (ID fb:projects.project_participation.role fb:en.engineer)))", 
+    "utterance": "how many engineers worked on the design and construction of the plymouth breakwater", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS engineers)) (SQ (VP (VBD worked) (PP (IN on) (NP (NP (DT the) (NN design) (CC and) (NN construction)) (PP (IN of) (NP (DT the) (NNP plymouth) (NNP breakwater))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:projects.project_participation.participant (and ( (lambda x (fb:projects.project_participation.project (var x))) fb:en.design_and_construction_of_the_plymouth_breakwater) ((lambda x (fb:projects.project_participation.role (var x))) fb:en.engineer))))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:digicams.digital_camera.released fb:m.0cp1pcv)", 
+    "utterance": "when was the sony nex-5 released", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NNP sony) (NN nex-5)) (VP (VBN released))) (. ?)))", 
+    "targetFormula": "(!fb:digicams.digital_camera.released fb:m.0cp1pcv)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:radio.radio_program.final_broadcast fb:en.letter_from_america)", 
+    "utterance": "when was letter from america last broadcast", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (NN letter)) (PP (IN from) (NP (NNP america) (JJ last) (NN broadcast))))) (. ?)))", 
+    "targetFormula": "(!fb:radio.radio_program.final_broadcast fb:en.letter_from_america)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:zoos.animal_captivity.zoo (ID fb:zoos.animal_captivity.animal fb:m.02q470c))", 
+    "utterance": "in what zoo was knut kept", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN in) (WHNP (WDT what) (NN zoo))) (SQ (VBD was) (NP (NNP knut)) (VP (VBN kept))) (. ?)))", 
+    "targetFormula": "(!fb:zoos.animal_captivity.zoo ((lambda x (fb:zoos.animal_captivity.animal (var x))) fb:m.02q470c))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:amusement_parks.ride.drop fb:m.0b6_sx)", 
+    "utterance": "what is the highest drop on stealth", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (JJS highest) (NN drop)) (PP (IN on) (NP (NNP stealth))))) (. ?)))", 
+    "targetFormula": "(!fb:amusement_parks.ride.drop fb:m.0b6_sx)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID fb:film.film.produced_by fb:en.tim_burton))", 
+    "utterance": "how many films has tim burton produced", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS films)) (SQ (VBZ has) (NP (NNP tim) (NNP burton)) (VP (VBN produced))) (. ?)))", 
+    "targetFormula": "(count (fb:film.film.produced_by fb:en.tim_burton))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.match_boxer_relationship.winner_won (ID fb:boxing.match_boxer_relationship.boxer fb:en.jack_dempsey))", 
+    "utterance": "did jack dempsey win the long count fight", 
+    "src_tree": "(ROOT (SQ (VBD did) (NP (NNP jack) (NNP dempsey)) (VP (VB win) (NP (DT the) (JJ long) (NN count) (NN fight))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.match_boxer_relationship.winner_won ((lambda x (fb:boxing.match_boxer_relationship.boxer (var x))) fb:en.jack_dempsey))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:computer.computer.key_designers fb:en.macintosh)", 
+    "utterance": "who were the key designers of the macintosh", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD were) (NP (NP (DT the) (JJ key) (NNS designers)) (PP (IN of) (NP (DT the) (NNP macintosh))))) (. ?)))", 
+    "targetFormula": "(!fb:computer.computer.key_designers fb:en.macintosh)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:award.award_honor.award_winner (ID fb:award.award_honor.award fb:en.nobel_peace_prize)))", 
+    "utterance": "how many people have won the nobel peace prize", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VBP have) (VP (VBN won) (NP (DT the) (NNP nobel) (NN peace) (NN prize))))) (. ?)))", 
+    "targetFormula": "(count (!fb:award.award_honor.award_winner ((lambda x (fb:award.award_honor.award (var x))) fb:en.nobel_peace_prize)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:people.person.place_of_birth fb:en.omarion_grandberry)", 
+    "utterance": "where was omarion born", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (NNP omarion)) (VP (VBN born))) (. ?)))", 
+    "targetFormula": "(!fb:people.person.place_of_birth fb:en.omarion_grandberry)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:travel.travel_destination.tourist_attractions fb:en.rome)", 
+    "utterance": "what tourist attractions are in rome", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN tourist) (NNS attractions)) (SQ (VBP are) (PP (IN in) (NP (NNP rome)))) (. ?)))", 
+    "targetFormula": "(!fb:travel.travel_destination.tourist_attractions fb:en.rome)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:location.imports_exports_by_industry.industry (ID !fb:location.statistical_region.major_exports fb:en.madagascar))", 
+    "utterance": "what are the major exports of madagascar", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (NP (DT the) (JJ major) (NNS exports)) (PP (IN of) (NP (NNP madagascar))))) (. ?)))", 
+    "targetFormula": "(!fb:location.imports_exports_by_industry.industry ((lambda x (!fb:location.statistical_region.major_exports (var x))) fb:en.madagascar))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:projects.project.actual_completion_date fb:m.0jb4_0h)", 
+    "utterance": "when was the construction of new steubenville bridge finished", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NP (DT the) (NN construction)) (PP (IN of) (NP (NNP new) (NNP steubenville) (NNP bridge)))) (VP (VBN finished))) (. ?)))", 
+    "targetFormula": "(!fb:projects.project.actual_completion_date fb:m.0jb4_0h)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:common.topic.alias fb:en.j_c_penney))", 
+    "utterance": "how many other names are there for jcpenney", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ other) (NNS names)) (SQ (VBP are) (NP (EX there)) (PP (IN for) (NP (NNP jcpenney)))) (. ?)))", 
+    "targetFormula": "(count (!fb:common.topic.alias fb:en.j_c_penney))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:language.human_language.language_family fb:en.afrikaans)", 
+    "utterance": "what language family is afrikaans part of", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN language) (NN family)) (SQ (VBZ is) (NP (NP (JJ afrikaans) (NN part)) (PP (IN of)))) (. ?)))", 
+    "targetFormula": "(!fb:language.human_language.language_family fb:en.afrikaans)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:wine.grape_variety_composition.percentage (ID fb:wine.grape_variety_composition.wine fb:en.1966_chateau_latour) (ID fb:wine.grape_variety_composition.grape_variety fb:en.merlot))", 
+    "utterance": "what percentage of the grapes in a 1966 chateau latour grand vin are merlot", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WDT what) (NN percentage)) (PP (IN of) (NP (NP (DT the) (NNS grapes)) (PP (IN in) (NP (DT a) (CD 1966) (NNP chateau) (NNP latour) (NNP grand) (NNP vin)))))) (SQ (VBP are) (NP (NNP merlot))) (. ?)))", 
+    "targetFormula": "(!fb:wine.grape_variety_composition.percentage (and ((lambda x (fb:wine.grape_variety_composition.wine (var x))) fb:en.1966_chateau_latour) ((lambda x (fb:wine.grape_variety_composition.grape_variety (var x))) fb:en.merlot)))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:location.location.events fb:en.south_america))", 
+    "utterance": "how many historical events happened in south america", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (JJ historical) (NNS events)) (SQ (VP (VBD happened) (PP (IN in) (NP (NNP south) (NNP america))))) (. ?)))", 
+    "targetFormula": "(count (!fb:location.location.events fb:en.south_america))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:astronomy.comet.meteor_shower_spawned fb:en.comet_halley)", 
+    "utterance": "what meteor showers has the comet halley spawned", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (JJ meteor) (NNS showers))) (SQ (VBZ has) (NP (DT the) (NN comet)) (ADVP (RB halley)) (VP (VBN spawned))) (. ?)))", 
+    "targetFormula": "(!fb:astronomy.comet.meteor_shower_spawned fb:en.comet_halley)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:book.written_work.date_of_first_publication fb:en.pride_and_prejudice)", 
+    "utterance": "when was pride and prejudice published", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NN pride) (CC and) (NN prejudice)) (VP (VBN published))) (. ?)))", 
+    "targetFormula": "(!fb:book.written_work.date_of_first_publication fb:en.pride_and_prejudice)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:amusement_parks.ride.manufacturer fb:en.millennium_force)", 
+    "utterance": "who manufactured millennium force", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD manufactured) (NP (JJ millennium) (NN force)))) (. ?)))", 
+    "targetFormula": "(!fb:amusement_parks.ride.manufacturer fb:en.millennium_force)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:comic_books.comic_book_issue.characters_on_cover fb:en.batman_1)", 
+    "utterance": "what characters were on the cover of batman #1", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS characters)) (SQ (VP (VBD were) (PP (IN on) (NP (NP (DT the) (NN cover)) (PP (IN of) (NP (NP (NNP batman)) (ADJP (# #) (CD 1)))))))) (. ?)))", 
+    "targetFormula": "(!fb:comic_books.comic_book_issue.characters_on_cover fb:en.batman_1)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:fashion.textile.weave fb:en.tweed)", 
+    "utterance": "what sort of weave is used to make tweed", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NN sort) (PP (IN of) (NP (NNP weave))))) (SQ (VBZ is) (VP (VBN used) (S (VP (TO to) (VP (VB make) (NP (NN tweed))))))) (. ?)))", 
+    "targetFormula": "(!fb:fashion.textile.weave fb:en.tweed)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.company_brand_relationship.from_date (ID fb:business.company_brand_relationship.brand fb:en.gatorade))", 
+    "utterance": "when gatorade was first developed", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when) (ADJP (JJ gatorade))) (SQ (VBD was) (NP (NNP first)) (VP (VBN developed))) (. ?)))", 
+    "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda x (fb:business.company_brand_relationship.brand (var x))) fb:en.gatorade))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:projects.project_participation.project (ID fb:projects.project_participation.participant fb:en.james_walker) (ID fb:projects.project_participation.role fb:en.design_engineer)))", 
+    "utterance": "on how many projects was james walker a design engineer", 
+    "src_tree": "(ROOT (FRAG (PP (IN on) (SBAR (WHADJP (WRB how) (JJ many)) (S (NP (NNS projects)) (VP (VBD was) (NP (NP (NNP james) (NNP walker)) (NP (DT a) (NN design) (NN engineer))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:projects.project_participation.project (and ((lambda x (fb:projects.project_participation.participant (var x))) fb:en.james_walker) ((lambda x (fb:projects.project_participation.role (var x))) fb:en.design_engineer))))"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:award.award_honor.award (ID fb:award.award_honor.honored_for fb:en.8_mile)))", 
+    "utterance": "how many awards did the movie 8 mile win", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS awards)) (SQ (VBD did) (NP (DT the) (NN movie) (NP (CD 8) (NN mile))) (VP (VB win))) (. ?)))", 
+    "targetFormula": "(count (!fb:award.award_honor.award ((lambda x (fb:award.award_honor.honored_for (var x))) fb:en.8_mile)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:religion.religion.number_of_adherents fb:en.buddhism))", 
+    "utterance": "how many people practice buddhism", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VB practice) (NP (NN buddhism)))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number (!fb:religion.religion.number_of_adherents fb:en.buddhism))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_money_value.amount (ID !fb:projects.project.actual_cost fb:en.initial_design_and_construction_of_taj_mahal))", 
+    "utterance": "how much did the construction of the taj mahal cost", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (JJ much)) (SQ (VBD did) (NP (NP (DT the) (NN construction)) (PP (IN of) (NP (DT the) (NNP taj) (NNP mahal)))) (VP (VB cost))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (!fb:projects.project.actual_cost fb:en.initial_design_and_construction_of_taj_mahal))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:computer.programming_language_paradigm.languages fb:en.object-oriented_programming)", 
+    "utterance": "what are some object-oriented programming languages", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBP are) (NP (DT some) (JJ object-oriented) (NN programming) (NNS languages))) (. ?)))", 
+    "targetFormula": "(!fb:computer.programming_language_paradigm.languages fb:en.object-oriented_programming)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:exhibitions.exhibition.curators fb:en.renoir_in_the_20th_century)", 
+    "utterance": "who were the curators for renoir in the 20th century", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD were) (NP (NP (DT the) (NNS curators)) (PP (IN for) (NP (NP (NNP renoir)) (PP (IN in) (NP (DT the) (JJ 20th) (NN century))))))) (. ?)))", 
+    "targetFormula": "(!fb:exhibitions.exhibition.curators fb:en.renoir_in_the_20th_century)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:olympics.olympic_athlete_affiliation.country (ID fb:olympics.olympic_athlete_affiliation.olympics fb:en.2000_summer_olympics) (ID fb:olympics.olympic_athlete_affiliation.athlete fb:en.bernard_lagat))", 
+    "utterance": "for what country did bernard lagat play in the 2000 summer olympics", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN for) (WHNP (WDT what) (NN country))) (SQ (VBD did) (NP (NNP bernard) (NNP lagat)) (VP (VB play) (PP (IN in) (NP (DT the) (CD 2000) (NNPS summer) (NNPS olympics))))) (. ?)))", 
+    "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.country (and ((lambda x (fb:olympics.olympic_athlete_affiliation.olympics (var x))) fb:en.2000_summer_olympics) ((lambda x (fb:olympics.olympic_athlete_affiliation.athlete (var x))) fb:en.bernard_lagat)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:boxing.boxing_match.titles_at_stake fb:en.the_rumble_in_the_jungle)", 
+    "utterance": "what titles were at stake in the the rumble in the jungle", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS titles)) (SQ (VP (VBD were) (PP (IN at) (NP (NP (NN stake)) (PP (IN in) (NP (NP (DT the) (DT the) (NNS rumble)) (PP (IN in) (NP (DT the) (NN jungle))))))))) (. ?)))", 
+    "targetFormula": "(!fb:boxing.boxing_match.titles_at_stake fb:en.the_rumble_in_the_jungle)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cvg.cvg_developer.games_developed fb:en.electronic_arts)", 
+    "utterance": "what games has electronic arts developed", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS games)) (SQ (VBZ has) (NP (JJ electronic) (NNS arts)) (VP (VBN developed))) (. ?)))", 
+    "targetFormula": "(!fb:cvg.cvg_developer.games_developed fb:en.electronic_arts)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:business.shopping_center.store fb:en.nittany_mall))", 
+    "utterance": "how many stores are in nittany mall", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS stores)) (SQ (VBP are) (PP (IN in) (NP (JJ nittany) (NN mall)))) (. ?)))", 
+    "targetFormula": "(count (!fb:business.shopping_center.store fb:en.nittany_mall))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.initial_release_date fb:en.the_nutty_professor_1996)", 
+    "utterance": "when was nutty professor released", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (NNP nutty) (NNP professor)) (VP (VBN released))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.initial_release_date fb:en.the_nutty_professor_1996)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.employment_tenure.person (ID fb:business.employment_tenure.company fb:en.die_welt) (ID fb:business.employment_tenure.to (DATE 2000_-1_-1)) (ID fb:business.employment_tenure.title fb:en.editor_in_chief))", 
+    "utterance": "who was the editor in chief of die welt in 2000", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBD was) (NP (NP (DT the) (NN editor)) (PP (IN in) (NP (NP (NN chief)) (PP (IN of) (NP (NP (NNP die) (NNP welt)) (PP (IN in) (NP (CD 2000))))))))) (. ?)))", 
+    "targetFormula": "(!fb:business.employment_tenure.person (and (and ((lambda x (fb:business.employment_tenure.company (var x))) fb:en.die_welt) ((lambda x (fb:business.employment_tenure.to (var x))) (date 2000 -1 -1))) ((lambda x (fb:business.employment_tenure.title (var x))) fb:en.editor_in_chief)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:film.film.rating fb:en.the_nutty_professor_1996)", 
+    "utterance": "what is the nutty professor rated", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT the) (JJ nutty) (NN professor)) (VP (VBN rated))) (. ?)))", 
+    "targetFormula": "(!fb:film.film.rating fb:en.the_nutty_professor_1996)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:film.performance.film (ID fb:film.performance.actor fb:en.jack_albertson)))", 
+    "utterance": "how many film performances did jack albertson do", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN film) (NNS performances)) (SQ (VBD did) (NP (NNP jack) (NNP albertson)) (VP (VB do))) (. ?)))", 
+    "targetFormula": "(count (!fb:film.performance.film ((lambda x (fb:film.performance.actor (var x))) fb:en.jack_albertson)))"
+  }, 
+  {
+    "trg_tree": "(ID fb:people.deceased_person.cause_of_death fb:en.lung_cancer)", 
+    "utterance": "what musicians have died of lung cancer", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (NP (NNS musicians)) (VP (VB have) (VP (VBN died) (PP (IN of) (NP (NN lung) (NN cancer)))))) (. ?)))", 
+    "targetFormula": "(fb:people.deceased_person.cause_of_death fb:en.lung_cancer)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:transportation.bridge.bridge_type fb:en.manhattan_bridge)", 
+    "utterance": "what type of bridge is the manhattan bridge", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHNP (WDT what) (NN type)) (PP (IN of) (NP (NNP bridge)))) (SQ (VBZ is) (NP (DT the) (NNP manhattan) (NNP bridge))) (. ?)))", 
+    "targetFormula": "(!fb:transportation.bridge.bridge_type fb:en.manhattan_bridge)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:olympics.olympic_athlete_affiliation.sport (ID fb:olympics.olympic_athlete_affiliation.athlete fb:m.04dnjr9) (ID fb:olympics.olympic_athlete_affiliation.olympics fb:en.1992_summer_olympics))", 
+    "utterance": "what sport did scott anderson play in the 1992 summer olympics", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN sport)) (SQ (VBD did) (NP (NNP scott) (NNP anderson)) (VP (VB play) (PP (IN in) (NP (DT the) (CD 1992) (NNPS summer) (NNPS olympics))))) (. ?)))", 
+    "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.sport (and ((lambda x (fb:olympics.olympic_athlete_affiliation.athlete (var x))) fb:m.04dnjr9) ((lambda x (fb:olympics.olympic_athlete_affiliation.olympics (var x))) fb:en.1992_summer_olympics)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:architecture.structure.architect fb:en.parthenon)", 
+    "utterance": "who designed the parthenon", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD designed) (NP (DT the) (NN parthenon)))) (. ?)))", 
+    "targetFormula": "(!fb:architecture.structure.architect fb:en.parthenon)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:royalty.royal_line.monarchs_from_this_line fb:en.tudor_dynasty))", 
+    "utterance": "how many monarchs are from the house of tutor", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS monarchs)) (SQ (VBP are) (PP (IN from) (NP (NP (DT the) (NN house)) (PP (IN of) (NP (NN tutor)))))) (. ?)))", 
+    "targetFormula": "(count (!fb:royalty.royal_line.monarchs_from_this_line fb:en.tudor_dynasty))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:olympics.olympic_athlete_affiliation.athlete (ID fb:olympics.olympic_athlete_affiliation.country fb:en.germany))", 
+    "utterance": "what german athletes have participated in the olympics", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (NP (JJ german) (NNS athletes)) (VP (VB have) (VP (VBN participated) (PP (IN in) (NP (DT the) (NNPS olympics)))))) (. ?)))", 
+    "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.athlete ((lambda x (fb:olympics.olympic_athlete_affiliation.country (var x))) fb:en.germany))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:baseball.baseball_historical_roster_position.team (ID fb:baseball.baseball_historical_roster_position.player fb:en.babe_ruth))", 
+    "utterance": "what teams did babe ruth play for", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NNS teams)) (SQ (VBD did) (NP (NNP babe) (NNP ruth)) (VP (VB play) (PP (IN for)))) (. ?)))", 
+    "targetFormula": "(!fb:baseball.baseball_historical_roster_position.team ((lambda x (fb:baseball.baseball_historical_roster_position.player (var x))) fb:en.babe_ruth))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:olympics.olympic_medal_honor.event (ID fb:olympics.olympic_medal_honor.olympics fb:en.2004_summer_olympics) (ID fb:olympics.olympic_medal_honor.medalist fb:en.ian_thorpe))", 
+    "utterance": "in what events did ian thorpe compete in the 2004 summer olympics", 
+    "src_tree": "(ROOT (SBARQ (WHPP (IN in) (WHNP (WP what) (NNS events))) (SQ (VBD did) (NP (NNP ian) (NNP thorpe)) (VP (VB compete) (PP (IN in) (NP (DT the) (CD 2004) (NNPS summer) (NNPS olympics))))) (. ?)))", 
+    "targetFormula": "(!fb:olympics.olympic_medal_honor.event (and ((lambda x (fb:olympics.olympic_medal_honor.olympics (var x))) fb:en.2004_summer_olympics) ((lambda x (fb:olympics.olympic_medal_honor.medalist (var x))) fb:en.ian_thorpe)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:aviation.aircraft_model.wingspan fb:en.eclipse_500)", 
+    "utterance": "what is the wingspan of an eclipse 500", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN wingspan)) (PP (IN of) (NP (DT an) (NNP eclipse) (CD 500))))) (. ?)))", 
+    "targetFormula": "(!fb:aviation.aircraft_model.wingspan fb:en.eclipse_500)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:conferences.conference_series.sponsoring_organization fb:m.0hmwcy2)", 
+    "utterance": "who sponsors the hoby seminars", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBZ sponsors) (NP (DT the) (JJ hoby) (NNS seminars)))) (. ?)))", 
+    "targetFormula": "(!fb:conferences.conference_series.sponsoring_organization fb:m.0hmwcy2)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:royalty.order_of_chivalry.founders fb:en.order_of_the_dragon)", 
+    "utterance": "who founded the order of the dragon", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD founded) (NP (NP (DT the) (NN order)) (PP (IN of) (NP (DT the) (NNP dragon)))))) (. ?)))", 
+    "targetFormula": "(!fb:royalty.order_of_chivalry.founders fb:en.order_of_the_dragon)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:music.recording.producer fb:m.0l16j8)", 
+    "utterance": "who produced sabotage by the beastie boys", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD produced) (NP (NN sabotage)) (PP (IN by) (NP (DT the) (NNP beastie) (NNPS boys))))) (. ?)))", 
+    "targetFormula": "(!fb:music.recording.producer fb:m.0l16j8)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:skiing.ski_area.number_of_runs fb:en.thunder_ridge_ski_area))", 
+    "utterance": "how many runs does the thunder ridge ski area have", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS runs)) (SQ (VBZ does) (NP (DT the) (NNP thunder) (NNP ridge) (NN ski) (NN area)) (VP (VB have))) (. ?)))", 
+    "targetFormula": "(count (!fb:skiing.ski_area.number_of_runs fb:en.thunder_ridge_ski_area))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:meteorology.tropical_cyclone.direct_fatalities fb:en.hurricane_wilma)", 
+    "utterance": "how many people died in hurricane wilma", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS people)) (SQ (VP (VBD died) (PP (IN in) (NP (NNP hurricane) (NNP wilma))))) (. ?)))", 
+    "targetFormula": "(!fb:meteorology.tropical_cyclone.direct_fatalities fb:en.hurricane_wilma)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:astronomy.astronomical_discovery.discoverer fb:en.rings_of_saturn)", 
+    "utterance": "who discovered the rings of saturn", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD discovered) (NP (NP (DT the) (NNS rings)) (PP (IN of) (NP (NNP saturn)))))) (. ?)))", 
+    "targetFormula": "(!fb:astronomy.astronomical_discovery.discoverer fb:en.rings_of_saturn)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:digicams.digital_camera.lcd_pixels fb:en.nikon_d80)", 
+    "utterance": "what is the lcd screen resolution of a nikon d80", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NNP lcd) (NN screen) (NN resolution)) (PP (IN of) (NP (DT a) (NNP nikon) (NNP d80))))) (. ?)))", 
+    "targetFormula": "(!fb:digicams.digital_camera.lcd_pixels fb:en.nikon_d80)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:zoos.zoo.opened fb:en.san_diego_zoo)", 
+    "utterance": "when was the san diego zoo opened", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB when)) (SQ (VBD was) (NP (DT the) (NNP san) (NNP diego) (NN zoo)) (VP (VBN opened))) (. ?)))", 
+    "targetFormula": "(!fb:zoos.zoo.opened fb:en.san_diego_zoo)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:digicams.digital_camera.weight fb:en.panasonic_lumix_dmc_tz3)", 
+    "utterance": "how heavy is a panasonic lumix dmc-tz3", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (ADJP (JJ heavy))) (SQ (VBZ is) (NP (DT a) (NNP panasonic) (NNP lumix) (NN dmc-tz3))) (. ?)))", 
+    "targetFormula": "(!fb:digicams.digital_camera.weight fb:en.panasonic_lumix_dmc_tz3)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:people.person.place_of_birth fb:en.liam_gallagher)", 
+    "utterance": "where was liam gallagher born", 
+    "src_tree": "(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD was) (NP (NNP liam) (NNP gallagher)) (VP (VBN born))) (. ?)))", 
+    "targetFormula": "(!fb:people.person.place_of_birth fb:en.liam_gallagher)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:food.beer_containment.beer (ID fb:food.beer_containment.container_type fb:en.beverage_can)))", 
+    "utterance": "how many beers come a can", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (JJ many)) (SQ (NP (NNP beers)) (VP (VB come) (NP (DT a) (MD can)))) (. ?)))", 
+    "targetFormula": "(count (!fb:food.beer_containment.beer ((lambda x (fb:food.beer_containment.container_type (var x))) fb:en.beverage_can)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:book.periodical.subjects fb:en.the_atlantic_monthly)", 
+    "utterance": "what is the subject of the atlantic monthly", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (DT the) (NN subject)) (PP (IN of) (NP (DT the) (NNP atlantic) (NN monthly))))) (. ?)))", 
+    "targetFormula": "(!fb:book.periodical.subjects fb:en.the_atlantic_monthly)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:radio.radio_program.subjects fb:m.05v0tbd)", 
+    "utterance": "what was the american past about", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBD was) (NP (DT the) (JJ american) (NN past)) (ADJP (IN about))) (. ?)))", 
+    "targetFormula": "(!fb:radio.radio_program.subjects fb:m.05v0tbd)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:fictional_universe.fictional_object.destroyed_by fb:en.one_ring)", 
+    "utterance": "who destroyed the one ring", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD destroyed) (NP (DT the) (CD one) (NN ring)))) (. ?)))", 
+    "targetFormula": "(!fb:fictional_universe.fictional_object.destroyed_by fb:en.one_ring)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:measurement_unit.dated_integer.number (ID !fb:education.educational_institution.total_enrollment fb:en.university_of_iceland))", 
+    "utterance": "how many students are there at the university of iceland", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS students)) (SQ (VBP are) (NP (EX there)) (PP (IN at) (NP (NP (DT the) (NN university)) (PP (IN of) (NP (NNP iceland)))))) (. ?)))", 
+    "targetFormula": "(!fb:measurement_unit.dated_integer.number (!fb:education.educational_institution.total_enrollment fb:en.university_of_iceland))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:organization.organization.founders fb:en.american_red_cross)", 
+    "utterance": "who founded the red cross", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD founded) (NP (DT the) (JJ red) (NN cross)))) (. ?)))", 
+    "targetFormula": "(!fb:organization.organization.founders fb:en.american_red_cross)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:broadcast.radio_station_owner.radio_stations fb:en.cbs_radio))", 
+    "utterance": "how many radio stations does cbs radio own", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NN radio) (NNS stations)) (SQ (VBZ does) (NP (NNP cbs) (NNP radio)) (VP (VB own))) (. ?)))", 
+    "targetFormula": "(count (!fb:broadcast.radio_station_owner.radio_stations fb:en.cbs_radio))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cricket.cricket_bowler.pace fb:en.ashok_malhotra)", 
+    "utterance": "what is ashok malhotra's bowling pace", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (NP (NNP ashok) (NNP malhotra) (POS 's)) (NN bowling) (NN pace))) (. ?)))", 
+    "targetFormula": "(!fb:cricket.cricket_bowler.pace fb:en.ashok_malhotra)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:broadcast.podcast_feed.average_media_length fb:en.wireds_gadget_lab_podcast_podcast_feed)", 
+    "utterance": "how long is wired_s gadget lab podcast", 
+    "src_tree": "(ROOT (SBARQ (WHADJP (WRB how) (JJ long)) (SQ (VBZ is) (NP (NNP wired_s) (NN gadget) (NN lab) (NN podcast))) (. ?)))", 
+    "targetFormula": "(!fb:broadcast.podcast_feed.average_media_length fb:en.wireds_gadget_lab_podcast_podcast_feed)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:military.military_service.military_person (ID !fb:military.armed_force.personnel fb:en.united_states_navy)))", 
+    "utterance": "how many politicians have served in the us navy", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS politicians)) (SQ (VP (VBP have) (VP (VBN served) (PP (IN in) (NP (DT the) (NNP us) (NNP navy)))))) (. ?)))", 
+    "targetFormula": "(count (!fb:military.military_service.military_person (!fb:military.armed_force.personnel fb:en.united_states_navy)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:medicine.disease.causes fb:en.bipolar_disorder)", 
+    "utterance": "what causes bipolar disorder", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VP (VBZ causes) (NP (JJ bipolar) (NN disorder)))) (. ?)))", 
+    "targetFormula": "(!fb:medicine.disease.causes fb:en.bipolar_disorder)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:medicine.disease.causes fb:en.syphillis)", 
+    "utterance": "what causes syphilis", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP what)) (SQ (VP (VBZ causes) (NP (NNS syphilis)))) (. ?)))", 
+    "targetFormula": "(!fb:medicine.disease.causes fb:en.syphillis)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:media_common.quotation.author fb:m.06gj5j3)", 
+    "utterance": "who said that_s one small step for man, one giant leap for mankind", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD said) (NP (ADJP (JJ that_s) (NP (CD one))) (JJ small) (NN step)) (PP (IN for) (NP (NP (NN man)) (, ,) (NP (NP (CD one) (JJ giant) (NN leap)) (PP (IN for) (NP (NN mankind)))))))) (. ?)))", 
+    "targetFormula": "(!fb:media_common.quotation.author fb:m.06gj5j3)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:bicycles.bicycle_manufacturer.bicycle_models fb:en.raleigh_bicycle_company)", 
+    "utterance": "what bicycle models does raleigh manufacture", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NP (NP (NN bicycle)) (NP (NNS models)))) (SQ (VBZ does) (NP (NNP raleigh)) (VP (VB manufacture))) (. ?)))", 
+    "targetFormula": "(!fb:bicycles.bicycle_manufacturer.bicycle_models fb:en.raleigh_bicycle_company)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:media_common.adaptation.adapted_from fb:en.west_side_story)", 
+    "utterance": "what play was west side story adapted from", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN play)) (SQ (VBD was) (NP (NNP west) (NN side) (NN story)) (VP (VBN adapted) (PP (IN from)))) (. ?)))", 
+    "targetFormula": "(!fb:media_common.adaptation.adapted_from fb:en.west_side_story)"
+  }, 
+  {
+    "trg_tree": "(ID !fb:cricket.cricket_coach.current_team fb:en.alan_butcher)", 
+    "utterance": "what team does alan butcher coach", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WDT what) (NN team)) (SQ (VBZ does) (NP (NNP alan) (NNP butcher)) (VP (VB coach))) (. ?)))", 
+    "targetFormula": "(!fb:cricket.cricket_coach.current_team fb:en.alan_butcher)"
+  }, 
+  {
+    "trg_tree": "(COUNT (ID !fb:event.speech_or_presentation.presented_work (ID fb:event.speech_or_presentation.speech_topic fb:en.world_war_ii)))", 
+    "utterance": "how many speeches have been given about world war ii", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS speeches)) (SQ (VP (VBP have) (VP (VBN been) (VP (VBN given) (PP (IN about) (NP (NNP world) (NNP war) (NNP ii))))))) (. ?)))", 
+    "targetFormula": "(count (!fb:event.speech_or_presentation.presented_work ((lambda x (fb:event.speech_or_presentation.speech_topic (var x))) fb:en.world_war_ii)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:business.employment_tenure.person (ID fb:business.employment_tenure.title fb:en.news_presenter) (ID fb:business.employment_tenure.company fb:en.abc_news_washington_dc))", 
+    "utterance": "who is the newscaster on abc 6 news", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (NN newscaster)) (PP (IN on) (NP (NNP abc) (CD 6) (NN news))))) (. ?)))", 
+    "targetFormula": "(!fb:business.employment_tenure.person (and ((lambda x (fb:business.employment_tenure.title (var x))) fb:en.news_presenter) ((lambda x (fb:business.employment_tenure.company (var x))) fb:en.abc_news_washington_dc)))"
+  }, 
+  {
+    "trg_tree": "(ID !fb:tv.tv_regular_personal_appearance.person (ID fb:tv.tv_regular_personal_appearance.appearance_type fb:en.newscaster) (ID fb:tv.tv_regular_personal_appearance.program fb:en.cbs_evening_news))", 
+    "utterance": "who is the present newscaster on cbs evening news", 
+    "src_tree": "(ROOT (SBARQ (WHNP (WP who)) (SQ (VBZ is) (NP (NP (DT the) (JJ present) (NN newscaster)) (PP (IN on) (NP (NNP cbs) (NN evening) (NN news))))) (. ?)))", 
+    "targetFormula": "(!fb:tv.tv_regular_personal_appearance.person (and ((lambda x (fb:tv.tv_regular_personal_appearance.appearance_type (var x))) fb:en.newscaster) ((lambda x (fb:tv.tv_regular_personal_appearance.program (var x))) fb:en.cbs_evening_news)))"
+  }
+]

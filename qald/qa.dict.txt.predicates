@@ -1,0 +1,1978 @@
+symbol ||| fb:chemistry.chemical_element.symbol ||| 1.0
+symbol ||| !fb:chemistry.chemical_element.symbol ||| 1.0
+institutions ||| fb:education.academic_post.institution ||| 1.0
+institutions ||| !fb:education.academic_post.institution ||| 1.0
+fuel ||| fb:engineering.engine.energy_source ||| 1.0
+fuel ||| !fb:engineering.engine.energy_source ||| 1.0
+companies traded ||| fb:finance.stock_exchange.companies_traded ||| 1.0
+companies traded ||| !fb:finance.stock_exchange.companies_traded ||| 1.0
+address ||| fb:location.mailing_address.citytown ||| 1.0
+address ||| !fb:location.mailing_address.citytown ||| 1.0
+headquarters ||| fb:organization.organization.headquarters ||| 1.0
+headquarters ||| !fb:organization.organization.headquarters ||| 1.0
+price ||| fb:measurement_unit.money_value.amount ||| 1.0
+price ||| !fb:measurement_unit.money_value.amount ||| 1.0
+cover price ||| fb:comic_books.comic_book_issue.cover_price ||| 1.0
+cover price ||| !fb:comic_books.comic_book_issue.cover_price ||| 1.0
+often come out ||| fb:book.periodical_frequency.issues_per_year ||| 1.0
+often come out ||| !fb:book.periodical_frequency.issues_per_year ||| 1.0
+issue ||| fb:comic_books.comic_book_issue.issue_number ||| 1.0
+issue ||| !fb:comic_books.comic_book_issue.issue_number ||| 1.0
+people survived ||| fb:event.disaster.survivors ||| 1.0
+people survived ||| !fb:event.disaster.survivors ||| 1.0
+olympics participated in ||| fb:olympics.olympic_participating_country.olympics_participated_in ||| 1.0
+olympics participated in ||| !fb:olympics.olympic_participating_country.olympics_participated_in ||| 1.0
+celebrities ||| fb:celebrities.rehab.celebrity ||| 1.0
+celebrities ||| !fb:celebrities.rehab.celebrity ||| 1.0
+old have to be ||| fb:games.game.minimum_age_years ||| 1.0
+old have to be ||| !fb:games.game.minimum_age_years ||| 1.0
+particles ||| fb:physics.subatomic_particle_generation.particles ||| 1.0
+particles ||| !fb:physics.subatomic_particle_generation.particles ||| 1.0
+ratified ||| fb:law.constitutional_amendment.ratification_completed_on ||| 1.0
+ratified ||| !fb:law.constitutional_amendment.ratification_completed_on ||| 1.0
+teams ||| fb:sports.sports_league_participation.team ||| 1.0
+teams ||| !fb:sports.sports_league_participation.team ||| 1.0
+participate in ||| fb:sports.sports_league_participation.league ||| 1.0
+participate in ||| !fb:sports.sports_league_participation.league ||| 1.0
+die of ||| fb:people.deceased_person.cause_of_death ||| 1.0
+die of ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+how long ride ||| fb:amusement_parks.ride.duration ||| 1.0
+how long ride ||| !fb:amusement_parks.ride.duration ||| 1.0
+type of tea ||| fb:food.tea.tea_type ||| 1.0
+type of tea ||| !fb:food.tea.tea_type ||| 1.0
+highway system ||| fb:transportation.road.highway_system ||| 1.0
+highway system ||| !fb:transportation.road.highway_system ||| 1.0
+league ||| fb:soccer.football_league_participation.league ||| 1.0
+league ||| !fb:soccer.football_league_participation.league ||| 1.0
+cost ||| fb:digicams.digital_camera.street_price ||| 1.0
+cost ||| !fb:digicams.digital_camera.street_price ||| 1.0
+regions ||| fb:finance.stock_exchange.primary_regions ||| 1.0
+regions ||| !fb:finance.stock_exchange.primary_regions ||| 1.0
+people employ ||| fb:business.employer.employees ||| 1.0
+people employ ||| !fb:business.employer.employees ||| 1.0
+rank ||| fb:award.ranking.rank ||| 1.0
+rank ||| !fb:award.ranking.rank ||| 1.0
+ships designed ||| fb:boats.ship_designer.boats_designed ||| 1.0
+ships designed ||| !fb:boats.ship_designer.boats_designed ||| 1.0
+manages ||| fb:soccer.football_team_management_tenure.manager ||| 1.0
+manages ||| !fb:soccer.football_team_management_tenure.manager ||| 1.0
+first published ||| fb:book.written_work.date_of_first_publication ||| 1.0
+first published ||| !fb:book.written_work.date_of_first_publication ||| 1.0
+rock formations formed during period ||| fb:geology.geological_formation.formed_during_period ||| 1.0
+rock formations formed during period ||| !fb:geology.geological_formation.formed_during_period ||| 1.0
+manufacturing plants ||| fb:automotive.company.manufacturing_plants ||| 1.0
+manufacturing plants ||| !fb:automotive.company.manufacturing_plants ||| 1.0
+practitioners ||| fb:martial_arts.martial_art.well_known_practitioner ||| 1.0
+practitioners ||| !fb:martial_arts.martial_art.well_known_practitioner ||| 1.0
+average temperature ||| fb:travel.travel_destination_monthly_climate.average_max_temp_c ||| 1.0
+average temperature ||| !fb:travel.travel_destination_monthly_climate.average_max_temp_c ||| 1.0
+jurisdiction ||| fb:law.court.jurisdiction ||| 1.0
+jurisdiction ||| !fb:law.court.jurisdiction ||| 1.0
+last erupt ||| fb:geography.mountain.last_eruption ||| 1.0
+last erupt ||| !fb:geography.mountain.last_eruption ||| 1.0
+tall ||| fb:architecture.structure.height_meters ||| 1.0
+tall ||| !fb:architecture.structure.height_meters ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+stop running ||| fb:tv.tv_program.air_date_of_final_episode ||| 1.0
+stop running ||| !fb:tv.tv_program.air_date_of_final_episode ||| 1.0
+stop playing ||| fb:ice_hockey.hockey_previous_roster_position.to ||| 1.0
+stop playing ||| !fb:ice_hockey.hockey_previous_roster_position.to ||| 1.0
+hull made of ||| fb:boats.ship.hull_material ||| 1.0
+hull made of ||| !fb:boats.ship.hull_material ||| 1.0
+pet ||| fb:base.famouspets.pet_ownership.pet ||| 1.0
+pet ||| !fb:base.famouspets.pet_ownership.pet ||| 1.0
+own ||| fb:base.famouspets.pet_ownership.owner ||| 1.0
+own ||| !fb:base.famouspets.pet_ownership.owner ||| 1.0
+floors ||| fb:architecture.building.floors ||| 1.0
+floors ||| !fb:architecture.building.floors ||| 1.0
+comic book issue first appear ||| fb:comic_books.comic_book_character.first_appearance ||| 1.0
+comic book issue first appear ||| !fb:comic_books.comic_book_character.first_appearance ||| 1.0
+deities ||| fb:religion.religion.deities ||| 1.0
+deities ||| !fb:religion.religion.deities ||| 1.0
+designed ||| fb:computer.computer.key_designers ||| 1.0
+designed ||| !fb:computer.computer.key_designers ||| 1.0
+other names known by ||| fb:common.topic.alias ||| 1.0
+other names known by ||| !fb:common.topic.alias ||| 1.0
+other names ||| fb:common.topic.alias ||| 1.0
+other names ||| !fb:common.topic.alias ||| 1.0
+longitude ||| fb:location.geocode.longitude ||| 1.0
+longitude ||| !fb:location.geocode.longitude ||| 1.0
+visits per year ||| fb:amusement_parks.park.annual_visits ||| 1.0
+visits per year ||| !fb:amusement_parks.park.annual_visits ||| 1.0
+film performances ||| fb:film.performance.film ||| 1.0
+film performances ||| !fb:film.performance.film ||| 1.0
+manufactures ||| fb:bicycles.bicycle_model.manufacturer ||| 1.0
+manufactures ||| !fb:bicycles.bicycle_model.manufacturer ||| 1.0
+types of fuel ||| fb:automotive.engine.fuels_used ||| 1.0
+types of fuel ||| !fb:automotive.engine.fuels_used ||| 1.0
+events ||| fb:location.location.events ||| 1.0
+events ||| !fb:location.location.events ||| 1.0
+transmission ||| fb:automotive.trim_level.transmission ||| 1.0
+transmission ||| !fb:automotive.trim_level.transmission ||| 1.0
+net worth ||| fb:celebrities.celebrity.net_worth ||| 1.0
+net worth ||| !fb:celebrities.celebrity.net_worth ||| 1.0
+conferences sponsor ||| fb:conferences.conference_sponsor.conferences ||| 1.0
+conferences sponsor ||| !fb:conferences.conference_sponsor.conferences ||| 1.0
+orbital period ||| fb:astronomy.orbital_relationship.orbital_period ||| 1.0
+orbital period ||| !fb:astronomy.orbital_relationship.orbital_period ||| 1.0
+live ||| fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+live ||| !fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+wrote ||| fb:book.author.series_written_or_contributed_to ||| 1.0
+wrote ||| !fb:book.author.series_written_or_contributed_to ||| 1.0
+genre ||| fb:comic_strips.comic_strip.genre ||| 1.0
+genre ||| !fb:comic_strips.comic_strip.genre ||| 1.0
+religious order ||| fb:religion.monastery.religious_order ||| 1.0
+religious order ||| !fb:religion.monastery.religious_order ||| 1.0
+during time period form ||| fb:geology.geological_formation.formed_during_period ||| 1.0
+during time period form ||| !fb:geology.geological_formation.formed_during_period ||| 1.0
+type of clothing ||| fb:fashion.garment.specialization_of ||| 1.0
+type of clothing ||| !fb:fashion.garment.specialization_of ||| 1.0
+address ||| fb:library.public_library.address ||| 1.0
+address ||| !fb:library.public_library.address ||| 1.0
+genres ||| fb:film.film.genre ||| 1.0
+genres ||| !fb:film.film.genre ||| 1.0
+dinosaurs ||| fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+dinosaurs ||| !fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+head coach ||| fb:basketball.basketball_team.head_coach ||| 1.0
+head coach ||| !fb:basketball.basketball_team.head_coach ||| 1.0
+who ||| fb:cvg.game_performance.character ||| 1.0
+who ||| !fb:cvg.game_performance.character ||| 1.0
+motto ||| fb:royalty.order_of_chivalry.motto ||| 1.0
+motto ||| !fb:royalty.order_of_chivalry.motto ||| 1.0
+retail floor space ||| fb:business.shopping_center.retail_floor_space_m_2 ||| 1.0
+retail floor space ||| !fb:business.shopping_center.retail_floor_space_m_2 ||| 1.0
+who built ||| fb:boats.ship.ship_builder ||| 1.0
+who built ||| !fb:boats.ship.ship_builder ||| 1.0
+built ||| fb:boats.ship.ship_builder ||| 1.0
+built ||| !fb:boats.ship.ship_builder ||| 1.0
+where die ||| fb:people.deceased_person.place_of_death ||| 1.0
+where die ||| !fb:people.deceased_person.place_of_death ||| 1.0
+die ||| fb:people.deceased_person.place_of_death ||| 1.0
+die ||| !fb:people.deceased_person.place_of_death ||| 1.0
+owns ||| fb:internet.website.owner ||| 1.0
+owns ||| !fb:internet.website.owner ||| 1.0
+designed ||| fb:games.game.designer ||| 1.0
+designed ||| !fb:games.game.designer ||| 1.0
+medal ||| fb:olympics.olympic_medal_honor.medal ||| 1.0
+medal ||| !fb:olympics.olympic_medal_honor.medal ||| 1.0
+symbol ||| fb:finance.currency.prefix_symbol ||| 1.0
+symbol ||| !fb:finance.currency.prefix_symbol ||| 1.0
+topics equivalent ||| fb:freebase.type_profile.equivalent_topic ||| 1.0
+topics equivalent ||| !fb:freebase.type_profile.equivalent_topic ||| 1.0
+origin ||| fb:geography.river.origin ||| 1.0
+origin ||| !fb:geography.river.origin ||| 1.0
+celebrities ||| fb:celebrities.legal_entanglement.celebrity ||| 1.0
+celebrities ||| !fb:celebrities.legal_entanglement.celebrity ||| 1.0
+charged ||| fb:celebrities.legal_entanglement.offense ||| 1.0
+charged ||| !fb:celebrities.legal_entanglement.offense ||| 1.0
+expansion packs ||| fb:cvg.computer_videogame.expansions ||| 1.0
+expansion packs ||| !fb:cvg.computer_videogame.expansions ||| 1.0
+expansion ||| fb:cvg.computer_videogame.expansions ||| 1.0
+expansion ||| !fb:cvg.computer_videogame.expansions ||| 1.0
+religion ||| fb:people.person.religion ||| 1.0
+religion ||| !fb:people.person.religion ||| 1.0
+made of ||| fb:architecture.lighthouse.construction ||| 1.0
+made of ||| !fb:architecture.lighthouse.construction ||| 1.0
+subject ||| fb:radio.radio_program.subjects ||| 1.0
+subject ||| !fb:radio.radio_program.subjects ||| 1.0
+where born ||| fb:people.person.place_of_birth ||| 1.0
+where born ||| !fb:people.person.place_of_birth ||| 1.0
+born ||| fb:people.person.place_of_birth ||| 1.0
+born ||| !fb:people.person.place_of_birth ||| 1.0
+about ||| fb:law.legal_case.subject ||| 1.0
+about ||| !fb:law.legal_case.subject ||| 1.0
+position play ||| fb:ice_hockey.hockey_player.hockey_position ||| 1.0
+position play ||| !fb:ice_hockey.hockey_player.hockey_position ||| 1.0
+record labels ||| fb:music.artist.label ||| 1.0
+record labels ||| !fb:music.artist.label ||| 1.0
+award ||| fb:award.award_honor.award ||| 1.0
+award ||| !fb:award.award_honor.award ||| 1.0
+sizes ||| fb:food.beer_containment.size ||| 1.0
+sizes ||| !fb:food.beer_containment.size ||| 1.0
+starring tv roles ||| fb:tv.regular_tv_appearance.character ||| 1.0
+starring tv roles ||| !fb:tv.regular_tv_appearance.character ||| 1.0
+first flown ||| fb:aviation.aircraft_model.maiden_flight ||| 1.0
+first flown ||| !fb:aviation.aircraft_model.maiden_flight ||| 1.0
+release date ||| fb:film.film.initial_release_date ||| 1.0
+release date ||| !fb:film.film.initial_release_date ||| 1.0
+who founded ||| fb:organization.organization.founders ||| 1.0
+who founded ||| !fb:organization.organization.founders ||| 1.0
+founded ||| fb:organization.organization.founders ||| 1.0
+founded ||| !fb:organization.organization.founders ||| 1.0
+file formats supported ||| fb:computer.computing_platform.file_formats_supported ||| 1.0
+file formats supported ||| !fb:computer.computing_platform.file_formats_supported ||| 1.0
+located ||| fb:location.location.containedby ||| 1.0
+located ||| !fb:location.location.containedby ||| 1.0
+languages designed ||| fb:computer.programming_language_designer.languages_designed ||| 1.0
+languages designed ||| !fb:computer.programming_language_designer.languages_designed ||| 1.0
+works finish ||| fb:media_common.completion_of_unfinished_work.unfinished_work ||| 1.0
+works finish ||| !fb:media_common.completion_of_unfinished_work.unfinished_work ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+win ||| fb:award.award_honor.honored_for ||| 1.0
+win ||| !fb:award.award_honor.honored_for ||| 1.0
+propelled ||| fb:boats.ship.means_of_propulsion ||| 1.0
+propelled ||| !fb:boats.ship.means_of_propulsion ||| 1.0
+where held ||| fb:conferences.conference.venue ||| 1.0
+where held ||| !fb:conferences.conference.venue ||| 1.0
+held ||| fb:conferences.conference.venue ||| 1.0
+held ||| !fb:conferences.conference.venue ||| 1.0
+made out of ||| fb:fashion.textile.fiber ||| 1.0
+made out of ||| !fb:fashion.textile.fiber ||| 1.0
+who hosted ||| fb:cricket.cricket_tournament_event.host ||| 1.0
+who hosted ||| !fb:cricket.cricket_tournament_event.host ||| 1.0
+when die ||| fb:biology.deceased_organism.date_of_death ||| 1.0
+when die ||| !fb:biology.deceased_organism.date_of_death ||| 1.0
+die ||| fb:biology.deceased_organism.date_of_death ||| 1.0
+die ||| !fb:biology.deceased_organism.date_of_death ||| 1.0
+when launched ||| fb:spaceflight.satellite.launch_date ||| 1.0
+when launched ||| !fb:spaceflight.satellite.launch_date ||| 1.0
+launched ||| fb:spaceflight.satellite.launch_date ||| 1.0
+launched ||| !fb:spaceflight.satellite.launch_date ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+how many ||| fb:measurement_unit.integer_range.high_value ||| 1.0
+how many ||| !fb:measurement_unit.integer_range.high_value ||| 1.0
+people can play ||| fb:games.game.number_of_players ||| 1.0
+people can play ||| !fb:games.game.number_of_players ||| 1.0
+exhibitions ||| fb:exhibitions.exhibition_subject.exhibitions_created_about_this_subject ||| 1.0
+exhibitions ||| !fb:exhibitions.exhibition_subject.exhibitions_created_about_this_subject ||| 1.0
+buildings destroyed ||| fb:event.disaster.structures_destroyed ||| 1.0
+buildings destroyed ||| !fb:event.disaster.structures_destroyed ||| 1.0
+dinosaur species ||| fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+dinosaur species ||| !fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+when listed ||| fb:protected_sites.natural_or_cultural_site_listing.date_listed ||| 1.0
+when listed ||| !fb:protected_sites.natural_or_cultural_site_listing.date_listed ||| 1.0
+capacity ||| fb:engineering.piston_engine.capacity ||| 1.0
+capacity ||| !fb:engineering.piston_engine.capacity ||| 1.0
+side effects ||| fb:medicine.medical_treatment.side_effects ||| 1.0
+side effects ||| !fb:medicine.medical_treatment.side_effects ||| 1.0
+boiling point ||| fb:chemistry.chemical_compound.boiling_point ||| 1.0
+boiling point ||| !fb:chemistry.chemical_compound.boiling_point ||| 1.0
+screenplay by ||| fb:film.film.written_by ||| 1.0
+screenplay by ||| !fb:film.film.written_by ||| 1.0
+what rated ||| fb:film.film.rating ||| 1.0
+what rated ||| !fb:film.film.rating ||| 1.0
+rated ||| fb:film.film.rating ||| 1.0
+rated ||| !fb:film.film.rating ||| 1.0
+when go solo ||| fb:music.artist.active_start ||| 1.0
+when go solo ||| !fb:music.artist.active_start ||| 1.0
+go solo ||| fb:music.artist.active_start ||| 1.0
+go solo ||| !fb:music.artist.active_start ||| 1.0
+when die ||| fb:people.deceased_person.date_of_death ||| 1.0
+when die ||| !fb:people.deceased_person.date_of_death ||| 1.0
+die ||| fb:people.deceased_person.date_of_death ||| 1.0
+die ||| !fb:people.deceased_person.date_of_death ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+distributors ||| fb:film.film_film_distributor_relationship.distributor ||| 1.0
+distributors ||| !fb:film.film_film_distributor_relationship.distributor ||| 1.0
+when released ||| fb:film.film.initial_release_date ||| 1.0
+when released ||| !fb:film.film.initial_release_date ||| 1.0
+released ||| fb:film.film.initial_release_date ||| 1.0
+released ||| !fb:film.film.initial_release_date ||| 1.0
+budget ||| fb:film.film.estimated_budget ||| 1.0
+budget ||| !fb:film.film.estimated_budget ||| 1.0
+owns ||| fb:broadcast.radio_station.owner ||| 1.0
+owns ||| !fb:broadcast.radio_station.owner ||| 1.0
+architectural style ||| fb:architecture.architect.architectural_style ||| 1.0
+architectural style ||| !fb:architecture.architect.architectural_style ||| 1.0
+how many ||| fb:measurement_unit.dated_integer.number ||| 1.0
+how many ||| !fb:measurement_unit.dated_integer.number ||| 1.0
+beds ||| fb:medicine.hospital.beds ||| 1.0
+beds ||| !fb:medicine.hospital.beds ||| 1.0
+what are some ||| fb:boats.ship_class.ships_in_class ||| 1.0
+what are some ||| !fb:boats.ship_class.ships_in_class ||| 1.0
+maximum altitude ||| fb:meteorology.cloud.maximum_altitude_m ||| 1.0
+maximum altitude ||| !fb:meteorology.cloud.maximum_altitude_m ||| 1.0
+conferences about ||| fb:conferences.conference_subject.series_of_conferences_about_this ||| 1.0
+conferences about ||| !fb:conferences.conference_subject.series_of_conferences_about_this ||| 1.0
+diet ||| fb:base.dinosaur.dinosaur.diet ||| 1.0
+diet ||| !fb:base.dinosaur.dinosaur.diet ||| 1.0
+judge ||| fb:law.legal_case.judges ||| 1.0
+judge ||| !fb:law.legal_case.judges ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+city ||| fb:location.mailing_address.citytown ||| 1.0
+city ||| !fb:location.mailing_address.citytown ||| 1.0
+headquartered ||| fb:organization.organization.headquarters ||| 1.0
+headquartered ||| !fb:organization.organization.headquarters ||| 1.0
+highest elevation ||| fb:skiing.ski_area.top_elevation ||| 1.0
+highest elevation ||| !fb:skiing.ski_area.top_elevation ||| 1.0
+texture ||| fb:food.cheese.texture ||| 1.0
+texture ||| !fb:food.cheese.texture ||| 1.0
+schools mascot ||| fb:education.school_mascot.school ||| 1.0
+schools mascot ||| !fb:education.school_mascot.school ||| 1.0
+who created ||| fb:tv.tv_program.program_creator ||| 1.0
+who created ||| !fb:tv.tv_program.program_creator ||| 1.0
+film performances ||| fb:film.performance.film ||| 1.0
+film performances ||| !fb:film.performance.film ||| 1.0
+spin offs ||| fb:tv.tv_program.spin_offs ||| 1.0
+spin offs ||| !fb:tv.tv_program.spin_offs ||| 1.0
+diseases cause ||| fb:medicine.disease.causes ||| 1.0
+diseases cause ||| !fb:medicine.disease.causes ||| 1.0
+products ||| fb:business.brand.products ||| 1.0
+products ||| !fb:business.brand.products ||| 1.0
+who directed ||| fb:film.film.directed_by ||| 1.0
+who directed ||| !fb:film.film.directed_by ||| 1.0
+when born ||| fb:people.person.date_of_birth ||| 1.0
+when born ||| !fb:people.person.date_of_birth ||| 1.0
+restaurants ||| fb:dining.cuisine.restaurant ||| 1.0
+restaurants ||| !fb:dining.cuisine.restaurant ||| 1.0
+who publishes ||| fb:book.periodical_publisher_period.publisher ||| 1.0
+who publishes ||| !fb:book.periodical_publisher_period.publisher ||| 1.0
+network ||| fb:tv.tv_network_duration.network ||| 1.0
+network ||| !fb:tv.tv_network_duration.network ||| 1.0
+moons ||| fb:astronomy.orbital_relationship.orbited_by ||| 1.0
+moons ||| !fb:astronomy.orbital_relationship.orbited_by ||| 1.0
+exhibits ||| fb:zoos.zoo.exhibits ||| 1.0
+exhibits ||| !fb:zoos.zoo.exhibits ||| 1.0
+where found ||| fb:biology.fossil_specimen.found_at_site ||| 1.0
+where found ||| !fb:biology.fossil_specimen.found_at_site ||| 1.0
+radio program ||| fb:radio.radio_program_episode.program ||| 1.0
+radio program ||| !fb:radio.radio_program_episode.program ||| 1.0
+category of martial arts ||| fb:martial_arts.martial_art.category ||| 1.0
+category of martial arts ||| !fb:martial_arts.martial_art.category ||| 1.0
+religions worship ||| fb:religion.deity.deity_of ||| 1.0
+religions worship ||| !fb:religion.deity.deity_of ||| 1.0
+god ||| fb:religion.deity.deity_of ||| 1.0
+god ||| !fb:religion.deity.deity_of ||| 1.0
+subdisciplines ||| fb:education.field_of_study.subdisciplines ||| 1.0
+subdisciplines ||| !fb:education.field_of_study.subdisciplines ||| 1.0
+industry ||| fb:business.business_operation.industry ||| 1.0
+industry ||| !fb:business.business_operation.industry ||| 1.0
+countries use ||| fb:finance.currency.countries_used ||| 1.0
+countries use ||| !fb:finance.currency.countries_used ||| 1.0
+software developed ||| fb:computer.software_developer.software ||| 1.0
+software developed ||| !fb:computer.software_developer.software ||| 1.0
+bus operators ||| fb:travel.transportation.transport_operator ||| 1.0
+bus operators ||| !fb:travel.transportation.transport_operator ||| 1.0
+when first performed ||| fb:opera.opera.date_of_first_performance ||| 1.0
+when first performed ||| !fb:opera.opera.date_of_first_performance ||| 1.0
+people influenced ||| fb:influence.influence_node.influenced ||| 1.0
+people influenced ||| !fb:influence.influence_node.influenced ||| 1.0
+socrates ||| fb:influence.influence_node.influenced ||| 1.0
+socrates ||| !fb:influence.influence_node.influenced ||| 1.0
+how many runways ||| fb:aviation.airport.number_of_runways ||| 1.0
+how many runways ||| !fb:aviation.airport.number_of_runways ||| 1.0
+color ||| fb:chess.chess_game_participation.color ||| 1.0
+color ||| !fb:chess.chess_game_participation.color ||| 1.0
+when first published ||| fb:book.periodical.first_issue_date ||| 1.0
+when first published ||| !fb:book.periodical.first_issue_date ||| 1.0
+exhibitions been in ||| fb:exhibitions.exhibit.exhibitions_displayed_in ||| 1.0
+exhibitions been in ||| !fb:exhibitions.exhibit.exhibitions_displayed_in ||| 1.0
+look like ||| fb:meteorology.cloud.appearance ||| 1.0
+look like ||| !fb:meteorology.cloud.appearance ||| 1.0
+who played ||| fb:chess.chess_game_participation.player ||| 1.0
+who played ||| !fb:chess.chess_game_participation.player ||| 1.0
+how many countries ||| fb:olympics.olympic_games.number_of_countries ||| 1.0
+how many countries ||| !fb:olympics.olympic_games.number_of_countries ||| 1.0
+leading role ||| fb:tv.regular_tv_appearance.character ||| 1.0
+leading role ||| !fb:tv.regular_tv_appearance.character ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+won ||| fb:award.award_honor.honored_for ||| 1.0
+won ||| !fb:award.award_honor.honored_for ||| 1.0
+who designed ||| fb:automotive.generation.designer ||| 1.0
+who designed ||| !fb:automotive.generation.designer ||| 1.0
+set ||| fb:fictional_universe.work_of_fiction.setting ||| 1.0
+set ||| !fb:fictional_universe.work_of_fiction.setting ||| 1.0
+who discovered ||| fb:chemistry.chemical_element.discoverer ||| 1.0
+who discovered ||| !fb:chemistry.chemical_element.discoverer ||| 1.0
+what are some trains ||| fb:rail.locomotive_class.locomotives_of_this_class ||| 1.0
+what are some trains ||| !fb:rail.locomotive_class.locomotives_of_this_class ||| 1.0
+number ||| fb:american_football.football_historical_roster_position.number ||| 1.0
+number ||| !fb:american_football.football_historical_roster_position.number ||| 1.0
+shows was on ||| fb:tv.regular_tv_appearance.character ||| 1.0
+shows was on ||| !fb:tv.regular_tv_appearance.character ||| 1.0
+free exhibits ||| fb:exhibitions.exhibition_run.exhibition ||| 1.0
+free exhibits ||| !fb:exhibitions.exhibition_run.exhibition ||| 1.0
+how die ||| fb:people.deceased_person.cause_of_death ||| 1.0
+how die ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+type of infection ||| fb:medicine.infectious_disease.infectious_agent_type ||| 1.0
+type of infection ||| !fb:medicine.infectious_disease.infectious_agent_type ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+long ||| fb:tv.tv_program.episode_running_time ||| 1.0
+long ||| !fb:tv.tv_program.episode_running_time ||| 1.0
+who designed ||| fb:aviation.aircraft_model.designed_by ||| 1.0
+who designed ||| !fb:aviation.aircraft_model.designed_by ||| 1.0
+when founded ||| fb:law.court.founded ||| 1.0
+when founded ||| !fb:law.court.founded ||| 1.0
+who brews ||| fb:food.beer.brewery_brand ||| 1.0
+who brews ||| !fb:food.beer.brewery_brand ||| 1.0
+when ||| fb:award.award_honor.year ||| 1.0
+when ||| !fb:award.award_honor.year ||| 1.0
+win ||| fb:award.award_honor.honored_for ||| 1.0
+win ||| !fb:award.award_honor.honored_for ||| 1.0
+hub for ||| fb:aviation.airport.hub_for ||| 1.0
+hub for ||| !fb:aviation.airport.hub_for ||| 1.0
+notable figures ||| fb:religion.religion.notable_figures ||| 1.0
+notable figures ||| !fb:religion.religion.notable_figures ||| 1.0
+lines ||| fb:rail.railway_operator_relationship.railway ||| 1.0
+lines ||| !fb:rail.railway_operator_relationship.railway ||| 1.0
+judges ||| fb:law.judicial_tenure.judge ||| 1.0
+judges ||| !fb:law.judicial_tenure.judge ||| 1.0
+other names known by ||| fb:common.topic.alias ||| 1.0
+other names known by ||| !fb:common.topic.alias ||| 1.0
+where originate ||| fb:martial_arts.martial_art.origin ||| 1.0
+where originate ||| !fb:martial_arts.martial_art.origin ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+since when used ||| fb:language.language_writing_system.used_from ||| 1.0
+since when used ||| !fb:language.language_writing_system.used_from ||| 1.0
+long ||| fb:transportation.road.length ||| 1.0
+long ||| !fb:transportation.road.length ||| 1.0
+schools ||| fb:education.fraternity_sorority.colleges_and_universities ||| 1.0
+schools ||| !fb:education.fraternity_sorority.colleges_and_universities ||| 1.0
+astronauts ||| fb:spaceflight.space_mission.astronauts ||| 1.0
+astronauts ||| !fb:spaceflight.space_mission.astronauts ||| 1.0
+people influenced ||| fb:influence.influence_node.influenced_by ||| 1.0
+people influenced ||| !fb:influence.influence_node.influenced_by ||| 1.0
+digital cameras ||| fb:digicams.digital_camera_manufacturer.cameras ||| 1.0
+digital cameras ||| !fb:digicams.digital_camera_manufacturer.cameras ||| 1.0
+original language ||| fb:book.written_work.original_language ||| 1.0
+original language ||| !fb:book.written_work.original_language ||| 1.0
+money currency code ||| fb:finance.currency.currency_code ||| 1.0
+money currency code ||| !fb:finance.currency.currency_code ||| 1.0
+military units originated in ||| fb:military.military_unit_place_of_origin.military_units ||| 1.0
+military units originated in ||| !fb:military.military_unit_place_of_origin.military_units ||| 1.0
+people ||| fb:royalty.chivalric_order_position_tenure.officer ||| 1.0
+people ||| !fb:royalty.chivalric_order_position_tenure.officer ||| 1.0
+malls own ||| fb:business.shopping_center_owner.shopping_centers_owned ||| 1.0
+malls own ||| !fb:business.shopping_center_owner.shopping_centers_owned ||| 1.0
+qualification ||| fb:martial_arts.martial_arts_certification.qualification ||| 1.0
+qualification ||| !fb:martial_arts.martial_arts_certification.qualification ||| 1.0
+single letter abreviation ||| fb:biology.amino_acid.single_letter_abbreviation ||| 1.0
+single letter abreviation ||| !fb:biology.amino_acid.single_letter_abbreviation ||| 1.0
+where spoken ||| fb:language.language_family.geographic_distribution ||| 1.0
+where spoken ||| !fb:language.language_family.geographic_distribution ||| 1.0
+how many books ||| fb:library.public_library_system.collection_size ||| 1.0
+how many books ||| !fb:library.public_library_system.collection_size ||| 1.0
+kinds ||| fb:fashion.garment.more_specialized_forms ||| 1.0
+kinds ||| !fb:fashion.garment.more_specialized_forms ||| 1.0
+in park ||| fb:amusement_parks.park.rides ||| 1.0
+in park ||| !fb:amusement_parks.park.rides ||| 1.0
+religion ||| fb:people.person.religion ||| 1.0
+religion ||| !fb:people.person.religion ||| 1.0
+powers ||| fb:fictional_universe.fictional_character.powers_or_abilities ||| 1.0
+powers ||| !fb:fictional_universe.fictional_character.powers_or_abilities ||| 1.0
+wins ||| fb:basketball.basketball_coach.season_wins ||| 1.0
+wins ||| !fb:basketball.basketball_coach.season_wins ||| 1.0
+symptoms ||| fb:medicine.disease.symptoms ||| 1.0
+symptoms ||| !fb:medicine.disease.symptoms ||| 1.0
+final air date ||| fb:radio.radio_program.final_broadcast ||| 1.0
+final air date ||| !fb:radio.radio_program.final_broadcast ||| 1.0
+grammy awards ||| fb:award.award_honor.award ||| 1.0
+grammy awards ||| !fb:award.award_honor.award ||| 1.0
+language ||| fb:opera.opera.language ||| 1.0
+language ||| !fb:opera.opera.language ||| 1.0
+have on the cover ||| fb:comic_books.comic_book_character.cover_appearances ||| 1.0
+have on the cover ||| !fb:comic_books.comic_book_character.cover_appearances ||| 1.0
+number ||| fb:sports.sports_team_roster.number ||| 1.0
+number ||| !fb:sports.sports_team_roster.number ||| 1.0
+symptoms ||| fb:medicine.disease.symptoms ||| 1.0
+symptoms ||| !fb:medicine.disease.symptoms ||| 1.0
+who created ||| fb:fictional_universe.fictional_character.character_created_by ||| 1.0
+who created ||| !fb:fictional_universe.fictional_character.character_created_by ||| 1.0
+class of train ||| fb:rail.locomotive.locomotive_class ||| 1.0
+class of train ||| !fb:rail.locomotive.locomotive_class ||| 1.0
+type of bicycle ||| fb:bicycles.bicycle_model.bicycle_type ||| 1.0
+type of bicycle ||| !fb:bicycles.bicycle_model.bicycle_type ||| 1.0
+broadcasts distribute ||| fb:broadcast.distributor.distributes ||| 1.0
+broadcasts distribute ||| !fb:broadcast.distributor.distributes ||| 1.0
+label ||| fb:fashion.designer_label_association.label ||| 1.0
+label ||| !fb:fashion.designer_label_association.label ||| 1.0
+high ||| fb:geography.waterfall.height ||| 1.0
+high ||| !fb:geography.waterfall.height ||| 1.0
+who plays ||| fb:ice_hockey.hockey_roster_position.player ||| 1.0
+who plays ||| !fb:ice_hockey.hockey_roster_position.player ||| 1.0
+survival rates ||| fb:medicine.disease.survival_rates ||| 1.0
+survival rates ||| !fb:medicine.disease.survival_rates ||| 1.0
+award nominations ||| fb:award.award_nomination.award ||| 1.0
+award nominations ||| !fb:award.award_nomination.award ||| 1.0
+enter ||| fb:celebrities.rehab.entered ||| 1.0
+enter ||| !fb:celebrities.rehab.entered ||| 1.0
+rehab facility ||| fb:celebrities.rehab.rehab_facility ||| 1.0
+rehab facility ||| !fb:celebrities.rehab.rehab_facility ||| 1.0
+bowling technique ||| fb:cricket.cricket_bowler.technique ||| 1.0
+bowling technique ||| !fb:cricket.cricket_bowler.technique ||| 1.0
+focus ||| fb:internet.blog.focus ||| 1.0
+focus ||| !fb:internet.blog.focus ||| 1.0
+nicknames ||| fb:common.topic.alias ||| 1.0
+nicknames ||| !fb:common.topic.alias ||| 1.0
+division ||| fb:ice_hockey.hockey_team.division ||| 1.0
+division ||| !fb:ice_hockey.hockey_team.division ||| 1.0
+who managed ||| fb:soccer.football_team_management_tenure.manager ||| 1.0
+who managed ||| !fb:soccer.football_team_management_tenure.manager ||| 1.0
+height restriction ||| fb:amusement_parks.ride.height_restriction ||| 1.0
+height restriction ||| !fb:amusement_parks.ride.height_restriction ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+games ||| fb:american_football.player_game_statistics.games ||| 1.0
+games ||| !fb:american_football.player_game_statistics.games ||| 1.0
+how many issues are there ||| fb:comic_books.comic_book_series.number_of_issues ||| 1.0
+how many issues are there ||| !fb:comic_books.comic_book_series.number_of_issues ||| 1.0
+countries used ||| fb:finance.currency.countries_used ||| 1.0
+countries used ||| !fb:finance.currency.countries_used ||| 1.0
+rank ||| fb:award.ranking.rank ||| 1.0
+rank ||| !fb:award.ranking.rank ||| 1.0
+2010 ||| fb:award.ranking.year ||| 1.0
+2010 ||| !fb:award.ranking.year ||| 1.0
+people ||| fb:soccer.football_match.attendance ||| 1.0
+people ||| !fb:soccer.football_match.attendance ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+islands in ||| fb:geography.island_group.islands_in_group ||| 1.0
+islands in ||| !fb:geography.island_group.islands_in_group ||| 1.0
+closet city ||| fb:skiing.ski_area.closest_city ||| 1.0
+closet city ||| !fb:skiing.ski_area.closest_city ||| 1.0
+tall ||| fb:people.person.height_meters ||| 1.0
+tall ||| !fb:people.person.height_meters ||| 1.0
+how many cards ||| fb:games.playing_card_game.number_of_cards ||| 1.0
+how many cards ||| !fb:games.playing_card_game.number_of_cards ||| 1.0
+games in series ||| fb:cvg.game_series.games_in_series ||| 1.0
+games in series ||| !fb:cvg.game_series.games_in_series ||| 1.0
+nicknames ||| fb:common.topic.alias ||| 1.0
+nicknames ||| !fb:common.topic.alias ||| 1.0
+highway fuel economy ||| fb:automotive.us_fuel_economy.highway_mpg ||| 1.0
+highway fuel economy ||| !fb:automotive.us_fuel_economy.highway_mpg ||| 1.0
+developer ||| fb:computer.programming_language.developers ||| 1.0
+developer ||| !fb:computer.programming_language.developers ||| 1.0
+speeds ||| fb:bicycles.bicycle_model.speeds ||| 1.0
+speeds ||| !fb:bicycles.bicycle_model.speeds ||| 1.0
+when ||| fb:award.hall_of_fame_induction.date ||| 1.0
+when ||| !fb:award.hall_of_fame_induction.date ||| 1.0
+where born ||| fb:people.person.place_of_birth ||| 1.0
+where born ||| !fb:people.person.place_of_birth ||| 1.0
+dimensions ||| fb:common.image.size ||| 1.0
+dimensions ||| !fb:common.image.size ||| 1.0
+test conferences refereed ||| fb:cricket.cricket_umpire.test_matches_refereed ||| 1.0
+test conferences refereed ||| !fb:cricket.cricket_umpire.test_matches_refereed ||| 1.0
+branched from ||| fb:religion.religion.branched_into ||| 1.0
+branched from ||| !fb:religion.religion.branched_into ||| 1.0
+area serve ||| fb:broadcast.radio_station.serves_area ||| 1.0
+area serve ||| !fb:broadcast.radio_station.serves_area ||| 1.0
+who developed ||| fb:medicine.vaccine.developed_by ||| 1.0
+who developed ||| !fb:medicine.vaccine.developed_by ||| 1.0
+who painted ||| fb:visual_art.artwork.artist ||| 1.0
+who painted ||| !fb:visual_art.artwork.artist ||| 1.0
+collections ||| fb:interests.collection.category ||| 1.0
+collections ||| !fb:interests.collection.category ||| 1.0
+who writes ||| fb:internet.blog.blogger ||| 1.0
+who writes ||| !fb:internet.blog.blogger ||| 1.0
+conventions spoken at ||| fb:base.politicalconventions.convention_speech.venue ||| 1.0
+conventions spoken at ||| !fb:base.politicalconventions.convention_speech.venue ||| 1.0
+architects ||| fb:architecture.architectural_style.architects ||| 1.0
+architects ||| !fb:architecture.architectural_style.architects ||| 1.0
+teams coached ||| fb:american_football.football_historical_coach_position.team ||| 1.0
+teams coached ||| !fb:american_football.football_historical_coach_position.team ||| 1.0
+branches ||| fb:library.public_library_system.branches ||| 1.0
+branches ||| !fb:library.public_library_system.branches ||| 1.0
+city ||| fb:library.public_library.address ||| 1.0
+city ||| !fb:library.public_library.address ||| 1.0
+guidebooks ||| fb:travel.travel_destination.guidebooks ||| 1.0
+guidebooks ||| !fb:travel.travel_destination.guidebooks ||| 1.0
+journals ||| fb:education.field_of_study.journals_in_this_discipline ||| 1.0
+journals ||| !fb:education.field_of_study.journals_in_this_discipline ||| 1.0
+where launched ||| fb:spaceflight.satellite.launch_site ||| 1.0
+where launched ||| !fb:spaceflight.satellite.launch_site ||| 1.0
+how many on freebase ||| fb:freebase.type_profile.instance_count ||| 1.0
+how many on freebase ||| !fb:freebase.type_profile.instance_count ||| 1.0
+when first air ||| fb:radio.radio_program.first_broadcast ||| 1.0
+when first air ||| !fb:radio.radio_program.first_broadcast ||| 1.0
+genres ||| fb:film.film.genre ||| 1.0
+genres ||| !fb:film.film.genre ||| 1.0
+max speed ||| fb:aviation.aircraft_model.maximum_speed_km_h ||| 1.0
+max speed ||| !fb:aviation.aircraft_model.maximum_speed_km_h ||| 1.0
+position ||| fb:ice_hockey.hockey_roster_position.position ||| 1.0
+position ||| !fb:ice_hockey.hockey_roster_position.position ||| 1.0
+countries ||| fb:organization.organization_membership.member ||| 1.0
+countries ||| !fb:organization.organization_membership.member ||| 1.0
+first released ||| fb:cvg.computer_videogame.release_date ||| 1.0
+first released ||| !fb:cvg.computer_videogame.release_date ||| 1.0
+network first aired ||| fb:tv.tv_network_duration.network ||| 1.0
+network first aired ||| !fb:tv.tv_network_duration.network ||| 1.0
+series write ||| fb:book.author.series_written_or_contributed_to ||| 1.0
+series write ||| !fb:book.author.series_written_or_contributed_to ||| 1.0
+who presented ||| fb:event.speech_or_presentation.speaker_s ||| 1.0
+who presented ||| !fb:event.speech_or_presentation.speaker_s ||| 1.0
+mascot ||| fb:sports.sports_team.team_mascot ||| 1.0
+mascot ||| !fb:sports.sports_team.team_mascot ||| 1.0
+when ||| fb:martial_arts.martial_arts_certification.date ||| 1.0
+when ||| !fb:martial_arts.martial_arts_certification.date ||| 1.0
+cathy landers ||| fb:martial_arts.martial_arts_certification.person ||| 1.0
+cathy landers ||| !fb:martial_arts.martial_arts_certification.person ||| 1.0
+how many on freebase ||| fb:freebase.type_profile.instance_count ||| 1.0
+how many on freebase ||| !fb:freebase.type_profile.instance_count ||| 1.0
+who major sponsors ||| fb:business.sponsorship.sponsored_recipient ||| 1.0
+who major sponsors ||| !fb:business.sponsorship.sponsored_recipient ||| 1.0
+major sponsors ||| fb:business.sponsorship.sponsored_by ||| 1.0
+major sponsors ||| !fb:business.sponsorship.sponsored_by ||| 1.0
+fuel economy in the city ||| fb:automotive.us_fuel_economy.highway_mpg ||| 1.0
+fuel economy in the city ||| !fb:automotive.us_fuel_economy.highway_mpg ||| 1.0
+where produced ||| fb:broadcast.content.location ||| 1.0
+where produced ||| !fb:broadcast.content.location ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+positon ||| fb:american_football.football_historical_roster_position.position_s ||| 1.0
+positon ||| !fb:american_football.football_historical_roster_position.position_s ||| 1.0
+to whom dedicated ||| fb:media_common.dedication.dedicated_to ||| 1.0
+to whom dedicated ||| !fb:media_common.dedication.dedicated_to ||| 1.0
+how transmitted ||| fb:medicine.infectious_disease.transmission ||| 1.0
+how transmitted ||| !fb:medicine.infectious_disease.transmission ||| 1.0
+characters ||| fb:opera.opera_character_voice.character ||| 1.0
+characters ||| !fb:opera.opera_character_voice.character ||| 1.0
+team coach ||| fb:basketball.basketball_historical_coach_position.team ||| 1.0
+team coach ||| !fb:basketball.basketball_historical_coach_position.team ||| 1.0
+2002 ||| fb:basketball.basketball_historical_coach_position.from ||| 1.0
+2002 ||| !fb:basketball.basketball_historical_coach_position.from ||| 1.0
+dialects ||| fb:language.human_language.dialects ||| 1.0
+dialects ||| !fb:language.human_language.dialects ||| 1.0
+when open ||| fb:amusement_parks.ride.opened ||| 1.0
+when open ||| !fb:amusement_parks.ride.opened ||| 1.0
+melting point ||| fb:chemistry.chemical_element.melting_point ||| 1.0
+melting point ||| !fb:chemistry.chemical_element.melting_point ||| 1.0
+made of ||| fb:visual_art.artwork.media ||| 1.0
+made of ||| !fb:visual_art.artwork.media ||| 1.0
+who play ||| fb:tv.regular_tv_appearance.character ||| 1.0
+who play ||| !fb:tv.regular_tv_appearance.character ||| 1.0
+cars ||| fb:interests.collection.items ||| 1.0
+cars ||| !fb:interests.collection.items ||| 1.0
+when open ||| fb:skiing.ski_area.opening_date ||| 1.0
+when open ||| !fb:skiing.ski_area.opening_date ||| 1.0
+series adapted from ||| fb:media_common.adaptation.adapted_from ||| 1.0
+series adapted from ||| !fb:media_common.adaptation.adapted_from ||| 1.0
+about ||| fb:exhibitions.exhibition.subjects ||| 1.0
+about ||| !fb:exhibitions.exhibition.subjects ||| 1.0
+legal offences committed ||| fb:celebrities.legal_entanglement.location ||| 1.0
+legal offences committed ||| !fb:celebrities.legal_entanglement.location ||| 1.0
+people visit annually ||| fb:measurement_unit.dated_integer.number ||| 1.0
+people visit annually ||| !fb:measurement_unit.dated_integer.number ||| 1.0
+visit annually ||| fb:library.public_library_system.annual_visits ||| 1.0
+visit annually ||| !fb:library.public_library_system.annual_visits ||| 1.0
+comic stories colored ||| fb:comic_books.comic_book_colorist.comic_stories_colored ||| 1.0
+comic stories colored ||| !fb:comic_books.comic_book_colorist.comic_stories_colored ||| 1.0
+games ||| fb:chess.chess_game_participation.game ||| 1.0
+games ||| !fb:chess.chess_game_participation.game ||| 1.0
+games won ||| fb:chess.chess_game_participation.outcome ||| 1.0
+games won ||| !fb:chess.chess_game_participation.outcome ||| 1.0
+tall to be to ride ||| fb:amusement_parks.ride.height_restriction ||| 1.0
+tall to be to ride ||| !fb:amusement_parks.ride.height_restriction ||| 1.0
+head coach ||| fb:american_football.football_team.current_head_coach ||| 1.0
+head coach ||| !fb:american_football.football_team.current_head_coach ||| 1.0
+conditions does treat ||| fb:medicine.medical_treatment.used_to_treat ||| 1.0
+conditions does treat ||| !fb:medicine.medical_treatment.used_to_treat ||| 1.0
+team ||| fb:ice_hockey.hockey_roster_position.team ||| 1.0
+team ||| !fb:ice_hockey.hockey_roster_position.team ||| 1.0
+team play ||| fb:ice_hockey.hockey_roster_position.player ||| 1.0
+team play ||| !fb:ice_hockey.hockey_roster_position.player ||| 1.0
+tv shows ||| fb:tv.regular_tv_appearance.series ||| 1.0
+tv shows ||| !fb:tv.regular_tv_appearance.series ||| 1.0
+ships built ||| fb:boats.ship_builder.ships_built ||| 1.0
+ships built ||| !fb:boats.ship_builder.ships_built ||| 1.0
+nominated for award ||| fb:award.award_nomination.award ||| 1.0
+nominated for award ||| !fb:award.award_nomination.award ||| 1.0
+character says ||| fb:media_common.quotation.spoken_by_character ||| 1.0
+character says ||| !fb:media_common.quotation.spoken_by_character ||| 1.0
+sexual orientation ||| fb:celebrities.sexual_orientation_phase.sexual_orientation ||| 1.0
+sexual orientation ||| !fb:celebrities.sexual_orientation_phase.sexual_orientation ||| 1.0
+engines ||| fb:engineering.piston_configuration.engines ||| 1.0
+engines ||| !fb:engineering.piston_configuration.engines ||| 1.0
+players ||| fb:soccer.football_goal.scorer ||| 1.0
+players ||| !fb:soccer.football_goal.scorer ||| 1.0
+athletes ||| fb:olympics.olympic_medal_honor.medalist ||| 1.0
+athletes ||| !fb:olympics.olympic_medal_honor.medalist ||| 1.0
+olympic gold medal ||| fb:olympics.olympic_medal_honor.medal ||| 1.0
+olympic gold medal ||| !fb:olympics.olympic_medal_honor.medal ||| 1.0
+nominated for ||| fb:award.award_nomination.nominated_for ||| 1.0
+nominated for ||| !fb:award.award_nomination.nominated_for ||| 1.0
+lived in ||| fb:architecture.occupancy.occupant ||| 1.0
+lived in ||| !fb:architecture.occupancy.occupant ||| 1.0
+lodges in ski area ||| fb:skiing.ski_area.lodges ||| 1.0
+lodges in ski area ||| !fb:skiing.ski_area.lodges ||| 1.0
+orientation sensor ||| fb:digicams.digital_camera.orientation_sensor ||| 1.0
+orientation sensor ||| !fb:digicams.digital_camera.orientation_sensor ||| 1.0
+runtime ||| fb:film.film_cut.runtime ||| 1.0
+runtime ||| !fb:film.film_cut.runtime ||| 1.0
+team coach ||| fb:basketball.basketball_coach.team ||| 1.0
+team coach ||| !fb:basketball.basketball_coach.team ||| 1.0
+currently manage ||| fb:baseball.baseball_manager.current_team_managed ||| 1.0
+currently manage ||| !fb:baseball.baseball_manager.current_team_managed ||| 1.0
+when ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+commanders ||| fb:military.military_command.military_commander ||| 1.0
+commanders ||| !fb:military.military_command.military_commander ||| 1.0
+start working ||| fb:projects.project_participation.from_date ||| 1.0
+start working ||| !fb:projects.project_participation.from_date ||| 1.0
+start designing ||| fb:fashion.designer_label_association.from_date ||| 1.0
+start designing ||| !fb:fashion.designer_label_association.from_date ||| 1.0
+directed ||| fb:film.film.directed_by ||| 1.0
+directed ||| !fb:film.film.directed_by ||| 1.0
+languages created ||| fb:language.language_creator.languages_created ||| 1.0
+languages created ||| !fb:language.language_creator.languages_created ||| 1.0
+telescopes ||| fb:astronomy.astronomical_observatory.telescope_s ||| 1.0
+telescopes ||| !fb:astronomy.astronomical_observatory.telescope_s ||| 1.0
+long ||| fb:rail.railway.length ||| 1.0
+long ||| !fb:rail.railway.length ||| 1.0
+music ||| fb:film.film.music ||| 1.0
+music ||| !fb:film.film.music ||| 1.0
+episodes ||| fb:tv.tv_program.episodes ||| 1.0
+episodes ||| !fb:tv.tv_program.episodes ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+seasons ||| fb:tv.tv_program.seasons ||| 1.0
+seasons ||| !fb:tv.tv_program.seasons ||| 1.0
+who created ||| fb:comic_books.comic_book_character.created_by ||| 1.0
+who created ||| !fb:comic_books.comic_book_character.created_by ||| 1.0
+runtime ||| fb:film.film_cut.runtime ||| 1.0
+runtime ||| !fb:film.film_cut.runtime ||| 1.0
+casting director ||| fb:film.film.film_casting_director ||| 1.0
+casting director ||| !fb:film.film.film_casting_director ||| 1.0
+generations ||| fb:business.consumer_product.product_line ||| 1.0
+generations ||| !fb:business.consumer_product.product_line ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+awards win ||| fb:award.award_honor.award_winner ||| 1.0
+awards win ||| !fb:award.award_honor.award_winner ||| 1.0
+since ||| fb:location.location_symbol_relationship.date_adopted ||| 1.0
+since ||| !fb:location.location_symbol_relationship.date_adopted ||| 1.0
+known as ||| fb:common.topic.alias ||| 1.0
+known as ||| !fb:common.topic.alias ||| 1.0
+opened ||| fb:amusement_parks.park.opened ||| 1.0
+opened ||| !fb:amusement_parks.park.opened ||| 1.0
+people worked ||| fb:projects.project_participation.participant ||| 1.0
+people worked ||| !fb:projects.project_participation.participant ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+cost ||| fb:measurement_unit.money_value.amount ||| 1.0
+cost ||| !fb:measurement_unit.money_value.amount ||| 1.0
+damages ||| fb:event.disaster.damage ||| 1.0
+damages ||| !fb:event.disaster.damage ||| 1.0
+newspapers ||| fb:education.educational_institution.newspaper ||| 1.0
+newspapers ||| !fb:education.educational_institution.newspaper ||| 1.0
+schools are in the school district ||| fb:education.school_district.schools ||| 1.0
+schools are in the school district ||| !fb:education.school_district.schools ||| 1.0
+rehab facilities ||| fb:celebrities.rehab.rehab_facility ||| 1.0
+rehab facilities ||| !fb:celebrities.rehab.rehab_facility ||| 1.0
+award winners ||| fb:award.award_honor.award_winner ||| 1.0
+award winners ||| !fb:award.award_honor.award_winner ||| 1.0
+games ||| fb:cvg.cvg_platform.games_on_this_platform ||| 1.0
+games ||| !fb:cvg.cvg_platform.games_on_this_platform ||| 1.0
+invented ||| fb:law.invention.inventor ||| 1.0
+invented ||| !fb:law.invention.inventor ||| 1.0
+exhibited ||| fb:exhibitions.exhibition_run.exhibition ||| 1.0
+exhibited ||| !fb:exhibitions.exhibition_run.exhibition ||| 1.0
+stadium phillies ||| fb:sports.sports_team.arena_stadium ||| 1.0
+stadium phillies ||| !fb:sports.sports_team.arena_stadium ||| 1.0
+director ||| fb:film.film.directed_by ||| 1.0
+director ||| !fb:film.film.directed_by ||| 1.0
+spin ||| fb:physics.particle.spin ||| 1.0
+spin ||| !fb:physics.particle.spin ||| 1.0
+brands ||| fb:business.company_brand_relationship.brand ||| 1.0
+brands ||| !fb:business.company_brand_relationship.brand ||| 1.0
+22nd president ||| fb:government.us_president.presidency_number ||| 1.0
+22nd president ||| !fb:government.us_president.presidency_number ||| 1.0
+genre ||| fb:media_common.literary_genre.books_in_this_genre ||| 1.0
+genre ||| !fb:media_common.literary_genre.books_in_this_genre ||| 1.0
+dry mass ||| fb:spaceflight.satellite.dry_mass_kg ||| 1.0
+dry mass ||| !fb:spaceflight.satellite.dry_mass_kg ||| 1.0
+particles ||| fb:physics.particle_family.particles ||| 1.0
+particles ||| !fb:physics.particle_family.particles ||| 1.0
+category ||| fb:freebase.domain_profile.category ||| 1.0
+category ||| !fb:freebase.domain_profile.category ||| 1.0
+rock ||| fb:geology.geological_formation.type_of_rock ||| 1.0
+rock ||| !fb:geology.geological_formation.type_of_rock ||| 1.0
+processor ||| fb:computer.computer.processor ||| 1.0
+processor ||| !fb:computer.computer.processor ||| 1.0
+birthday ||| fb:people.person.date_of_birth ||| 1.0
+birthday ||| !fb:people.person.date_of_birth ||| 1.0
+language ||| fb:internet.blog.language ||| 1.0
+language ||| !fb:internet.blog.language ||| 1.0
+produced ||| fb:tv.tv_producer_episode_credit.producer ||| 1.0
+produced ||| !fb:tv.tv_producer_episode_credit.producer ||| 1.0
+manufactured ||| fb:spaceflight.spacecraft.manufacturer ||| 1.0
+manufactured ||| !fb:spaceflight.spacecraft.manufacturer ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+areas affected ||| fb:meteorology.tropical_cyclone.affected_areas ||| 1.0
+areas affected ||| !fb:meteorology.tropical_cyclone.affected_areas ||| 1.0
+first broadcast ||| fb:radio.radio_program.first_broadcast ||| 1.0
+first broadcast ||| !fb:radio.radio_program.first_broadcast ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+languages ||| fb:language.language_writing_system.languages ||| 1.0
+languages ||| !fb:language.language_writing_system.languages ||| 1.0
+tall ||| fb:geography.mountain.elevation ||| 1.0
+tall ||| !fb:geography.mountain.elevation ||| 1.0
+hosts ||| fb:broadcast.content.artist ||| 1.0
+hosts ||| !fb:broadcast.content.artist ||| 1.0
+buried ||| fb:people.deceased_person.place_of_burial ||| 1.0
+buried ||| !fb:people.deceased_person.place_of_burial ||| 1.0
+manufactures ||| fb:aviation.aircraft_model.manufacturer ||| 1.0
+manufactures ||| !fb:aviation.aircraft_model.manufacturer ||| 1.0
+award present ||| fb:award.award_presenting_organization.awards_presented ||| 1.0
+award present ||| !fb:award.award_presenting_organization.awards_presented ||| 1.0
+orders found ||| fb:royalty.chivalric_order_founder.orders_founded ||| 1.0
+orders found ||| !fb:royalty.chivalric_order_founder.orders_founded ||| 1.0
+role ||| fb:projects.project_participation.role ||| 1.0
+role ||| !fb:projects.project_participation.role ||| 1.0
+project ||| fb:projects.project_participation.project ||| 1.0
+project ||| !fb:projects.project_participation.project ||| 1.0
+players ||| fb:baseball.baseball_roster_position.player ||| 1.0
+players ||| !fb:baseball.baseball_roster_position.player ||| 1.0
+found ||| fb:religion.founding_figure.religion_founded ||| 1.0
+found ||| !fb:religion.founding_figure.religion_founded ||| 1.0
+born ||| fb:fictional_universe.fictional_setting.fictional_characters_born_here ||| 1.0
+born ||| !fb:fictional_universe.fictional_setting.fictional_characters_born_here ||| 1.0
+much ||| fb:food.nutrition_fact.quantity ||| 1.0
+much ||| !fb:food.nutrition_fact.quantity ||| 1.0
+movie released ||| fb:film.film.initial_release_date ||| 1.0
+movie released ||| !fb:film.film.initial_release_date ||| 1.0
+released ||| fb:film.film.initial_release_date ||| 1.0
+released ||| !fb:film.film.initial_release_date ||| 1.0
+city hosted ||| fb:olympics.olympic_games.host_city ||| 1.0
+city hosted ||| !fb:olympics.olympic_games.host_city ||| 1.0
+many ||| fb:freebase.type_profile.instance_count ||| 1.0
+many ||| !fb:freebase.type_profile.instance_count ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+countries use ||| fb:finance.currency.countries_used ||| 1.0
+countries use ||| !fb:finance.currency.countries_used ||| 1.0
+colors ||| fb:education.educational_institution.colors ||| 1.0
+colors ||| !fb:education.educational_institution.colors ||| 1.0
+instrument play ||| fb:music.group_member.instruments_played ||| 1.0
+instrument play ||| !fb:music.group_member.instruments_played ||| 1.0
+practices ||| fb:religion.religion.practices ||| 1.0
+practices ||| !fb:religion.religion.practices ||| 1.0
+people blog ||| fb:internet.blog.blogger ||| 1.0
+people blog ||| !fb:internet.blog.blogger ||| 1.0
+industries ||| fb:business.business_operation.industry ||| 1.0
+industries ||| !fb:business.business_operation.industry ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+line stop ||| fb:metropolitan_transit.transit_line.stops ||| 1.0
+line stop ||| !fb:metropolitan_transit.transit_line.stops ||| 1.0
+subclasses ||| fb:physics.particle_family.subclasses ||| 1.0
+subclasses ||| !fb:physics.particle_family.subclasses ||| 1.0
+long ||| fb:transportation.bridge.total_length ||| 1.0
+long ||| !fb:transportation.bridge.total_length ||| 1.0
+boats ||| fb:boats.ship_ownership.ship ||| 1.0
+boats ||| !fb:boats.ship_ownership.ship ||| 1.0
+own ||| fb:boats.ship_ownership.owner ||| 1.0
+own ||| !fb:boats.ship_ownership.owner ||| 1.0
+born ||| fb:fictional_universe.fictional_character.place_of_birth ||| 1.0
+born ||| !fb:fictional_universe.fictional_character.place_of_birth ||| 1.0
+story by ||| fb:film.film.written_by ||| 1.0
+story by ||| !fb:film.film.written_by ||| 1.0
+project about ||| fb:projects.project.project_focus ||| 1.0
+project about ||| !fb:projects.project.project_focus ||| 1.0
+party ||| fb:government.political_party_tenure.party ||| 1.0
+party ||| !fb:government.political_party_tenure.party ||| 1.0
+capacity ||| fb:measurement_unit.integer_range.high_value ||| 1.0
+capacity ||| !fb:measurement_unit.integer_range.high_value ||| 1.0
+passenger capacity ||| fb:aviation.aircraft_model.passengers ||| 1.0
+passenger capacity ||| !fb:aviation.aircraft_model.passengers ||| 1.0
+corporation founded ||| fb:organization.organization.date_founded ||| 1.0
+corporation founded ||| !fb:organization.organization.date_founded ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+who gold medal ||| fb:olympics.olympic_medal_honor.medalist ||| 1.0
+who gold medal ||| !fb:olympics.olympic_medal_honor.medalist ||| 1.0
+year ||| fb:award.award_honor.year ||| 1.0
+year ||| !fb:award.award_honor.year ||| 1.0
+dinosaur ||| fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+dinosaur ||| !fb:base.dinosaur.dinosaur_location.dinosaur_s ||| 1.0
+parent disease ||| fb:medicine.disease.parent_disease ||| 1.0
+parent disease ||| !fb:medicine.disease.parent_disease ||| 1.0
+who directed ||| fb:film.film.directed_by ||| 1.0
+who directed ||| !fb:film.film.directed_by ||| 1.0
+directed ||| fb:film.film.directed_by ||| 1.0
+directed ||| !fb:film.film.directed_by ||| 1.0
+team ||| fb:soccer.football_roster_position.team ||| 1.0
+team ||| !fb:soccer.football_roster_position.team ||| 1.0
+play for ||| fb:soccer.football_roster_position.player ||| 1.0
+play for ||| !fb:soccer.football_roster_position.player ||| 1.0
+play ||| fb:soccer.football_roster_position.player ||| 1.0
+play ||| !fb:soccer.football_roster_position.player ||| 1.0
+military conflicts ||| fb:military.military_command.military_conflict ||| 1.0
+military conflicts ||| !fb:military.military_command.military_conflict ||| 1.0
+military command ||| fb:military.military_command.military_commander ||| 1.0
+military command ||| !fb:military.military_command.military_commander ||| 1.0
+structures design ||| fb:architecture.architect.structures_designed ||| 1.0
+structures design ||| !fb:architecture.architect.structures_designed ||| 1.0
+time zone ||| fb:location.location.time_zones ||| 1.0
+time zone ||| !fb:location.location.time_zones ||| 1.0
+main cast members ||| fb:tv.regular_tv_appearance.actor ||| 1.0
+main cast members ||| !fb:tv.regular_tv_appearance.actor ||| 1.0
+cast members ||| fb:tv.regular_tv_appearance.actor ||| 1.0
+cast members ||| !fb:tv.regular_tv_appearance.actor ||| 1.0
+cast ||| fb:tv.regular_tv_appearance.actor ||| 1.0
+cast ||| !fb:tv.regular_tv_appearance.actor ||| 1.0
+characters ||| fb:book.book.characters ||| 1.0
+characters ||| !fb:book.book.characters ||| 1.0
+students ||| fb:martial_arts.martial_artist.martial_arts_students ||| 1.0
+students ||| !fb:martial_arts.martial_artist.martial_arts_students ||| 1.0
+how tall ||| fb:biology.organism.height_meters ||| 1.0
+how tall ||| !fb:biology.organism.height_meters ||| 1.0
+tall ||| fb:biology.organism.height_meters ||| 1.0
+tall ||| !fb:biology.organism.height_meters ||| 1.0
+muhammad ali ||| fb:boxing.match_boxer_relationship.boxer ||| 1.0
+muhammad ali ||| !fb:boxing.match_boxer_relationship.boxer ||| 1.0
+joe frazier ii ||| fb:boxing.match_boxer_relationship.boxer ||| 1.0
+joe frazier ii ||| !fb:boxing.match_boxer_relationship.boxer ||| 1.0
+won ||| fb:boxing.match_boxer_relationship.winner_won ||| 1.0
+won ||| !fb:boxing.match_boxer_relationship.winner_won ||| 1.0
+engine ||| fb:automotive.trim_level.engine ||| 1.0
+engine ||| !fb:automotive.trim_level.engine ||| 1.0
+names known by ||| fb:common.topic.alias ||| 1.0
+names known by ||| !fb:common.topic.alias ||| 1.0
+names ||| fb:common.topic.alias ||| 1.0
+names ||| !fb:common.topic.alias ||| 1.0
+known by ||| fb:common.topic.alias ||| 1.0
+known by ||| !fb:common.topic.alias ||| 1.0
+genre ||| fb:music.artist.genre ||| 1.0
+genre ||| !fb:music.artist.genre ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+episode ||| fb:tv.tv_series_episode.next_episode ||| 1.0
+episode ||| !fb:tv.tv_series_episode.next_episode ||| 1.0
+chemical series ||| fb:chemistry.chemical_element.chemical_series ||| 1.0
+chemical series ||| !fb:chemistry.chemical_element.chemical_series ||| 1.0
+works ||| fb:fictional_universe.fictional_setting.works_set_here ||| 1.0
+works ||| !fb:fictional_universe.fictional_setting.works_set_here ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+setting ||| fb:fictional_universe.work_of_fiction.setting ||| 1.0
+setting ||| !fb:fictional_universe.work_of_fiction.setting ||| 1.0
+who produces ||| fb:broadcast.content.producer ||| 1.0
+who produces ||| !fb:broadcast.content.producer ||| 1.0
+die ||| fb:people.deceased_person.date_of_death ||| 1.0
+die ||| !fb:people.deceased_person.date_of_death ||| 1.0
+programs created ||| fb:tv.tv_program.program_creator ||| 1.0
+programs created ||| !fb:tv.tv_program.program_creator ||| 1.0
+breeds ||| fb:biology.breed_registration.breed ||| 1.0
+breeds ||| !fb:biology.breed_registration.breed ||| 1.0
+visitors in a year ||| fb:protected_sites.protected_site.annual_visitors ||| 1.0
+visitors in a year ||| !fb:protected_sites.protected_site.annual_visitors ||| 1.0
+animals ||| fb:zoos.zoo.num_animals ||| 1.0
+animals ||| !fb:zoos.zoo.num_animals ||| 1.0
+located ||| fb:location.location.containedby ||| 1.0
+located ||| !fb:location.location.containedby ||| 1.0
+born ||| fb:people.person.date_of_birth ||| 1.0
+born ||| !fb:people.person.date_of_birth ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+periodicals ||| fb:book.periodical_subject.periodicals ||| 1.0
+periodicals ||| !fb:book.periodical_subject.periodicals ||| 1.0
+in what year ||| fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+in what year ||| !fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+year ||| fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+year ||| !fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+revenue ||| fb:business.business_operation.revenue ||| 1.0
+revenue ||| !fb:business.business_operation.revenue ||| 1.0
+other names known as ||| fb:common.topic.alias ||| 1.0
+other names known as ||| !fb:common.topic.alias ||| 1.0
+names known as ||| fb:common.topic.alias ||| 1.0
+names known as ||| !fb:common.topic.alias ||| 1.0
+other names ||| fb:common.topic.alias ||| 1.0
+other names ||| !fb:common.topic.alias ||| 1.0
+names ||| fb:common.topic.alias ||| 1.0
+names ||| !fb:common.topic.alias ||| 1.0
+known as ||| fb:common.topic.alias ||| 1.0
+known as ||| !fb:common.topic.alias ||| 1.0
+creators ||| fb:tv.tv_program.program_creator ||| 1.0
+creators ||| !fb:tv.tv_program.program_creator ||| 1.0
+who proposed ||| fb:law.constitutional_amendment.proposed_by ||| 1.0
+who proposed ||| !fb:law.constitutional_amendment.proposed_by ||| 1.0
+programming languages ||| fb:computer.software.languages_used ||| 1.0
+programming languages ||| !fb:computer.software.languages_used ||| 1.0
+languages ||| fb:computer.software.languages_used ||| 1.0
+languages ||| !fb:computer.software.languages_used ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+awards win ||| fb:award.award_honor.honored_for ||| 1.0
+awards win ||| !fb:award.award_honor.honored_for ||| 1.0
+division ||| fb:baseball.baseball_team.division ||| 1.0
+division ||| !fb:baseball.baseball_team.division ||| 1.0
+court cases ||| fb:law.court.legal_cases ||| 1.0
+court cases ||| !fb:law.court.legal_cases ||| 1.0
+makes ||| fb:automotive.company.make_s ||| 1.0
+makes ||| !fb:automotive.company.make_s ||| 1.0
+films ||| fb:film.film.subjects ||| 1.0
+films ||| !fb:film.film.subjects ||| 1.0
+books ||| fb:book.book_subject.works ||| 1.0
+books ||| !fb:book.book_subject.works ||| 1.0
+official language ||| fb:location.country.official_language ||| 1.0
+official language ||| !fb:location.country.official_language ||| 1.0
+cities ||| fb:transportation.road.major_cities ||| 1.0
+cities ||| !fb:transportation.road.major_cities ||| 1.0
+collect ||| fb:interests.collection.collector ||| 1.0
+collect ||| !fb:interests.collection.collector ||| 1.0
+collect automobiles ||| fb:interests.collection.category ||| 1.0
+collect automobiles ||| !fb:interests.collection.category ||| 1.0
+parent types ||| fb:geology.rock_type.parent_rock_type ||| 1.0
+parent types ||| !fb:geology.rock_type.parent_rock_type ||| 1.0
+piston configuration ||| fb:engineering.piston_engine.piston_configuration ||| 1.0
+piston configuration ||| !fb:engineering.piston_engine.piston_configuration ||| 1.0
+digital cameras ||| fb:digicams.camera_storage_type.compatible_cameras ||| 1.0
+digital cameras ||| !fb:digicams.camera_storage_type.compatible_cameras ||| 1.0
+moored ||| fb:location.location.containedby ||| 1.0
+moored ||| !fb:location.location.containedby ||| 1.0
+divisions ||| fb:ice_hockey.hockey_conference.divisions ||| 1.0
+divisions ||| !fb:ice_hockey.hockey_conference.divisions ||| 1.0
+highest wind ||| fb:meteorology.tropical_cyclone.highest_winds ||| 1.0
+highest wind ||| !fb:meteorology.tropical_cyclone.highest_winds ||| 1.0
+long overall ||| fb:boats.ship.length_overall ||| 1.0
+long overall ||| !fb:boats.ship.length_overall ||| 1.0
+introduced ||| fb:rail.locomotive_class.introduced ||| 1.0
+introduced ||| !fb:rail.locomotive_class.introduced ||| 1.0
+located ||| fb:location.location.containedby ||| 1.0
+located ||| !fb:location.location.containedby ||| 1.0
+symptom ||| fb:medicine.disease.symptoms ||| 1.0
+symptom ||| !fb:medicine.disease.symptoms ||| 1.0
+formed in the period ||| fb:geology.geological_formation.formed_during_period ||| 1.0
+formed in the period ||| !fb:geology.geological_formation.formed_during_period ||| 1.0
+operating income ||| fb:business.business_operation.operating_income ||| 1.0
+operating income ||| !fb:business.business_operation.operating_income ||| 1.0
+types ||| fb:religion.religion.includes ||| 1.0
+types ||| !fb:religion.religion.includes ||| 1.0
+film performances ||| fb:film.performance.film ||| 1.0
+film performances ||| !fb:film.performance.film ||| 1.0
+where built ||| fb:boats.ship.place_built ||| 1.0
+where built ||| !fb:boats.ship.place_built ||| 1.0
+treatments ||| fb:medicine.disease.treatments ||| 1.0
+treatments ||| !fb:medicine.disease.treatments ||| 1.0
+kind of website ||| fb:internet.website.category ||| 1.0
+kind of website ||| !fb:internet.website.category ||| 1.0
+kind of ||| fb:internet.website.category ||| 1.0
+kind of ||| !fb:internet.website.category ||| 1.0
+start production ||| fb:broadcast.content.production_start ||| 1.0
+start production ||| !fb:broadcast.content.production_start ||| 1.0
+rides ||| fb:amusement_parks.park.rides ||| 1.0
+rides ||| !fb:amusement_parks.park.rides ||| 1.0
+begin ||| fb:music.artist.origin ||| 1.0
+begin ||| !fb:music.artist.origin ||| 1.0
+tracks ||| fb:music.artist.track ||| 1.0
+tracks ||| !fb:music.artist.track ||| 1.0
+articles ||| fb:book.contents.publication ||| 1.0
+articles ||| !fb:book.contents.publication ||| 1.0
+issue ||| fb:book.contents.publication ||| 1.0
+issue ||| !fb:book.contents.publication ||| 1.0
+species ||| fb:fictional_universe.fictional_character.species ||| 1.0
+species ||| !fb:fictional_universe.fictional_character.species ||| 1.0
+knights ||| fb:royalty.chivalric_order_membership.recipient ||| 1.0
+knights ||| !fb:royalty.chivalric_order_membership.recipient ||| 1.0
+order ||| fb:royalty.chivalric_order_membership.order ||| 1.0
+order ||| !fb:royalty.chivalric_order_membership.order ||| 1.0
+come out ||| fb:film.film.initial_release_date ||| 1.0
+come out ||| !fb:film.film.initial_release_date ||| 1.0
+age to start ||| fb:education.grade_level.typical_age_minimum ||| 1.0
+age to start ||| !fb:education.grade_level.typical_age_minimum ||| 1.0
+when designated ||| fb:protected_sites.protected_site.date_established ||| 1.0
+when designated ||| !fb:protected_sites.protected_site.date_established ||| 1.0
+substancs ||| fb:celebrities.substance_abuse_problem.substance ||| 1.0
+substancs ||| !fb:celebrities.substance_abuse_problem.substance ||| 1.0
+collect ||| fb:interests.collection.category ||| 1.0
+collect ||| !fb:interests.collection.category ||| 1.0
+sub-types ||| fb:geology.rock_type.sub_types ||| 1.0
+sub-types ||| !fb:geology.rock_type.sub_types ||| 1.0
+species ||| fb:fictional_universe.fictional_character.species ||| 1.0
+species ||| !fb:fictional_universe.fictional_character.species ||| 1.0
+debut ||| fb:business.company_brand_relationship.from_date ||| 1.0
+debut ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+price ||| fb:automotive.trim_level.msrp ||| 1.0
+price ||| !fb:automotive.trim_level.msrp ||| 1.0
+nominations ||| fb:award.award_nomination.nominated_for ||| 1.0
+nominations ||| !fb:award.award_nomination.nominated_for ||| 1.0
+companies ||| fb:business.competitive_space_mediator.company ||| 1.0
+companies ||| !fb:business.competitive_space_mediator.company ||| 1.0
+french operas ||| fb:opera.opera.language ||| 1.0
+french operas ||| !fb:opera.opera.language ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+opera direct ||| fb:opera.opera_director.operas_directed ||| 1.0
+opera direct ||| !fb:opera.opera_director.operas_directed ||| 1.0
+types of hats ||| fb:fashion.garment.more_specialized_forms ||| 1.0
+types of hats ||| !fb:fashion.garment.more_specialized_forms ||| 1.0
+types ||| fb:fashion.garment.more_specialized_forms ||| 1.0
+types ||| !fb:fashion.garment.more_specialized_forms ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+award ||| fb:award.award_honor.award ||| 1.0
+award ||| !fb:award.award_honor.award ||| 1.0
+award win ||| fb:award.award_honor.award_winner ||| 1.0
+award win ||| !fb:award.award_honor.award_winner ||| 1.0
+who makes ||| fb:celebrities.supercouple.partners ||| 1.0
+who makes ||| !fb:celebrities.supercouple.partners ||| 1.0
+area ||| fb:amusement_parks.ride.area ||| 1.0
+area ||| !fb:amusement_parks.ride.area ||| 1.0
+music ||| fb:film.film.music ||| 1.0
+music ||| !fb:film.film.music ||| 1.0
+military branches ||| fb:aviation.aircraft_ownership_count.aircraft_owner ||| 1.0
+military branches ||| !fb:aviation.aircraft_ownership_count.aircraft_owner ||| 1.0
+causes ||| fb:medicine.disease.causes ||| 1.0
+causes ||| !fb:medicine.disease.causes ||| 1.0
+genre ||| fb:music.artist.genre ||| 1.0
+genre ||| !fb:music.artist.genre ||| 1.0
+genre music ||| fb:music.artist.genre ||| 1.0
+genre music ||| !fb:music.artist.genre ||| 1.0
+who designs ||| fb:fashion.designer_label_association.designer ||| 1.0
+who designs ||| !fb:fashion.designer_label_association.designer ||| 1.0
+when die ||| fb:people.deceased_person.date_of_death ||| 1.0
+when die ||| !fb:people.deceased_person.date_of_death ||| 1.0
+vice president ||| fb:government.us_president.vice_president ||| 1.0
+vice president ||| !fb:government.us_president.vice_president ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+founded ||| fb:organization.organization.date_founded ||| 1.0
+founded ||| !fb:organization.organization.date_founded ||| 1.0
+who fought ||| fb:boxing.match_boxer_relationship.boxer ||| 1.0
+who fought ||| !fb:boxing.match_boxer_relationship.boxer ||| 1.0
+fought ||| fb:boxing.match_boxer_relationship.boxer ||| 1.0
+fought ||| !fb:boxing.match_boxer_relationship.boxer ||| 1.0
+who ||| fb:tv.tv_regular_personal_appearance.person ||| 1.0
+who ||| !fb:tv.tv_regular_personal_appearance.person ||| 1.0
+grammy award ||| fb:award.award_honor.award ||| 1.0
+grammy award ||| !fb:award.award_honor.award ||| 1.0
+win award ||| fb:award.award_honor.award_winner ||| 1.0
+win award ||| !fb:award.award_honor.award_winner ||| 1.0
+other names known by ||| fb:common.topic.alias ||| 1.0
+other names known by ||| !fb:common.topic.alias ||| 1.0
+names known by ||| fb:common.topic.alias ||| 1.0
+names known by ||| !fb:common.topic.alias ||| 1.0
+names ||| fb:common.topic.alias ||| 1.0
+names ||| !fb:common.topic.alias ||| 1.0
+known by ||| fb:common.topic.alias ||| 1.0
+known by ||| !fb:common.topic.alias ||| 1.0
+percent alcohol ||| fb:wine.wine.percentage_alcohol ||| 1.0
+percent alcohol ||| !fb:wine.wine.percentage_alcohol ||| 1.0
+countries ||| fb:finance.currency.countries_used ||| 1.0
+countries ||| !fb:finance.currency.countries_used ||| 1.0
+launched ||| fb:boats.ship.launched ||| 1.0
+launched ||| !fb:boats.ship.launched ||| 1.0
+producer ||| fb:film.film.produced_by ||| 1.0
+producer ||| !fb:film.film.produced_by ||| 1.0
+code ||| fb:finance.currency.currency_code ||| 1.0
+code ||| !fb:finance.currency.currency_code ||| 1.0
+who composed ||| fb:music.composition.composer ||| 1.0
+who composed ||| !fb:music.composition.composer ||| 1.0
+adaptations ||| fb:media_common.adapted_work.adaptations ||| 1.0
+adaptations ||| !fb:media_common.adapted_work.adaptations ||| 1.0
+generation of matter ||| fb:physics.particle.generation ||| 1.0
+generation of matter ||| !fb:physics.particle.generation ||| 1.0
+max speed ||| fb:amusement_parks.ride.max_speed ||| 1.0
+max speed ||| !fb:amusement_parks.ride.max_speed ||| 1.0
+place of birth ||| fb:people.person.place_of_birth ||| 1.0
+place of birth ||| !fb:people.person.place_of_birth ||| 1.0
+religion ||| fb:people.person.religion ||| 1.0
+religion ||| !fb:people.person.religion ||| 1.0
+owner ||| fb:business.company_brand_relationship.company ||| 1.0
+owner ||| !fb:business.company_brand_relationship.company ||| 1.0
+characters playable ||| fb:cvg.game_performance.character ||| 1.0
+characters playable ||| !fb:cvg.game_performance.character ||| 1.0
+who created ||| fb:comic_books.comic_book_series.created_by ||| 1.0
+who created ||| !fb:comic_books.comic_book_series.created_by ||| 1.0
+textiles made from ||| fb:fashion.fiber.textiles_made_from_this_fiber ||| 1.0
+textiles made from ||| !fb:fashion.fiber.textiles_made_from_this_fiber ||| 1.0
+theme song ||| fb:tv.tv_program.theme_song ||| 1.0
+theme song ||| !fb:tv.tv_program.theme_song ||| 1.0
+movies won ||| fb:award.award_honor.honored_for ||| 1.0
+movies won ||| !fb:award.award_honor.honored_for ||| 1.0
+causes ||| fb:medicine.disease.causes ||| 1.0
+causes ||| !fb:medicine.disease.causes ||| 1.0
+main characters ||| fb:film.performance.character ||| 1.0
+main characters ||| !fb:film.performance.character ||| 1.0
+ship class ||| fb:boats.ship.ship_class ||| 1.0
+ship class ||| !fb:boats.ship.ship_class ||| 1.0
+tv shows produce ||| fb:tv.tv_producer_term.program ||| 1.0
+tv shows produce ||| !fb:tv.tv_producer_term.program ||| 1.0
+rock formations ||| fb:geology.rock_type.formations ||| 1.0
+rock formations ||| !fb:geology.rock_type.formations ||| 1.0
+what is ||| fb:biology.gene_ontology_group.description ||| 1.0
+what is ||| !fb:biology.gene_ontology_group.description ||| 1.0
+when band form ||| fb:music.artist.active_start ||| 1.0
+when band form ||| !fb:music.artist.active_start ||| 1.0
+when supposed to finish ||| fb:projects.project.planned_completion_date ||| 1.0
+when supposed to finish ||| !fb:projects.project.planned_completion_date ||| 1.0
+who founded ||| fb:organization.organization.founders ||| 1.0
+who founded ||| !fb:organization.organization.founders ||| 1.0
+products ||| fb:business.consumer_company.products ||| 1.0
+products ||| !fb:business.consumer_company.products ||| 1.0
+when started ||| fb:internet.blog.started ||| 1.0
+when started ||| !fb:internet.blog.started ||| 1.0
+who won ||| fb:government.election.winner ||| 1.0
+who won ||| !fb:government.election.winner ||| 1.0
+countries within ||| fb:location.location.containedby ||| 1.0
+countries within ||| !fb:location.location.containedby ||| 1.0
+films on ||| fb:film.film.subjects ||| 1.0
+films on ||| !fb:film.film.subjects ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+when close ||| fb:rail.railway.closed ||| 1.0
+when close ||| !fb:rail.railway.closed ||| 1.0
+characters ||| fb:comic_strips.comic_strip.characters ||| 1.0
+characters ||| !fb:comic_strips.comic_strip.characters ||| 1.0
+how much worth ||| fb:finance.exchange_rate.target_of_exchange ||| 1.0
+how much worth ||| !fb:finance.exchange_rate.target_of_exchange ||| 1.0
+series part of ||| fb:book.written_work.part_of_series ||| 1.0
+series part of ||| !fb:book.written_work.part_of_series ||| 1.0
+soccer players ||| fb:soccer.football_position.players ||| 1.0
+soccer players ||| !fb:soccer.football_position.players ||| 1.0
+software designed ||| fb:computer.software_developer.software ||| 1.0
+software designed ||| !fb:computer.software_developer.software ||| 1.0
+time in space ||| fb:spaceflight.astronaut.space_time_minutes ||| 1.0
+time in space ||| !fb:spaceflight.astronaut.space_time_minutes ||| 1.0
+hockey players ||| fb:ice_hockey.hockey_position.players ||| 1.0
+hockey players ||| !fb:ice_hockey.hockey_position.players ||| 1.0
+supplier ||| fb:business.customer.supplier ||| 1.0
+supplier ||| !fb:business.customer.supplier ||| 1.0
+members ||| fb:music.group_membership.member ||| 1.0
+members ||| !fb:music.group_membership.member ||| 1.0
+where play ||| fb:sports.sports_team.arena_stadium ||| 1.0
+where play ||| !fb:sports.sports_team.arena_stadium ||| 1.0
+who won ||| fb:award.award_honor.award_winner ||| 1.0
+who won ||| !fb:award.award_honor.award_winner ||| 1.0
+2010 ||| fb:award.award_honor.year ||| 1.0
+2010 ||| !fb:award.award_honor.year ||| 1.0
+hospitals specialize ||| fb:medicine.medical_specialty.hospitals_with_this_specialty ||| 1.0
+hospitals specialize ||| !fb:medicine.medical_specialty.hospitals_with_this_specialty ||| 1.0
+inducted into the hall of fame ||| fb:baseball.baseball_player.hall_of_fame_induction ||| 1.0
+inducted into the hall of fame ||| !fb:baseball.baseball_player.hall_of_fame_induction ||| 1.0
+blog ||| fb:internet.blogger.blog ||| 1.0
+blog ||| !fb:internet.blogger.blog ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+atomic number ||| fb:chemistry.chemical_element.atomic_number ||| 1.0
+atomic number ||| !fb:chemistry.chemical_element.atomic_number ||| 1.0
+when begin ||| fb:time.event.start_date ||| 1.0
+when begin ||| !fb:time.event.start_date ||| 1.0
+year born ||| fb:people.person.date_of_birth ||| 1.0
+year born ||| !fb:people.person.date_of_birth ||| 1.0
+cost to produce ||| fb:film.film.estimated_budget ||| 1.0
+cost to produce ||| !fb:film.film.estimated_budget ||| 1.0
+where circulated ||| fb:book.newspaper.circulation_areas ||| 1.0
+where circulated ||| !fb:book.newspaper.circulation_areas ||| 1.0
+type of beer ||| fb:food.beer.beer_style ||| 1.0
+type of beer ||| !fb:food.beer.beer_style ||| 1.0
+temperature ||| fb:astronomy.star.temperature_k ||| 1.0
+temperature ||| !fb:astronomy.star.temperature_k ||| 1.0
+musical genres ||| fb:music.artist.genre ||| 1.0
+musical genres ||| !fb:music.artist.genre ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+won ||| fb:award.award_honor.honored_for ||| 1.0
+won ||| !fb:award.award_honor.honored_for ||| 1.0
+scientific name ||| fb:biology.organism_classification.scientific_name ||| 1.0
+scientific name ||| !fb:biology.organism_classification.scientific_name ||| 1.0
+artists influenced by ||| fb:influence.influence_node.influenced ||| 1.0
+artists influenced by ||| !fb:influence.influence_node.influenced ||| 1.0
+film productions appear in ||| fb:film.performance.film ||| 1.0
+film productions appear in ||| !fb:film.performance.film ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+who coaches ||| fb:ice_hockey.hockey_team.coach ||| 1.0
+who coaches ||| !fb:ice_hockey.hockey_team.coach ||| 1.0
+produced by ||| fb:film.film.produced_by ||| 1.0
+produced by ||| !fb:film.film.produced_by ||| 1.0
+topics equivalent ||| fb:freebase.type_profile.equivalent_topic ||| 1.0
+topics equivalent ||| !fb:freebase.type_profile.equivalent_topic ||| 1.0
+dishes ||| fb:dining.cuisine.dishes ||| 1.0
+dishes ||| !fb:dining.cuisine.dishes ||| 1.0
+who did the cover art ||| fb:book.magazine_issue.cover_artist ||| 1.0
+who did the cover art ||| !fb:book.magazine_issue.cover_artist ||| 1.0
+countries use ||| fb:finance.currency.countries_used ||| 1.0
+countries use ||| !fb:finance.currency.countries_used ||| 1.0
+how many storms ||| fb:meteorology.tropical_cyclone_season.total_storms ||| 1.0
+how many storms ||| !fb:meteorology.tropical_cyclone_season.total_storms ||| 1.0
+strongest storm ||| fb:meteorology.tropical_cyclone_season.strongest_storm ||| 1.0
+strongest storm ||| !fb:meteorology.tropical_cyclone_season.strongest_storm ||| 1.0
+when stop being sold ||| fb:computer.computer.discontinued ||| 1.0
+when stop being sold ||| !fb:computer.computer.discontinued ||| 1.0
+apple i ||| fb:computer.computer.discontinued ||| 1.0
+apple i ||| !fb:computer.computer.discontinued ||| 1.0
+who held the title ||| fb:boxing.boxing_title_tenure.champion ||| 1.0
+who held the title ||| !fb:boxing.boxing_title_tenure.champion ||| 1.0
+studied martial arts ||| fb:martial_arts.martial_artist.martial_arts_students ||| 1.0
+studied martial arts ||| !fb:martial_arts.martial_artist.martial_arts_students ||| 1.0
+losses ||| fb:basketball.basketball_coach.season_losses ||| 1.0
+losses ||| !fb:basketball.basketball_coach.season_losses ||| 1.0
+who wrote ||| fb:book.written_work.author ||| 1.0
+who wrote ||| !fb:book.written_work.author ||| 1.0
+parents ||| fb:people.person.parents ||| 1.0
+parents ||| !fb:people.person.parents ||| 1.0
+operates ||| fb:rail.railway_operator_relationship.operator ||| 1.0
+operates ||| !fb:rail.railway_operator_relationship.operator ||| 1.0
+labels wear ||| fb:base.popstra.fashion_choice.designer ||| 1.0
+labels wear ||| !fb:base.popstra.fashion_choice.designer ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+won ||| fb:award.award_honor.honored_for ||| 1.0
+won ||| !fb:award.award_honor.honored_for ||| 1.0
+ingredients ||| fb:dining.cuisine.ingredients ||| 1.0
+ingredients ||| !fb:dining.cuisine.ingredients ||| 1.0
+max speed ||| fb:boats.ship_class.max_speed_knots ||| 1.0
+max speed ||| !fb:boats.ship_class.max_speed_knots ||| 1.0
+country ||| fb:military.armed_force.military_combatant ||| 1.0
+country ||| !fb:military.armed_force.military_combatant ||| 1.0
+who played ||| fb:soccer.football_match.teams ||| 1.0
+who played ||| !fb:soccer.football_match.teams ||| 1.0
+teams ||| fb:american_football.football_historical_roster_position.team ||| 1.0
+teams ||| !fb:american_football.football_historical_roster_position.team ||| 1.0
+sacred sites ||| fb:religion.religion.sacred_sites ||| 1.0
+sacred sites ||| !fb:religion.religion.sacred_sites ||| 1.0
+who produced ||| fb:business.company_brand_relationship.company ||| 1.0
+who produced ||| !fb:business.company_brand_relationship.company ||| 1.0
+some beers ||| fb:food.beer_country_region.beers_from_here ||| 1.0
+some beers ||| !fb:food.beer_country_region.beers_from_here ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+hobby ||| fb:interests.hobbyist.hobbies ||| 1.0
+hobby ||| !fb:interests.hobbyist.hobbies ||| 1.0
+fictional characters ||| fb:fictional_universe.school_in_fiction.students_graduates ||| 1.0
+fictional characters ||| !fb:fictional_universe.school_in_fiction.students_graduates ||| 1.0
+people died ||| fb:event.disaster.fatalities ||| 1.0
+people died ||| !fb:event.disaster.fatalities ||| 1.0
+position play ||| fb:basketball.basketball_player.position_s ||| 1.0
+position play ||| !fb:basketball.basketball_player.position_s ||| 1.0
+oscar shows host ||| fb:base.academyawards.host_of_oscar_show.oscar_show_hosted ||| 1.0
+oscar shows host ||| !fb:base.academyawards.host_of_oscar_show.oscar_show_hosted ||| 1.0
+where presented ||| fb:event.speech_or_presentation.event ||| 1.0
+where presented ||| !fb:event.speech_or_presentation.event ||| 1.0
+when form ||| fb:meteorology.tropical_cyclone.formed ||| 1.0
+when form ||| !fb:meteorology.tropical_cyclone.formed ||| 1.0
+who designed ||| fb:engineering.engine.designer ||| 1.0
+who designed ||| !fb:engineering.engine.designer ||| 1.0
+cancer centers are comprehensive ||| fb:medicine.cancer_center.comprehensive ||| 1.0
+cancer centers are comprehensive ||| !fb:medicine.cancer_center.comprehensive ||| 1.0
+albums released ||| fb:music.artist.album ||| 1.0
+albums released ||| !fb:music.artist.album ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+other names ||| fb:common.topic.alias ||| 1.0
+other names ||| !fb:common.topic.alias ||| 1.0
+who portrayed in film ||| fb:film.performance.actor ||| 1.0
+who portrayed in film ||| !fb:film.performance.actor ||| 1.0
+slogan ||| fb:organization.organization.slogan ||| 1.0
+slogan ||| !fb:organization.organization.slogan ||| 1.0
+when stop abusing ||| fb:celebrities.substance_abuse_problem.end ||| 1.0
+when stop abusing ||| !fb:celebrities.substance_abuse_problem.end ||| 1.0
+tall ||| fb:common.image.size ||| 1.0
+tall ||| !fb:common.image.size ||| 1.0
+voltage ||| fb:engineering.battery_size_cell_variation.voltage ||| 1.0
+voltage ||| !fb:engineering.battery_size_cell_variation.voltage ||| 1.0
+stages ||| fb:medicine.disease.stages ||| 1.0
+stages ||| !fb:medicine.disease.stages ||| 1.0
+languages ||| fb:tv.tv_program.languages ||| 1.0
+languages ||| !fb:tv.tv_program.languages ||| 1.0
+when ||| fb:exhibitions.exhibition_run.opened_on ||| 1.0
+when ||| !fb:exhibitions.exhibition_run.opened_on ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+units ||| fb:military.armed_force.units ||| 1.0
+units ||| !fb:military.armed_force.units ||| 1.0
+who produced by ||| fb:film.film.produced_by ||| 1.0
+who produced by ||| !fb:film.film.produced_by ||| 1.0
+on netflix ||| fb:media_common.netflix_genre.titles ||| 1.0
+on netflix ||| !fb:media_common.netflix_genre.titles ||| 1.0
+songs ||| fb:cvg.musical_game_song_relationship.song ||| 1.0
+songs ||| !fb:cvg.musical_game_song_relationship.song ||| 1.0
+number ||| fb:basketball.basketball_roster_position.number ||| 1.0
+number ||| !fb:basketball.basketball_roster_position.number ||| 1.0
+sub-types ||| fb:geology.rock_type.sub_types ||| 1.0
+sub-types ||| !fb:geology.rock_type.sub_types ||| 1.0
+books written on ||| fb:media_common.literary_genre.books_in_this_genre ||| 1.0
+books written on ||| !fb:media_common.literary_genre.books_in_this_genre ||| 1.0
+where take place ||| fb:time.event.locations ||| 1.0
+where take place ||| !fb:time.event.locations ||| 1.0
+electric charge ||| fb:physics.particle.electric_charge ||| 1.0
+electric charge ||| !fb:physics.particle.electric_charge ||| 1.0
+when introduced ||| fb:computer.computer.introduced ||| 1.0
+when introduced ||| !fb:computer.computer.introduced ||| 1.0
+works dedicate ||| fb:media_common.dedication.work_dedicated ||| 1.0
+works dedicate ||| !fb:media_common.dedication.work_dedicated ||| 1.0
+subject ||| fb:film.film.subjects ||| 1.0
+subject ||| !fb:film.film.subjects ||| 1.0
+influenced ||| fb:influence.influence_node.influenced_by ||| 1.0
+influenced ||| !fb:influence.influence_node.influenced_by ||| 1.0
+costume designer ||| fb:film.film.costume_design_by ||| 1.0
+costume designer ||| !fb:film.film.costume_design_by ||| 1.0
+who wrote ||| fb:tv.tv_series_episode.writer ||| 1.0
+who wrote ||| !fb:tv.tv_series_episode.writer ||| 1.0
+tv programs ||| fb:tv.tv_producer_term.program ||| 1.0
+tv programs ||| !fb:tv.tv_producer_term.program ||| 1.0
+countries in ||| fb:location.location.containedby ||| 1.0
+countries in ||| !fb:location.location.containedby ||| 1.0
+product lines include ||| fb:business.product_line.includes_product_lines ||| 1.0
+product lines include ||| !fb:business.product_line.includes_product_lines ||| 1.0
+when painted ||| fb:visual_art.artwork.date_completed ||| 1.0
+when painted ||| !fb:visual_art.artwork.date_completed ||| 1.0
+when formed ||| fb:transportation.road.formed ||| 1.0
+when formed ||| !fb:transportation.road.formed ||| 1.0
+area govern ||| fb:law.constitution.country ||| 1.0
+area govern ||| !fb:law.constitution.country ||| 1.0
+lyricist ||| fb:theater.play.lyricist ||| 1.0
+lyricist ||| !fb:theater.play.lyricist ||| 1.0
+slogan ||| fb:organization.organization.slogan ||| 1.0
+slogan ||| !fb:organization.organization.slogan ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+founder ||| fb:organization.organization.founders ||| 1.0
+founder ||| !fb:organization.organization.founders ||| 1.0
+library system ||| fb:library.public_library.library_system ||| 1.0
+library system ||| !fb:library.public_library.library_system ||| 1.0
+where discovered ||| fb:astronomy.astronomical_discovery.discovery_site ||| 1.0
+where discovered ||| !fb:astronomy.astronomical_discovery.discovery_site ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+weight class ||| fb:boxing.boxing_match.weight_class ||| 1.0
+weight class ||| !fb:boxing.boxing_match.weight_class ||| 1.0
+designed ||| fb:cvg.computer_videogame.designers ||| 1.0
+designed ||| !fb:cvg.computer_videogame.designers ||| 1.0
+when founded ||| fb:royalty.order_of_chivalry.date_founded ||| 1.0
+when founded ||| !fb:royalty.order_of_chivalry.date_founded ||| 1.0
+collection called ||| fb:interests.collection_category.name_of_collection_activity ||| 1.0
+collection called ||| !fb:interests.collection_category.name_of_collection_activity ||| 1.0
+year ||| fb:award.award_nomination.year ||| 1.0
+year ||| !fb:award.award_nomination.year ||| 1.0
+award nominee ||| fb:award.award_nomination.award_nominee ||| 1.0
+award nominee ||| !fb:award.award_nomination.award_nominee ||| 1.0
+horsepower ||| fb:automotive.engine.horsepower ||| 1.0
+horsepower ||| !fb:automotive.engine.horsepower ||| 1.0
+causes ||| fb:medicine.disease.causes ||| 1.0
+causes ||| !fb:medicine.disease.causes ||| 1.0
+when introduced ||| fb:computer.computer.introduced ||| 1.0
+when introduced ||| !fb:computer.computer.introduced ||| 1.0
+martial art ||| fb:martial_arts.martial_arts_certification.art ||| 1.0
+martial art ||| !fb:martial_arts.martial_arts_certification.art ||| 1.0
+librettist ||| fb:opera.opera.librettist ||| 1.0
+librettist ||| !fb:opera.opera.librettist ||| 1.0
+episode snl host ||| fb:base.saturdaynightlive.snl_host.episodes_hosted ||| 1.0
+episode snl host ||| !fb:base.saturdaynightlive.snl_host.episodes_hosted ||| 1.0
+who created ||| fb:fictional_universe.fictional_object.created_by ||| 1.0
+who created ||| !fb:fictional_universe.fictional_object.created_by ||| 1.0
+organizations in industry ||| fb:business.business_operation.industry ||| 1.0
+organizations in industry ||| !fb:business.business_operation.industry ||| 1.0
+net profit ||| fb:business.business_operation.net_profit ||| 1.0
+net profit ||| !fb:business.business_operation.net_profit ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+religion ||| fb:people.person.religion ||| 1.0
+religion ||| !fb:people.person.religion ||| 1.0
+big screen ||| fb:digicams.digital_camera.lcd_screen_dimensions ||| 1.0
+big screen ||| !fb:digicams.digital_camera.lcd_screen_dimensions ||| 1.0
+speeches ||| fb:event.speech_or_presentation.presented_work ||| 1.0
+speeches ||| !fb:event.speech_or_presentation.presented_work ||| 1.0
+religions use ||| fb:religion.religious_text.religious_text_of ||| 1.0
+religions use ||| !fb:religion.religious_text.religious_text_of ||| 1.0
+capital ||| fb:location.country.capital ||| 1.0
+capital ||| !fb:location.country.capital ||| 1.0
+public transportation ||| fb:travel.travel_destination.local_transportation ||| 1.0
+public transportation ||| !fb:travel.travel_destination.local_transportation ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+players in roster ||| fb:baseball.baseball_roster_position.player ||| 1.0
+players in roster ||| !fb:baseball.baseball_roster_position.player ||| 1.0
+treatments ||| fb:medicine.disease.treatments ||| 1.0
+treatments ||| !fb:medicine.disease.treatments ||| 1.0
+where used as currency ||| fb:finance.currency.countries_formerly_used ||| 1.0
+where used as currency ||| !fb:finance.currency.countries_formerly_used ||| 1.0
+currency code ||| fb:finance.currency.currency_code ||| 1.0
+currency code ||| !fb:finance.currency.currency_code ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+win ||| fb:award.award_honor.honored_for ||| 1.0
+win ||| !fb:award.award_honor.honored_for ||| 1.0
+bridges ||| fb:geography.body_of_water.bridges ||| 1.0
+bridges ||| !fb:geography.body_of_water.bridges ||| 1.0
+notable people died by ||| fb:people.deceased_person.cause_of_death ||| 1.0
+notable people died by ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+parks ||| fb:protected_sites.park_system.member_parks ||| 1.0
+parks ||| !fb:protected_sites.park_system.member_parks ||| 1.0
+who instructed ||| fb:martial_arts.martial_artist.instructor ||| 1.0
+who instructed ||| !fb:martial_arts.martial_artist.instructor ||| 1.0
+when last episode air ||| fb:tv.tv_program.air_date_of_final_episode ||| 1.0
+when last episode air ||| !fb:tv.tv_program.air_date_of_final_episode ||| 1.0
+major events ||| fb:location.location.events ||| 1.0
+major events ||| !fb:location.location.events ||| 1.0
+religions believe in ||| fb:religion.belief.belief_of ||| 1.0
+religions believe in ||| !fb:religion.belief.belief_of ||| 1.0
+other titles ||| fb:common.topic.alias ||| 1.0
+other titles ||| !fb:common.topic.alias ||| 1.0
+writing systems ||| fb:language.human_language.writing_system ||| 1.0
+writing systems ||| !fb:language.human_language.writing_system ||| 1.0
+who ||| fb:organization.leadership.person ||| 1.0
+who ||| !fb:organization.leadership.person ||| 1.0
+savealot ||| fb:organization.leadership.organization ||| 1.0
+savealot ||| !fb:organization.leadership.organization ||| 1.0
+starts in ||| fb:astronomy.constellation.contains ||| 1.0
+starts in ||| !fb:astronomy.constellation.contains ||| 1.0
+conferences ||| fb:conferences.conference_venue.conferences ||| 1.0
+conferences ||| !fb:conferences.conference_venue.conferences ||| 1.0
+when created ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when created ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+models ||| fb:bicycles.bicycle_type.bicycle_models_of_this_type ||| 1.0
+models ||| !fb:bicycles.bicycle_type.bicycle_models_of_this_type ||| 1.0
+films ||| fb:film.performance.film ||| 1.0
+films ||| !fb:film.performance.film ||| 1.0
+who designed the costumes ||| fb:film.film.costume_design_by ||| 1.0
+who designed the costumes ||| !fb:film.film.costume_design_by ||| 1.0
+mountain range ||| fb:geography.mountain.mountain_range ||| 1.0
+mountain range ||| !fb:geography.mountain.mountain_range ||| 1.0
+hotels ||| fb:travel.travel_destination.accommodation ||| 1.0
+hotels ||| !fb:travel.travel_destination.accommodation ||| 1.0
+year founded ||| fb:sports.sports_team.founded ||| 1.0
+year founded ||| !fb:sports.sports_team.founded ||| 1.0
+national parks ||| fb:protected_sites.park_system.member_parks ||| 1.0
+national parks ||| !fb:protected_sites.park_system.member_parks ||| 1.0
+actors use their middle name or initial ||| fb:freebase.list.entries ||| 1.0
+actors use their middle name or initial ||| !fb:freebase.list.entries ||| 1.0
+where sold ||| fb:food.candy_bar.sold_in ||| 1.0
+where sold ||| !fb:food.candy_bar.sold_in ||| 1.0
+invented ||| fb:business.company_brand_relationship.company ||| 1.0
+invented ||| !fb:business.company_brand_relationship.company ||| 1.0
+when produced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when produced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+countries use ||| fb:finance.currency.countries_used ||| 1.0
+countries use ||| !fb:finance.currency.countries_used ||| 1.0
+when first lit ||| fb:architecture.lighthouse.year_first_lit ||| 1.0
+when first lit ||| !fb:architecture.lighthouse.year_first_lit ||| 1.0
+titles ||| fb:boxing.boxing_sanctioning_body.titles ||| 1.0
+titles ||| !fb:boxing.boxing_sanctioning_body.titles ||| 1.0
+how many species ||| fb:zoos.zoo.num_species ||| 1.0
+how many species ||| !fb:zoos.zoo.num_species ||| 1.0
+round end ||| fb:boxing.boxing_match.round_match_ended ||| 1.0
+round end ||| !fb:boxing.boxing_match.round_match_ended ||| 1.0
+about ||| fb:conferences.conference_series.subject ||| 1.0
+about ||| !fb:conferences.conference_series.subject ||| 1.0
+works lost due to ||| fb:media_common.cause_of_loss.works_lost_this_way ||| 1.0
+works lost due to ||| !fb:media_common.cause_of_loss.works_lost_this_way ||| 1.0
+armed forces ||| fb:military.military_combatant.armed_forces ||| 1.0
+armed forces ||| !fb:military.military_combatant.armed_forces ||| 1.0
+martial arts ||| fb:martial_arts.martial_artist.martial_art ||| 1.0
+martial arts ||| !fb:martial_arts.martial_artist.martial_art ||| 1.0
+when invented ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when invented ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+year ||| fb:award.award_honor.year ||| 1.0
+year ||| !fb:award.award_honor.year ||| 1.0
+win a grammy ||| fb:award.award_honor.honored_for ||| 1.0
+win a grammy ||| !fb:award.award_honor.honored_for ||| 1.0
+islands ||| fb:geography.body_of_water.islands ||| 1.0
+islands ||| !fb:geography.body_of_water.islands ||| 1.0
+countries spoken in ||| fb:language.human_language.countries_spoken_in ||| 1.0
+countries spoken in ||| !fb:language.human_language.countries_spoken_in ||| 1.0
+established as a museum ||| fb:architecture.museum.established ||| 1.0
+established as a museum ||| !fb:architecture.museum.established ||| 1.0
+type of rock ||| fb:geology.geological_formation.type_of_rock ||| 1.0
+type of rock ||| !fb:geology.geological_formation.type_of_rock ||| 1.0
+when developed ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when developed ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+when released ||| fb:film.film.initial_release_date ||| 1.0
+when released ||| !fb:film.film.initial_release_date ||| 1.0
+wins ||| fb:sports.sports_team_season_record.wins ||| 1.0
+wins ||| !fb:sports.sports_team_season_record.wins ||| 1.0
+when launched ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when launched ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+libretti ||| fb:opera.librettist.libretti ||| 1.0
+libretti ||| !fb:opera.librettist.libretti ||| 1.0
+rated ||| fb:film.film.rating ||| 1.0
+rated ||| !fb:film.film.rating ||| 1.0
+where built ||| fb:boats.ship.place_built ||| 1.0
+where built ||| !fb:boats.ship.place_built ||| 1.0
+domains category ||| fb:freebase.domain_category.domains ||| 1.0
+domains category ||| !fb:freebase.domain_category.domains ||| 1.0
+building function ||| fb:architecture.building.building_function ||| 1.0
+building function ||| !fb:architecture.building.building_function ||| 1.0
+children ||| fb:people.person.children ||| 1.0
+children ||| !fb:people.person.children ||| 1.0
+different industries ||| fb:business.business_operation.industry ||| 1.0
+different industries ||| !fb:business.business_operation.industry ||| 1.0
+school founded ||| fb:education.fraternity_sorority.founded_location ||| 1.0
+school founded ||| !fb:education.fraternity_sorority.founded_location ||| 1.0
+season of stargate sg-1 ||| fb:tv.tv_series_episode.season ||| 1.0
+season of stargate sg-1 ||| !fb:tv.tv_series_episode.season ||| 1.0
+who started ||| fb:organization.organization.founders ||| 1.0
+who started ||| !fb:organization.organization.founders ||| 1.0
+captain ||| fb:ice_hockey.hockey_team.captain ||| 1.0
+captain ||| !fb:ice_hockey.hockey_team.captain ||| 1.0
+founders ||| fb:organization.organization.founders ||| 1.0
+founders ||| !fb:organization.organization.founders ||| 1.0
+theme areas ||| fb:amusement_parks.park.areas ||| 1.0
+theme areas ||| !fb:amusement_parks.park.areas ||| 1.0
+production currently in ||| fb:tv.tv_program.currently_in_production ||| 1.0
+production currently in ||| !fb:tv.tv_program.currently_in_production ||| 1.0
+where originate ||| fb:biology.animal_breed.place_of_origin ||| 1.0
+where originate ||| !fb:biology.animal_breed.place_of_origin ||| 1.0
+position play ||| fb:baseball.baseball_player.position_s ||| 1.0
+position play ||| !fb:baseball.baseball_player.position_s ||| 1.0
+breed group ||| fb:biology.breed_registration.breed_group ||| 1.0
+breed group ||| !fb:biology.breed_registration.breed_group ||| 1.0
+where discovered ||| fb:chemistry.chemical_element.discovering_country ||| 1.0
+where discovered ||| !fb:chemistry.chemical_element.discovering_country ||| 1.0
+episodes ||| fb:radio.radio_program.episodes ||| 1.0
+episodes ||| !fb:radio.radio_program.episodes ||| 1.0
+record label ||| fb:music.artist.label ||| 1.0
+record label ||| !fb:music.artist.label ||| 1.0
+team ||| fb:basketball.basketball_roster_position.team ||| 1.0
+team ||| !fb:basketball.basketball_roster_position.team ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+isotopes ||| fb:chemistry.chemical_element.isotopes ||| 1.0
+isotopes ||| !fb:chemistry.chemical_element.isotopes ||| 1.0
+who published ||| fb:comic_books.comic_book_series.publisher ||| 1.0
+who published ||| !fb:comic_books.comic_book_series.publisher ||| 1.0
+thick ||| fb:geography.glacier.thickness ||| 1.0
+thick ||| !fb:geography.glacier.thickness ||| 1.0
+release date ||| fb:film.film.initial_release_date ||| 1.0
+release date ||| !fb:film.film.initial_release_date ||| 1.0
+cancer centers ||| fb:medicine.cancer_center_type.centers_of_this_kind ||| 1.0
+cancer centers ||| !fb:medicine.cancer_center_type.centers_of_this_kind ||| 1.0
+theme song ||| fb:tv.tv_program.theme_song ||| 1.0
+theme song ||| !fb:tv.tv_program.theme_song ||| 1.0
+how discovered ||| fb:astronomy.astronomical_discovery.discovery_technique ||| 1.0
+how discovered ||| !fb:astronomy.astronomical_discovery.discovery_technique ||| 1.0
+mac os x compatible with ||| fb:computer.software.compatible_oses ||| 1.0
+mac os x compatible with ||| !fb:computer.software.compatible_oses ||| 1.0
+seasons ||| fb:tv.tv_program.seasons ||| 1.0
+seasons ||| !fb:tv.tv_program.seasons ||| 1.0
+in 1982 ||| fb:award.award_nomination.year ||| 1.0
+in 1982 ||| !fb:award.award_nomination.year ||| 1.0
+nominees ||| fb:award.award_nomination.award_nominee ||| 1.0
+nominees ||| !fb:award.award_nomination.award_nominee ||| 1.0
+company owns ||| fb:business.company_brand_relationship.company ||| 1.0
+company owns ||| !fb:business.company_brand_relationship.company ||| 1.0
+launched ||| fb:internet.website.launched ||| 1.0
+launched ||| !fb:internet.website.launched ||| 1.0
+position play ||| fb:soccer.football_player.position_s ||| 1.0
+position play ||| !fb:soccer.football_player.position_s ||| 1.0
+games published ||| fb:games.game_publisher.games_published ||| 1.0
+games published ||| !fb:games.game_publisher.games_published ||| 1.0
+universe set in ||| fb:fictional_universe.work_of_fiction.setting ||| 1.0
+universe set in ||| !fb:fictional_universe.work_of_fiction.setting ||| 1.0
+teams ||| fb:cricket.cricket_tournament_event.teams ||| 1.0
+teams ||| !fb:cricket.cricket_tournament_event.teams ||| 1.0
+year released ||| fb:music.album.release_date ||| 1.0
+year released ||| !fb:music.album.release_date ||| 1.0
+operating systems ||| fb:computer.software_compatibility.operating_system ||| 1.0
+operating systems ||| !fb:computer.software_compatibility.operating_system ||| 1.0
+population ||| fb:location.statistical_region.population ||| 1.0
+population ||| !fb:location.statistical_region.population ||| 1.0
+events olympics ||| fb:olympics.olympic_sport.events ||| 1.0
+events olympics ||| !fb:olympics.olympic_sport.events ||| 1.0
+produced by ||| fb:film.film.produced_by ||| 1.0
+produced by ||| !fb:film.film.produced_by ||| 1.0
+who completed ||| fb:media_common.completion_of_unfinished_work.finisher ||| 1.0
+who completed ||| !fb:media_common.completion_of_unfinished_work.finisher ||| 1.0
+teams ||| fb:baseball.baseball_historical_managerial_position.team ||| 1.0
+teams ||| !fb:baseball.baseball_historical_managerial_position.team ||| 1.0
+use ||| fb:cricket.cricket_bowler.technique ||| 1.0
+use ||| !fb:cricket.cricket_bowler.technique ||| 1.0
+who designed ||| fb:amusement_parks.ride.designer ||| 1.0
+who designed ||| !fb:amusement_parks.ride.designer ||| 1.0
+characters ||| fb:cvg.game_performance.character ||| 1.0
+characters ||| !fb:cvg.game_performance.character ||| 1.0
+cause of death ||| fb:people.deceased_person.cause_of_death ||| 1.0
+cause of death ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+genre ||| fb:broadcast.content.genre ||| 1.0
+genre ||| !fb:broadcast.content.genre ||| 1.0
+employees ||| fb:business.employer.employees ||| 1.0
+employees ||| !fb:business.employer.employees ||| 1.0
+types ||| fb:meteorology.cloud.varieties ||| 1.0
+types ||| !fb:meteorology.cloud.varieties ||| 1.0
+other names known by ||| fb:common.topic.alias ||| 1.0
+other names known by ||| !fb:common.topic.alias ||| 1.0
+number ||| fb:ice_hockey.hockey_roster_position.number ||| 1.0
+number ||| !fb:ice_hockey.hockey_roster_position.number ||| 1.0
+holidays ||| fb:religion.religion.holidays ||| 1.0
+holidays ||| !fb:religion.religion.holidays ||| 1.0
+who directed ||| fb:film.film.directed_by ||| 1.0
+who directed ||| !fb:film.film.directed_by ||| 1.0
+cause of death ||| fb:people.deceased_person.cause_of_death ||| 1.0
+cause of death ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+when invented ||| fb:law.invention.date_of_invention ||| 1.0
+when invented ||| !fb:law.invention.date_of_invention ||| 1.0
+neighborhoods ||| fb:location.place_with_neighborhoods.neighborhoods ||| 1.0
+neighborhoods ||| !fb:location.place_with_neighborhoods.neighborhoods ||| 1.0
+people practice ||| fb:martial_arts.martial_art.well_known_practitioner ||| 1.0
+people practice ||| !fb:martial_arts.martial_art.well_known_practitioner ||| 1.0
+area ||| fb:location.location.area ||| 1.0
+area ||| !fb:location.location.area ||| 1.0
+sites ||| fb:protected_sites.natural_or_cultural_site_listing.listed_site ||| 1.0
+sites ||| !fb:protected_sites.natural_or_cultural_site_listing.listed_site ||| 1.0
+football team currently coach ||| fb:american_football.football_coach.current_team_head_coached ||| 1.0
+football team currently coach ||| !fb:american_football.football_coach.current_team_head_coached ||| 1.0
+protected sites govern ||| fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed ||| 1.0
+protected sites govern ||| !fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed ||| 1.0
+2009 ||| fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+2009 ||| !fb:measurement_unit.dated_money_value.valid_date ||| 1.0
+revenue ||| fb:business.business_operation.revenue ||| 1.0
+revenue ||| !fb:business.business_operation.revenue ||| 1.0
+island group ||| fb:geography.island.island_group ||| 1.0
+island group ||| !fb:geography.island.island_group ||| 1.0
+children ||| fb:people.person.children ||| 1.0
+children ||| !fb:people.person.children ||| 1.0
+type of organism ||| fb:biology.fossil_specimen.organism ||| 1.0
+type of organism ||| !fb:biology.fossil_specimen.organism ||| 1.0
+when originally marketed ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when originally marketed ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+people ride daily ||| fb:metropolitan_transit.transit_system.daily_riders ||| 1.0
+people ride daily ||| !fb:metropolitan_transit.transit_system.daily_riders ||| 1.0
+disaster destroyed ||| fb:event.disaster_affected_structure.destroyed_by_disaster ||| 1.0
+disaster destroyed ||| !fb:event.disaster_affected_structure.destroyed_by_disaster ||| 1.0
+instruments play ||| fb:music.group_member.instruments_played ||| 1.0
+instruments play ||| !fb:music.group_member.instruments_played ||| 1.0
+books series ||| fb:book.written_work.part_of_series ||| 1.0
+books series ||| !fb:book.written_work.part_of_series ||| 1.0
+characters featured ||| fb:comic_books.comic_book_series.featured_characters ||| 1.0
+characters featured ||| !fb:comic_books.comic_book_series.featured_characters ||| 1.0
+royal line ||| fb:royalty.monarch.royal_line ||| 1.0
+royal line ||| !fb:royalty.monarch.royal_line ||| 1.0
+cost of building ||| fb:amusement_parks.ride.cost ||| 1.0
+cost of building ||| !fb:amusement_parks.ride.cost ||| 1.0
+milk cheeses ||| fb:food.cheese_milk_source.cheeses ||| 1.0
+milk cheeses ||| !fb:food.cheese_milk_source.cheeses ||| 1.0
+cost money ||| fb:exhibitions.exhibition_run.admission_fee ||| 1.0
+cost money ||| !fb:exhibitions.exhibition_run.admission_fee ||| 1.0
+win an award ||| fb:award.award_honor.honored_for ||| 1.0
+win an award ||| !fb:award.award_honor.honored_for ||| 1.0
+1981 ||| fb:award.award_honor.year ||| 1.0
+1981 ||| !fb:award.award_honor.year ||| 1.0
+coaches ||| fb:cricket.cricket_team.coach ||| 1.0
+coaches ||| !fb:cricket.cricket_team.coach ||| 1.0
+texts ||| fb:religion.religion.texts ||| 1.0
+texts ||| !fb:religion.religion.texts ||| 1.0
+directed by ||| fb:film.film.directed_by ||| 1.0
+directed by ||| !fb:film.film.directed_by ||| 1.0
+tv ||| fb:tv.regular_tv_appearance.series ||| 1.0
+tv ||| !fb:tv.regular_tv_appearance.series ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+who used to be ||| fb:american_football.football_historical_roster_position.player ||| 1.0
+who used to be ||| !fb:american_football.football_historical_roster_position.player ||| 1.0
+teams ||| fb:ice_hockey.hockey_division.teams ||| 1.0
+teams ||| !fb:ice_hockey.hockey_division.teams ||| 1.0
+radio programs about ||| fb:radio.radio_subject.programs_with_this_subject ||| 1.0
+radio programs about ||| !fb:radio.radio_subject.programs_with_this_subject ||| 1.0
+latest release ||| fb:computer.software.latest_release_date ||| 1.0
+latest release ||| !fb:computer.software.latest_release_date ||| 1.0
+architectural style ||| fb:architecture.structure.architectural_style ||| 1.0
+architectural style ||| !fb:architecture.structure.architectural_style ||| 1.0
+tv channels own ||| fb:broadcast.tv_station_owner.tv_stations ||| 1.0
+tv channels own ||| !fb:broadcast.tv_station_owner.tv_stations ||| 1.0
+engines ||| fb:engineering.engine_category.engines ||| 1.0
+engines ||| !fb:engineering.engine_category.engines ||| 1.0
+inversions ||| fb:amusement_parks.ride.inversions ||| 1.0
+inversions ||| !fb:amusement_parks.ride.inversions ||| 1.0
+when released ||| fb:film.film.initial_release_date ||| 1.0
+when released ||| !fb:film.film.initial_release_date ||| 1.0
+when own ||| fb:architecture.ownership.end_date ||| 1.0
+when own ||| !fb:architecture.ownership.end_date ||| 1.0
+date first episode aired ||| fb:tv.tv_program.air_date_of_first_episode ||| 1.0
+date first episode aired ||| !fb:tv.tv_program.air_date_of_first_episode ||| 1.0
+who created ||| fb:comic_strips.comic_strip_creator_duration.creator_of_strip ||| 1.0
+who created ||| !fb:comic_strips.comic_strip_creator_duration.creator_of_strip ||| 1.0
+symptoms ||| fb:medicine.disease.symptoms ||| 1.0
+symptoms ||| !fb:medicine.disease.symptoms ||| 1.0
+games developed ||| fb:cvg.cvg_developer.games_developed ||| 1.0
+games developed ||| !fb:cvg.cvg_developer.games_developed ||| 1.0
+rechargable ||| fb:engineering.battery_cell_type.rechargeable ||| 1.0
+rechargable ||| !fb:engineering.battery_cell_type.rechargeable ||| 1.0
+people died of ||| fb:people.deceased_person.cause_of_death ||| 1.0
+people died of ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+decision ||| fb:boxing.boxing_match.decision ||| 1.0
+decision ||| !fb:boxing.boxing_match.decision ||| 1.0
+spirits produced ||| fb:distilled_spirits.spirit_producing_region.distilleries ||| 1.0
+spirits produced ||| !fb:distilled_spirits.spirit_producing_region.distilleries ||| 1.0
+when founded ||| fb:organization.organization.date_founded ||| 1.0
+when founded ||| !fb:organization.organization.date_founded ||| 1.0
+when end ||| fb:music.artist.active_end ||| 1.0
+when end ||| !fb:music.artist.active_end ||| 1.0
+animal cheese come from ||| fb:food.cheese.source_of_milk ||| 1.0
+animal cheese come from ||| !fb:food.cheese.source_of_milk ||| 1.0
+directed by ||| fb:film.film.directed_by ||| 1.0
+directed by ||| !fb:film.film.directed_by ||| 1.0
+matches at stake ||| fb:boxing.boxing_title.matches_with_this_title_at_stake ||| 1.0
+matches at stake ||| !fb:boxing.boxing_title.matches_with_this_title_at_stake ||| 1.0
+people played ||| fb:soccer.football_player_match_participation.player ||| 1.0
+people played ||| !fb:soccer.football_player_match_participation.player ||| 1.0
+celebrities ||| fb:celebrities.substance_abuse_problem.celebrity ||| 1.0
+celebrities ||| !fb:celebrities.substance_abuse_problem.celebrity ||| 1.0
+lines ||| fb:metropolitan_transit.transit_system.transit_lines ||| 1.0
+lines ||| !fb:metropolitan_transit.transit_system.transit_lines ||| 1.0
+when introduced ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when introduced ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+when discovered ||| fb:chemistry.chemical_element.discovery_date ||| 1.0
+when discovered ||| !fb:chemistry.chemical_element.discovery_date ||| 1.0
+when stop being produced ||| fb:broadcast.content.production_end ||| 1.0
+when stop being produced ||| !fb:broadcast.content.production_end ||| 1.0
+team coach ||| fb:ice_hockey.hockey_coach.current_team ||| 1.0
+team coach ||| !fb:ice_hockey.hockey_coach.current_team ||| 1.0
+when released ||| fb:digicams.digital_camera.released ||| 1.0
+when released ||| !fb:digicams.digital_camera.released ||| 1.0
+when last broadcast ||| fb:radio.radio_program.final_broadcast ||| 1.0
+when last broadcast ||| !fb:radio.radio_program.final_broadcast ||| 1.0
+zoo ||| fb:zoos.animal_captivity.zoo ||| 1.0
+zoo ||| !fb:zoos.animal_captivity.zoo ||| 1.0
+highest drop ||| fb:amusement_parks.ride.drop ||| 1.0
+highest drop ||| !fb:amusement_parks.ride.drop ||| 1.0
+films produced ||| fb:film.film.produced_by ||| 1.0
+films produced ||| !fb:film.film.produced_by ||| 1.0
+win the long count fight ||| fb:boxing.match_boxer_relationship.winner_won ||| 1.0
+win the long count fight ||| !fb:boxing.match_boxer_relationship.winner_won ||| 1.0
+key designers ||| fb:computer.computer.key_designers ||| 1.0
+key designers ||| !fb:computer.computer.key_designers ||| 1.0
+people have won ||| fb:award.award_honor.award_winner ||| 1.0
+people have won ||| !fb:award.award_honor.award_winner ||| 1.0
+where born ||| fb:people.person.place_of_birth ||| 1.0
+where born ||| !fb:people.person.place_of_birth ||| 1.0
+tourist attractions ||| fb:travel.travel_destination.tourist_attractions ||| 1.0
+tourist attractions ||| !fb:travel.travel_destination.tourist_attractions ||| 1.0
+major exports ||| fb:location.statistical_region.major_exports ||| 1.0
+major exports ||| !fb:location.statistical_region.major_exports ||| 1.0
+when construction finished ||| fb:projects.project.actual_completion_date ||| 1.0
+when construction finished ||| !fb:projects.project.actual_completion_date ||| 1.0
+other names ||| fb:common.topic.alias ||| 1.0
+other names ||| !fb:common.topic.alias ||| 1.0
+language family ||| fb:language.human_language.language_family ||| 1.0
+language family ||| !fb:language.human_language.language_family ||| 1.0
+percentage ||| fb:wine.grape_variety_composition.percentage ||| 1.0
+percentage ||| !fb:wine.grape_variety_composition.percentage ||| 1.0
+historical events ||| fb:location.location.events ||| 1.0
+historical events ||| !fb:location.location.events ||| 1.0
+meteor showers spawned ||| fb:astronomy.comet.meteor_shower_spawned ||| 1.0
+meteor showers spawned ||| !fb:astronomy.comet.meteor_shower_spawned ||| 1.0
+when published ||| fb:book.written_work.date_of_first_publication ||| 1.0
+when published ||| !fb:book.written_work.date_of_first_publication ||| 1.0
+when published ||| fb:book.written_work.date_of_first_publication ||| 1.0
+when published ||| !fb:book.written_work.date_of_first_publication ||| 1.0
+who manufactured ||| fb:amusement_parks.ride.manufacturer ||| 1.0
+who manufactured ||| !fb:amusement_parks.ride.manufacturer ||| 1.0
+characters on cover ||| fb:comic_books.comic_book_issue.characters_on_cover ||| 1.0
+characters on cover ||| !fb:comic_books.comic_book_issue.characters_on_cover ||| 1.0
+sort of weave ||| fb:fashion.textile.weave ||| 1.0
+sort of weave ||| !fb:fashion.textile.weave ||| 1.0
+when first developed ||| fb:business.company_brand_relationship.from_date ||| 1.0
+when first developed ||| !fb:business.company_brand_relationship.from_date ||| 1.0
+projects ||| fb:projects.project_participation.project ||| 1.0
+projects ||| !fb:projects.project_participation.project ||| 1.0
+awards ||| fb:award.award_honor.award ||| 1.0
+awards ||| !fb:award.award_honor.award ||| 1.0
+win ||| fb:award.award_honor.honored_for ||| 1.0
+win ||| !fb:award.award_honor.honored_for ||| 1.0
+how many people ||| fb:religion.religion.number_of_adherents ||| 1.0
+how many people ||| !fb:religion.religion.number_of_adherents ||| 1.0
+cost ||| fb:projects.project.actual_cost ||| 1.0
+cost ||| !fb:projects.project.actual_cost ||| 1.0
+some languages ||| fb:computer.programming_language_paradigm.languages ||| 1.0
+some languages ||| !fb:computer.programming_language_paradigm.languages ||| 1.0
+curators ||| fb:exhibitions.exhibition.curators ||| 1.0
+curators ||| !fb:exhibitions.exhibition.curators ||| 1.0
+for country ||| fb:olympics.olympic_athlete_affiliation.country ||| 1.0
+for country ||| !fb:olympics.olympic_athlete_affiliation.country ||| 1.0
+titles at stake ||| fb:boxing.boxing_match.titles_at_stake ||| 1.0
+titles at stake ||| !fb:boxing.boxing_match.titles_at_stake ||| 1.0
+games developed ||| fb:cvg.cvg_developer.games_developed ||| 1.0
+games developed ||| !fb:cvg.cvg_developer.games_developed ||| 1.0
+stores ||| fb:business.shopping_center.store ||| 1.0
+stores ||| !fb:business.shopping_center.store ||| 1.0
+when released ||| fb:film.film.initial_release_date ||| 1.0
+when released ||| !fb:film.film.initial_release_date ||| 1.0
+who ||| fb:business.employment_tenure.person ||| 1.0
+who ||| !fb:business.employment_tenure.person ||| 1.0
+2000 ||| fb:business.employment_tenure.to ||| 1.0
+2000 ||| !fb:business.employment_tenure.to ||| 1.0
+rated ||| fb:film.film.rating ||| 1.0
+rated ||| !fb:film.film.rating ||| 1.0
+film performances ||| fb:film.performance.film ||| 1.0
+film performances ||| !fb:film.performance.film ||| 1.0
+died of ||| fb:people.deceased_person.cause_of_death ||| 1.0
+died of ||| !fb:people.deceased_person.cause_of_death ||| 1.0
+type of bridge ||| fb:transportation.bridge.bridge_type ||| 1.0
+type of bridge ||| !fb:transportation.bridge.bridge_type ||| 1.0
+sport ||| fb:olympics.olympic_athlete_affiliation.sport ||| 1.0
+sport ||| !fb:olympics.olympic_athlete_affiliation.sport ||| 1.0
+scott anderson ||| fb:olympics.olympic_athlete_affiliation.athlete ||| 1.0
+scott anderson ||| !fb:olympics.olympic_athlete_affiliation.athlete ||| 1.0
+1992 summer olympics ||| fb:olympics.olympic_athlete_affiliation.olympics ||| 1.0
+1992 summer olympics ||| !fb:olympics.olympic_athlete_affiliation.olympics ||| 1.0
+who designed ||| fb:architecture.structure.architect ||| 1.0
+who designed ||| !fb:architecture.structure.architect ||| 1.0
+monarchs from ||| fb:royalty.royal_line.monarchs_from_this_line ||| 1.0
+monarchs from ||| !fb:royalty.royal_line.monarchs_from_this_line ||| 1.0
+athletes participated in the olympics ||| fb:olympics.olympic_athlete_affiliation.athlete ||| 1.0
+athletes participated in the olympics ||| !fb:olympics.olympic_athlete_affiliation.athlete ||| 1.0
+teams ||| fb:baseball.baseball_historical_roster_position.team ||| 1.0
+teams ||| !fb:baseball.baseball_historical_roster_position.team ||| 1.0
+events ||| fb:olympics.olympic_medal_honor.event ||| 1.0
+events ||| !fb:olympics.olympic_medal_honor.event ||| 1.0
+wingspan ||| fb:aviation.aircraft_model.wingspan ||| 1.0
+wingspan ||| !fb:aviation.aircraft_model.wingspan ||| 1.0
+sponsors ||| fb:conferences.conference_series.sponsoring_organization ||| 1.0
+sponsors ||| !fb:conferences.conference_series.sponsoring_organization ||| 1.0
+who founded ||| fb:royalty.order_of_chivalry.founders ||| 1.0
+who founded ||| !fb:royalty.order_of_chivalry.founders ||| 1.0
+who produced ||| fb:music.recording.producer ||| 1.0
+who produced ||| !fb:music.recording.producer ||| 1.0
+runs ||| fb:skiing.ski_area.number_of_runs ||| 1.0
+runs ||| !fb:skiing.ski_area.number_of_runs ||| 1.0
+people died ||| fb:meteorology.tropical_cyclone.direct_fatalities ||| 1.0
+people died ||| !fb:meteorology.tropical_cyclone.direct_fatalities ||| 1.0
+who discovered ||| fb:astronomy.astronomical_discovery.discoverer ||| 1.0
+who discovered ||| !fb:astronomy.astronomical_discovery.discoverer ||| 1.0
+lcd screen resolution ||| fb:digicams.digital_camera.lcd_pixels ||| 1.0
+lcd screen resolution ||| !fb:digicams.digital_camera.lcd_pixels ||| 1.0
+when opened ||| fb:zoos.zoo.opened ||| 1.0
+when opened ||| !fb:zoos.zoo.opened ||| 1.0
+heavy ||| fb:digicams.digital_camera.weight ||| 1.0
+heavy ||| !fb:digicams.digital_camera.weight ||| 1.0
+where born ||| fb:people.person.place_of_birth ||| 1.0
+where born ||| !fb:people.person.place_of_birth ||| 1.0
+beers ||| fb:food.beer_containment.beer ||| 1.0
+beers ||| !fb:food.beer_containment.beer ||| 1.0
+subject of ||| fb:book.periodical.subjects ||| 1.0
+subject of ||| !fb:book.periodical.subjects ||| 1.0
+about ||| fb:radio.radio_program.subjects ||| 1.0
+about ||| !fb:radio.radio_program.subjects ||| 1.0
+who destroyed ||| fb:fictional_universe.fictional_object.destroyed_by ||| 1.0
+who destroyed ||| !fb:fictional_universe.fictional_object.destroyed_by ||| 1.0
+students at ||| fb:education.educational_institution.total_enrollment ||| 1.0
+students at ||| !fb:education.educational_institution.total_enrollment ||| 1.0
+who founded ||| fb:organization.organization.founders ||| 1.0
+who founded ||| !fb:organization.organization.founders ||| 1.0
+radio stations ||| fb:broadcast.radio_station_owner.radio_stations ||| 1.0
+radio stations ||| !fb:broadcast.radio_station_owner.radio_stations ||| 1.0
+bowling pace ||| fb:cricket.cricket_bowler.pace ||| 1.0
+bowling pace ||| !fb:cricket.cricket_bowler.pace ||| 1.0
+how long ||| fb:broadcast.podcast_feed.average_media_length ||| 1.0
+how long ||| !fb:broadcast.podcast_feed.average_media_length ||| 1.0
+politicians have served in ||| fb:military.armed_force.personnel ||| 1.0
+politicians have served in ||| !fb:military.armed_force.personnel ||| 1.0
+causes ||| fb:medicine.disease.causes ||| 1.0
+causes ||| !fb:medicine.disease.causes ||| 1.0
+causes ||| fb:medicine.disease.causes ||| 1.0
+causes ||| !fb:medicine.disease.causes ||| 1.0
+who said ||| fb:media_common.quotation.author ||| 1.0
+who said ||| !fb:media_common.quotation.author ||| 1.0
+bicycle models ||| fb:bicycles.bicycle_manufacturer.bicycle_models ||| 1.0
+bicycle models ||| !fb:bicycles.bicycle_manufacturer.bicycle_models ||| 1.0
+play adapted from ||| fb:media_common.adaptation.adapted_from ||| 1.0
+play adapted from ||| !fb:media_common.adaptation.adapted_from ||| 1.0
+team coach ||| fb:cricket.cricket_coach.current_team ||| 1.0
+team coach ||| !fb:cricket.cricket_coach.current_team ||| 1.0
+speeches ||| fb:event.speech_or_presentation.presented_work ||| 1.0
+speeches ||| !fb:event.speech_or_presentation.presented_work ||| 1.0
+who ||| fb:business.employment_tenure.person ||| 1.0
+who ||| !fb:business.employment_tenure.person ||| 1.0
+who ||| fb:tv.tv_regular_personal_appearance.person ||| 1.0
+who ||| !fb:tv.tv_regular_personal_appearance.person ||| 1.0
+present newscaster ||| fb:tv.tv_regular_personal_appearance.appearance_type ||| 1.0
+present newscaster ||| !fb:tv.tv_regular_personal_appearance.appearance_type ||| 1.0

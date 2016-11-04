@@ -1,0 +1,8 @@
+fb:business.employment_tenure.person
+fb:business.stock_ticker_symbol.ticker_symbol
+fb:measurement_unit.dated_integer.number
+fb:measurement_unit.dated_money_value.amount
+fb:measurement_unit.dated_money_value.valid_date
+fb:measurement_unit.money_value.amount
+fb:measurement_unit.integer_range.high_value
+fb:medicine.survival_rate.rate
